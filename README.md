@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.com/esogelola/Portfolio-v2.svg?branch=main)](https://travis-ci.com/esogelola/Portfolio-v2)
+[![Build Status](https://travis-ci.com/esogelola/Portfolio-React.svg?branch=master)](https://travis-ci.com/esogelola/Portfolio-React)
