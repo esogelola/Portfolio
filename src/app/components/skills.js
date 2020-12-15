@@ -27,12 +27,12 @@ export default function skills() {
     //console.log(str.replace(new RegExp(mapObj.join("|"), "g"), "hi"));
   }
   const icons = [
-    <GiBookPile />,
-    <GiStack />,
-    <GiToolbox />,
-    <GoGraph />,
-    <GiGamepad />,
-    <FaCloud />,
+    <GiBookPile className="icon" />,
+    <GiStack className="icon" />,
+    <GiToolbox className="icon" />,
+    <GoGraph className="icon" />,
+    <GiGamepad className="icon" />,
+    <FaCloud className="icon" />,
   ];
 
   const Skill = ({ index, delay = 0, title = "", description = "" }) => {
@@ -65,6 +65,7 @@ export default function skills() {
             {Information.skills.map((data, num) => {
               return (
                 <Skill
+                  key={num}
                   index={num}
                   title={data[0]}
                   description={data[1]}

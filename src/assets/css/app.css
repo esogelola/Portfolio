@@ -208,3 +208,6 @@ a:hover {
   color: #f44336;
   margin-right: 10px;
 }
+html {
+  scroll-behavior: smooth;
+}

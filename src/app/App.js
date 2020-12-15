@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Introduction from "./components/introduction";
 import Skills from "./components/skills";
+import Projects from "./components/projects";
 import "../assets/css/app.css";
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <Introduction />
       <Skills />
+      <Projects />
       <Footer />
     </>
   );
