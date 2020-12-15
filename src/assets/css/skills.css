@@ -1,0 +1,16 @@
+.section {
+  padding: 120px 0px;
+}
+.skills-item b {
+  color: #f44336;
+}
+.skills-home {
+  position: relative;
+}
+
+.skills-item i {
+  font-size: 35px;
+  float: left;
+  width: 65px;
+  height: 120px;
+}
