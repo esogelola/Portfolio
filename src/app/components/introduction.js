@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Typer from "./typer";
+import "../../assets/css/fix.css";
 import "../../assets/css/introduction.css";
 
 import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
@@ -44,7 +45,7 @@ export default function Introduction() {
                 PHP).
               </div>
               <div>
-                <ul class="list-inline mb-0">
+                <ul className="list-inline mb-0">
                   <li class="list-inline-item">
                     <a
                       href="https://www.linkedin.com/in/emmanuelsogelola/"
@@ -54,7 +55,7 @@ export default function Introduction() {
                       <ImLinkedin2 className="mr-3" />
                     </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://twitter.com/_esog"
                       target="_blank"
@@ -63,7 +64,7 @@ export default function Introduction() {
                       <ImTwitter className="mr-3" />
                     </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://github.com/esogelola/"
                       target="_blank"

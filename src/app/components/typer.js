@@ -47,7 +47,7 @@ export default class Typer extends React.Component {
 
   render() {
     return (
-      <h2 class="text-color">
+      <h2 className="text-color">
         <b className="typewrite">
           {this.state.text}
           <span id="cursor" />
