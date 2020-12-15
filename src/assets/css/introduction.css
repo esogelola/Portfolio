@@ -51,8 +51,8 @@
     line-height: 42px;
   }
   h2 .typewrite {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 @media (max-width: 576px) {
@@ -64,4 +64,8 @@
     font-size: 20px;
     line-height: 20px;
   }
+}
+
+#home-jumbotron img {
+  max-width: 100%;
 }

@@ -27,17 +27,12 @@ export default function Header() {
       className={`header-navigation  ${isSolid ? "solid" : ""} ${
         visible ? "nav-down" : "nav-up"
       }`}
-      expand="sm"
+      expand="lg"
     >
       <Container fluid>
         <Navbar.Brand href="#home">E/S</Navbar.Brand>
         <Navbar.Toggle aria-controls="header-navigation" />
-        <Navbar.Collapse
-          id="header-navigation"
-          lassName={`${isSolid ? "solid" : ""} ${
-            visible ? "nav-down" : "nav-up"
-          }`}
-        >
+        <Navbar.Collapse id="header-navigation">
           <Nav className="ml-auto">
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
