@@ -27,7 +27,7 @@ export default function skills() {
 
   const Skill = ({ delay = 0, title = "", description = "" }) => {
     return (
-      <Col lg="4" key>
+      <Col lg="4">
         <ScrollAnimation animateIn="fadeInLeft">
           <div className="skills-item mb-5" data-aos="fade-left" delay={delay}>
             <i>
@@ -35,11 +35,7 @@ export default function skills() {
             </i>
 
             <h4 className="my-3">{title}</h4>
-            <p>
-              {/* Specialized understanding of <b>Java</b> and a high proficiency in
-              other languages such as <b>C++</b>, <b>C#</b> and <b>Python.</b> */}
-              {wrapTag(description)}
-            </p>
+            <p>{wrapTag(description)}</p>
           </div>
         </ScrollAnimation>
       </Col>
