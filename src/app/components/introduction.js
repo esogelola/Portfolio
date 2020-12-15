@@ -16,7 +16,6 @@ import comp from "../../assets/images/main_computer.png";
 
 import Information from "../data/information.json";
 
-//TODO: Read Information json and apply data
 export default function Introduction() {
   return (
     <>

@@ -78,30 +78,34 @@
       "Through school I have learned Database Management, Linux Fundamanetals, Programming Design Patterns, Software Development Life Cycle and the importance of Scrum."
     ]
   ],
-  "projects": {
-    "Project 1": {
+  "projects": [
+    {
       "name": "Project 1",
+      "image": "twam_thumbnail.jpg",
       "link": "https://github.com/esogelola/Portfolio-v2",
       "description": "Learning grounds for rookies",
       "icons": []
     },
-    "Project 2": {
-      "name": "Project 1",
+    {
+      "name": "Project 2",
+      "image": "twam_thumbnail.jpg",
       "link": "https://github.com/esogelola/Portfolio-v2",
       "description": "Learning grounds for rookies",
       "icons": []
     },
-    "Project 3": {
-      "name": "Project 1",
+    {
+      "name": "Project 3",
+      "image": "twam_thumbnail.jpg",
       "link": "https://github.com/esogelola/Portfolio-v2",
       "description": "Learning grounds for rookies",
       "icons": []
     },
-    "Project 4": {
-      "name": "Project 1",
+    {
+      "name": "Project 4",
+      "image": "twam_thumbnail.jpg",
       "link": "https://github.com/esogelola/Portfolio-v2",
       "description": "Learning grounds for rookies",
       "icons": []
     }
-  }
+  ]
 }

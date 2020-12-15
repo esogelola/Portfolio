@@ -12,7 +12,6 @@ import "../../assets/css/skills.css";
 
 import Information from "../data/information.json";
 
-//TODO: Replace all Tag words with <b>Tag</b>
 export default function skills() {
   const tags = Information.main.tags.map((tag) => {
     return tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

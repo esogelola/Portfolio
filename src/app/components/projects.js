@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React /*, { useState }*/ from "react";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -15,12 +15,13 @@ import proj1 from "../../assets/images/twam_thumbnail.jpg";
 import { DiAngularSimple } from "react-icons/di";
 
 export default function Projects() {
-  const [filter, setFilter] = useState(null);
+  //const [filter, setFilter] = useState(null);
   const openInNewTab = (url) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
     if (newWindow) newWindow.opener = null;
   };
-  const handleClick = () => {};
+
+  // const handleClick = () => {};
   return (
     <Container className="section" id="projects">
       <Container>
@@ -51,28 +52,30 @@ export default function Projects() {
             </div>
           </Col>
           <Col>
-            <Card
-              className="mb-3 portfolio-item"
-              onClick={() => openInNewTab("https://stackoverflow.com")}
-            >
-              <Row noGutters="true">
-                <Col md="4">
-                  <img src={proj1} />
-                </Col>
-                <Col md="8">
-                  <Card.Body>
-                    <Card.Title>Project 1</Card.Title>
-                    <Card.Text>
-                      It's a broader card with text below as a natural lead-in
-                      to extra content. This content is a little longer.
-                    </Card.Text>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      <DiAngularSimple className="icon" />
-                    </Card.Subtitle>
-                  </Card.Body>
-                </Col>
-              </Row>
-            </Card>
+            {Information.projects.map((project, num) => {
+              return (
+                <Card
+                  className="mb-3 portfolio-item"
+                  onClick={() => openInNewTab("https://stackoverflow.com")}
+                  key={num}
+                >
+                  <Row noGutters="true">
+                    <Col md="4">
+                      <img src={proj1} alt={project.name} />
+                    </Col>
+                    <Col md="8">
+                      <Card.Body>
+                        <Card.Title>{project.name}</Card.Title>
+                        <Card.Text>{project.description}</Card.Text>
+                        <Card.Subtitle className="mb-2 text-muted">
+                          <DiAngularSimple className="icon" />
+                        </Card.Subtitle>
+                      </Card.Body>
+                    </Col>
+                  </Row>
+                </Card>
+              );
+            })}
           </Col>
         </Row>
       </Container>
