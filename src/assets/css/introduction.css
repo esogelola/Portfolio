@@ -1,1 +1,67 @@
 @import-normalize;
+
+#home-jumbotron {
+  background-color: inherit;
+  height: 100vh !important;
+}
+
+.home-headline.clip {
+  padding: 0px;
+}
+#home-jumbotron .home-headline {
+  font-size: 56px;
+  line-height: 70px;
+}
+#home-jumbotron .container-fluid {
+  margin-left: 8.33333333%;
+}
+@media (min-width: 768px) {
+  .vertical-center {
+    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+  }
+}
+.heading-img {
+  animation: float 4.5s ease-in-out infinite;
+  margin-top: -10%;
+}
+.float {
+  animation: float 4.5s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-16px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.section {
+  padding: 120px 0px;
+}
+@media (max-width: 991px) {
+  #home-jumbotron .home-headline {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  h2 .typewrite {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 576px) {
+  #home-jumbotron .home-headline {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h2 .typewrite {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

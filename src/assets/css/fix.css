@@ -1,0 +1,94 @@
+@media (max-width: 575px) {
+  h2,
+  .h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2,
+  .h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  #home-jumbotron .home-headline {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .btn-group,
+  .btn-group-vertical {
+    display: block;
+  }
+
+  .btn-group > .btn {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  #home-jumbotron .home-headline {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .btn-group,
+  .btn-group-vertical {
+    display: block;
+  }
+
+  .btn-group > .btn {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  #home-jumbotron .home-headline {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .btn-group,
+  .btn-group-vertical {
+    display: block;
+  }
+
+  .btn-group > .btn {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  #home-jumbotron .home-headline {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .btn-group,
+  .btn-group-vertical {
+    display: block;
+  }
+
+  .btn-group > .btn {
+    padding: 20px;
+  }
+}

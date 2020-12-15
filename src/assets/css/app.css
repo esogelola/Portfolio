@@ -68,3 +68,138 @@ h6,
 .text-sm {
   font-size: 14px;
 }
+.section-sm {
+  padding: 60px 0px;
+}
+
+.btn {
+  padding: 18px 38px;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  box-shadow: #999999 0px 0px 0px 0px;
+}
+
+.btn:focus {
+  outline: 0px;
+  border: 0px;
+  box-shadow: none;
+}
+
+.btn-main {
+  background: #f44336;
+  color: #fff;
+}
+
+.btn-main:hover {
+  color: #fff !important;
+  background: #000;
+}
+
+.btn-black {
+  background: #000;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #f44336;
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-white:hover {
+  background: transparent;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: #f44336;
+  text-decoration: none;
+  outline: none;
+}
+
+.bg-primary {
+  background: #f44336 !important;
+}
+
+.bg-secondary {
+  background: #f7f7f7 !important;
+}
+
+.bg-extra {
+  background: #e8eefb !important;
+}
+
+.text-color {
+  color: #f44336;
+}
+
+.page-title h1 {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.page-title h1:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0px;
+  width: 40px;
+  height: 2px;
+  margin-left: -25px;
+  background: #f44336;
+}
+/* change navbar background on collapse */
+@media (max-width: 576px) {
+  .show {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 4px grey;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .container-fluid {
+    margin-left: 5% !important;
+  }
+}
+@media (max-width: 768px) {
+  .show {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 4px grey;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .container-fluid {
+    margin-left: 5% !important;
+  }
+  .filters {
+    margin-bottom: 10px;
+  }
+}
+#cursor {
+  border-right: 0.03em solid #818385;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.icon:hover {
+  color: #f44336;
+}
