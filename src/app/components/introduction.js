@@ -14,6 +14,8 @@ import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
 import comp from "../../assets/images/main_computer.png";
 
+import Information from "../data/information.json";
+
 //TODO: Read Information json and apply data
 export default function Introduction() {
   return (
@@ -22,31 +24,25 @@ export default function Introduction() {
         <Container fluid>
           <Row>
             <Col md="6">
-              <h2 className="home-headline clip mb-0">Emmanuel Sogelola</h2>
-              <h2 className="text-color">
-                <b className="typewrite" data-period="2000"></b>
-                <Typer
-                  dataText={[
-                    "Software Developer.",
-                    "Game Developer.",
-                    "Data Science Enthusiast.",
-                  ]}
-                />
+              <h2 className="home-headline clip mb-0">
+                {Information.main.name}
               </h2>
+
+              <Typer dataText={Information.main.titles} />
+
               <div className="mt-3 sub">
-                <IoSchoolSharp className="icon" /> I'm currently a student at
-                Georgebrown College studying Computer Programming.
+                <IoSchoolSharp className="icon" />
+                {Information.main.description[0]}
                 <br />
-                <GiBookshelf className="icon" /> Proficient in Java, C++, C# and
-                Python.
+                <GiBookshelf className="icon" />
+                {Information.main.description[1]}
                 <br />
-                <IoCodeSlash className="icon" /> Occasionally developing web
-                apps using various frameworks (Django/Flask, React, ASP.NET,
-                PHP).
+                <IoCodeSlash className="icon" />
+                {Information.main.description[2]}
               </div>
               <div>
                 <ul className="list-inline mb-0">
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://www.linkedin.com/in/emmanuelsogelola/"
                       target="_blank"

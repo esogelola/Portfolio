@@ -8,7 +8,43 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { GiBookPile } from "react-icons/gi";
 
 import "../../assets/css/skills.css";
+
+import Information from "../data/information.json";
+
 export default function skills() {
+  const tags = Information.main.tags.map((tag) => {
+    return tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  });
+
+  function wrapTag(str) {
+    const b = tags;
+
+    return str.replace(new RegExp(b.join("|"), "g"), "Hi");
+    //console.log(str);
+
+    //console.log(str.replace(new RegExp(mapObj.join("|"), "g"), "hi"));
+  }
+
+  const Skill = ({ delay = 0, title = "", description = "" }) => {
+    return (
+      <Col lg="4" key>
+        <ScrollAnimation animateIn="fadeInLeft">
+          <div className="skills-item mb-5" data-aos="fade-left" delay={delay}>
+            <i>
+              <GiBookPile />
+            </i>
+
+            <h4 className="my-3">{title}</h4>
+            <p>
+              {/* Specialized understanding of <b>Java</b> and a high proficiency in
+              other languages such as <b>C++</b>, <b>C#</b> and <b>Python.</b> */}
+              {wrapTag(description)}
+            </p>
+          </div>
+        </ScrollAnimation>
+      </Col>
+    );
+  };
   return (
     <>
       <Container className="section skills-home" id="skills">
@@ -20,22 +56,9 @@ export default function skills() {
             </Col>
           </Row>
           <Row>
-            <Col lg="4">
-              <ScrollAnimation animateIn="fadeInLeft">
-                <div className="skills-item mb-5" data-aos="fade-left">
-                  <i>
-                    <GiBookPile />
-                  </i>
-
-                  <h4 className="my-3">Language Proficiency</h4>
-                  <p>
-                    Specialized understanding of <b>Java</b> and a high
-                    proficiency in other languages such as <b>C++</b>, <b>C#</b>{" "}
-                    and <b>Python.</b>
-                  </p>
-                </div>
-              </ScrollAnimation>
-            </Col>
+            {Information.skills.map((data, num) => {
+              return <Skill key={num} title={data[0]} description={data[1]} />;
+            })}
           </Row>
         </Container>
       </Container>

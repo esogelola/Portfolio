@@ -1,4 +1,4 @@
-
+{
   "main": {
     "name": "Emmanuel Sogelola",
     "titles": [
@@ -52,32 +52,32 @@
       "Occasionally developing web apps using various frameworks (Django/Flask, React, ASP.NET, PHP)."
     ]
   },
-  "skills": {
-    "Language Proficiency": [
-      "",
+  "skills": [
+    [
+      "Language Proficiency",
       "Specialized understanding of Java and a high proficiency in other languages such as C++, C# and Python."
     ],
-    "Web Frameworks": [
-      "",
+    [
+      "Web Frameworks",
       "Developed web apps using Django, ASP.Net, React, NodeJS and PHP Frameworks such as Laravel and CodeIgniter."
     ],
-    "Tools": [
-      "",
+    [
+      "Tools",
       "Visual Studio for C++ and C# development. Eclipse for Java based applications. MySQL Workbench for database management and JIRA, Slack, Git and Trello for Agile Project Management."
     ],
-    "Data Science": [
-      "",
+    [
+      "Data Science",
       "Experience using statistical computer languages such as Python, SQL and Ruby to manipulate data and draw insights from large data sets."
     ],
-    "Game Development": [
-      "",
+    [
+      "Game Development",
       "Developed numerous games in Unity, Unreal, GameMaker, libGDX and lwjgl. Read and utilized Game Engine Architecture by Jason Gregory and developed a light weight game engine from scratch."
     ],
-    "Additional Skills": [
-      "",
+    [
+      "Additional Skills",
       "Through school I have learned Database Management, Linux Fundamanetals, Programming Design Patterns, Software Development Life Cycle and the importance of Scrum."
     ]
-  },
+  ],
   "projects": {
     "Project 1": {
       "name": "Project 1",
@@ -86,22 +86,22 @@
       "icons": []
     },
     "Project 2": {
-        "name": "Project 1",
-        "link": "https://github.com/esogelola/Portfolio-v2",
-        "description": "Learning grounds for rookies",
-        "icons": []
-      },
-      "Project 3": {
-        "name": "Project 1",
-        "link": "https://github.com/esogelola/Portfolio-v2",
-        "description": "Learning grounds for rookies",
-        "icons": []
-      },
-      "Project 4": {
-        "name": "Project 1",
-        "link": "https://github.com/esogelola/Portfolio-v2",
-        "description": "Learning grounds for rookies",
-        "icons": []
-      }
+      "name": "Project 1",
+      "link": "https://github.com/esogelola/Portfolio-v2",
+      "description": "Learning grounds for rookies",
+      "icons": []
+    },
+    "Project 3": {
+      "name": "Project 1",
+      "link": "https://github.com/esogelola/Portfolio-v2",
+      "description": "Learning grounds for rookies",
+      "icons": []
+    },
+    "Project 4": {
+      "name": "Project 1",
+      "link": "https://github.com/esogelola/Portfolio-v2",
+      "description": "Learning grounds for rookies",
+      "icons": []
+    }
   }
 }
