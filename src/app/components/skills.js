@@ -5,12 +5,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { GiBookPile } from "react-icons/gi";
-
+import { GiBookPile, GiStack, GiToolbox, GiGamepad } from "react-icons/gi";
+import { GoGraph } from "react-icons/go";
+import { FaCloud } from "react-icons/fa";
 import "../../assets/css/skills.css";
 
 import Information from "../data/information.json";
 
+//TODO: Replace all Tag words with <b>Tag</b>
 export default function skills() {
   const tags = Information.main.tags.map((tag) => {
     return tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -24,15 +26,21 @@ export default function skills() {
 
     //console.log(str.replace(new RegExp(mapObj.join("|"), "g"), "hi"));
   }
+  const icons = [
+    <GiBookPile />,
+    <GiStack />,
+    <GiToolbox />,
+    <GoGraph />,
+    <GiGamepad />,
+    <FaCloud />,
+  ];
 
-  const Skill = ({ delay = 0, title = "", description = "" }) => {
+  const Skill = ({ index, delay = 0, title = "", description = "" }) => {
     return (
       <Col lg="4">
-        <ScrollAnimation animateIn="fadeInLeft">
-          <div className="skills-item mb-5" data-aos="fade-left" delay={delay}>
-            <i>
-              <GiBookPile />
-            </i>
+        <ScrollAnimation animateIn="fadeInLeft" delay={delay}>
+          <div className="skills-item mb-5" delay={delay}>
+            <i>{icons[index]}</i>
 
             <h4 className="my-3">{title}</h4>
             <p>{wrapTag(description)}</p>
@@ -47,13 +55,22 @@ export default function skills() {
         <Container>
           <Row className="aos-init aos-animate" data-aos="fade-up">
             <Col>
-              <h2 className="mb-2 float">Skills</h2>
-              <p className="mb-5"></p>
+              <ScrollAnimation animateIn="fadeInDown">
+                <h2 className="mb-2 float">Skills</h2>
+                <p className="mb-5"></p>
+              </ScrollAnimation>
             </Col>
           </Row>
           <Row>
             {Information.skills.map((data, num) => {
-              return <Skill key={num} title={data[0]} description={data[1]} />;
+              return (
+                <Skill
+                  index={num}
+                  title={data[0]}
+                  description={data[1]}
+                  delay={num * 100}
+                />
+              );
             })}
           </Row>
         </Container>
