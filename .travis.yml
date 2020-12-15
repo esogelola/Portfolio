@@ -16,7 +16,6 @@ notifications:
   email: false
 
 script:
-  - yarn lint
   - yarn build
 
 deploy:
