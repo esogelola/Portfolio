@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/card";
+import Card from "react-bootstrap/Card";
 import ScrollAnimation from "react-animate-on-scroll";
 
 import "../../assets/css/project.css";
@@ -16,7 +16,10 @@ import { DiAngularSimple } from "react-icons/di";
 
 export default function Projects() {
   const [filter, setFilter] = useState(null);
-
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
   const handleClick = () => {};
   return (
     <Container className="section" id="projects">
@@ -48,7 +51,10 @@ export default function Projects() {
             </div>
           </Col>
           <Col>
-            <Card className="mb-3 portfolio-item shine">
+            <Card
+              className="mb-3 portfolio-item"
+              onClick={() => openInNewTab("https://stackoverflow.com")}
+            >
               <Row noGutters="true">
                 <Col md="4">
                   <img src={proj1} />

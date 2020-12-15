@@ -57,4 +57,5 @@
 
 .portfolio-item {
   background: #f6f7f8;
+  cursor: pointer;
 }
