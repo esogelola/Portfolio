@@ -12,6 +12,8 @@ import { GiBookshelf } from "react-icons/gi";
 import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
 import comp from "../../assets/images/main_computer.png";
+
+//TODO: Read Information json and apply data
 export default function Introduction() {
   return (
     <>
