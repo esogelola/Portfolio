@@ -31,7 +31,7 @@ export default function Header() {
       expand="lg"
     >
       <Container fluid>
-        <Navbar.Brand href="#home">E/S</Navbar.Brand>
+        <Navbar.Brand href="#">E/S</Navbar.Brand>
         <Navbar.Toggle aria-controls="header-navigation" />
         <Navbar.Collapse id="header-navigation">
           <Nav className="ml-auto">

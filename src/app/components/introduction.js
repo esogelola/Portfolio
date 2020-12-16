@@ -12,8 +12,6 @@ import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
 import { GiBookshelf } from "react-icons/gi";
 import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
-import comp from "../../assets/images/main_computer.png";
-
 import Information from "../data/information.json";
 
 export default function Introduction() {
@@ -74,7 +72,7 @@ export default function Introduction() {
             <Col md="6">
               <Image
                 className="heading-img"
-                src={comp}
+                src={process.env.PUBLIC_URL + "/static/main_computer.png"}
                 alt="Emmanuel Sogelola, PNG Image"
               />
             </Col>
