@@ -41,7 +41,7 @@ export default function Introduction() {
                 <ul className="list-inline mb-0">
                   <li className="list-inline-item">
                     <a
-                      href="https://www.linkedin.com/in/emmanuelsogelola/"
+                      href={Information.main.socials.linkedin}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -50,7 +50,7 @@ export default function Introduction() {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://twitter.com/_esog"
+                      href={Information.main.socials.twitter}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -59,7 +59,7 @@ export default function Introduction() {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://github.com/esogelola/"
+                      href={Information.main.socials.github}
                       target="_blank"
                       rel="noreferrer"
                     >
