@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0cf68f0f.chunk.css",
-    "main.js": "/static/js/main.5e6e2caa.chunk.js",
-    "main.js.map": "/static/js/main.5e6e2caa.chunk.js.map",
+    "main.js": "/static/js/main.48c265c3.chunk.js",
+    "main.js.map": "/static/js/main.48c265c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a54f4f96.js",
     "runtime-main.js.map": "/static/js/runtime-main.a54f4f96.js.map",
     "static/js/2.b616afc4.chunk.js": "/static/js/2.b616afc4.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.0cf68f0f.chunk.css.map": "/static/css/main.0cf68f0f.chunk.css.map",
     "static/js/2.b616afc4.chunk.js.LICENSE.txt": "/static/js/2.b616afc4.chunk.js.LICENSE.txt",
+    "static/media/Emmanuel-Sogelola-Resume.5178dea2.pdf": "/static/media/Emmanuel-Sogelola-Resume.5178dea2.pdf",
     "static/media/main_computer.8bca6473.png": "/static/media/main_computer.8bca6473.png",
     "static/media/twam_thumbnail.1c82525e.jpg": "/static/media/twam_thumbnail.1c82525e.jpg"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.a54f4f96.js",
     "static/js/2.b616afc4.chunk.js",
     "static/css/main.0cf68f0f.chunk.css",
-    "static/js/main.5e6e2caa.chunk.js"
+    "static/js/main.48c265c3.chunk.js"
   ]
 }
