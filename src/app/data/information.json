@@ -6,6 +6,11 @@
       "Full Stack Developer.",
       "Game Development Enthusiast."
     ],
+    "socials": {
+      "github": "https://github.com/esogelola",
+      "twitter": "https://twitter.com/esogelola",
+      "linkedin": "https://www.linkedin.com/in/emmanuelsogelola/"
+    },
     "tags": [
       "Java",
       "C++",
@@ -54,58 +59,43 @@
   },
   "skills": [
     [
+      "",
       "Language Proficiency",
       "Specialized understanding of Java and a high proficiency in other languages such as C++, C# and Python."
     ],
     [
+      "",
       "Web Frameworks",
       "Developed web apps using Django, ASP.Net, React, NodeJS and PHP Frameworks such as Laravel and CodeIgniter."
     ],
     [
+      "",
       "Tools",
       "Visual Studio for C++ and C# development. Eclipse for Java based applications. MySQL Workbench for database management and JIRA, Slack, Git and Trello for Agile Project Management."
     ],
     [
+      "",
       "Data Science",
       "Experience using statistical computer languages such as Python, SQL and Ruby to manipulate data and draw insights from large data sets."
     ],
     [
+      "",
       "Game Development",
       "Developed numerous games in Unity, Unreal, GameMaker, libGDX and lwjgl. Read and utilized Game Engine Architecture by Jason Gregory and developed a light weight game engine from scratch."
     ],
     [
+      "",
       "DevOps",
-      "Through school I have learned Database Management, Linux Fundamanetals, Programming Design Patterns, Software Development Life Cycle and the importance of Scrum."
+      "Through school I have learned Database Management, Linux Fundamentals, Programming Design Patterns, Software Development Life Cycle and the importance of Scrum."
     ]
   ],
   "projects": [
     {
-      "name": "Project 1",
-      "image": "twam_thumbnail.jpg",
-      "link": "https://github.com/esogelola/Portfolio-v2",
-      "description": "Learning grounds for rookies",
-      "icons": []
-    },
-    {
-      "name": "Project 2",
-      "image": "twam_thumbnail.jpg",
-      "link": "https://github.com/esogelola/Portfolio-v2",
-      "description": "Learning grounds for rookies",
-      "icons": []
-    },
-    {
-      "name": "Project 3",
-      "image": "twam_thumbnail.jpg",
-      "link": "https://github.com/esogelola/Portfolio-v2",
-      "description": "Learning grounds for rookies",
-      "icons": []
-    },
-    {
-      "name": "Project 4",
-      "image": "twam_thumbnail.jpg",
-      "link": "https://github.com/esogelola/Portfolio-v2",
-      "description": "Learning grounds for rookies",
-      "icons": []
+      "name": "Portfolio Website",
+      "image": "portfolio-website.png",
+      "link": "https://esogelola.com/",
+      "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website.",
+      "icons": ["react", "javascript", "html", "css", "travisci", "github"]
     }
   ]
 }
