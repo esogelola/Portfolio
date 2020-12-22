@@ -41,11 +41,8 @@
 .portfolio-item:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  transition: 0.3s all ease-in-out;
 }
-.portfolio-item:hover .icon {
-  color: #f44336;
-}
+
 .portfolio-item img {
   height: 250px;
   width: 100%;
@@ -53,9 +50,23 @@
 
 .portfolio-item .icon {
   font-size: 5vh;
+  transition: all 0.25s ease;
 }
-
+img.icon {
+  font-size: 0;
+  width: 5vh !important;
+  height: 5vh !important;
+  vertical-align: inherit !important;
+}
+img.icon.gray {
+  filter: invert(43%) sepia(10%) saturate(383%) hue-rotate(166deg)
+    brightness(103%) contrast(92%);
+}
 .portfolio-item {
   background: #f6f7f8;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.portfolio-item .icon {
+  cursor: default;
 }

@@ -201,13 +201,6 @@ a:hover {
   }
 }
 
-.icon {
-  margin-right: 5px;
-}
-.icon:hover {
-  color: #f44336;
-  margin-right: 10px;
-}
 html {
   scroll-behavior: smooth;
 }

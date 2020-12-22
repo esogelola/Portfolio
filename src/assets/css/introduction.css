@@ -69,3 +69,11 @@
 #home-jumbotron img {
   max-width: 100%;
 }
+
+#home-jumbotron .icon:hover {
+  color: #f44336;
+  margin-right: 5px;
+}
+#home-jumbotron .icon {
+  margin-right: 2px;
+}

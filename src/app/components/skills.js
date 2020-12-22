@@ -14,17 +14,20 @@ import Information from "../data/information.json";
 
 export default function skills() {
   const tags = Information.main.tags.map((tag) => {
-    return tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return "(" + tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")";
   });
 
-  function wrapTag(str) {
-    const b = tags;
+  const wrapTags = (text) => {
+    let regex = new RegExp(tags.join("|"), "gi");
+    const textArray = text.split(regex);
+    return textArray.map((str, num) => {
+      if (regex.test(str)) {
+        return <b key={num}>{str}</b>;
+      }
+      return str;
+    });
+  };
 
-    return str.replace(new RegExp(b.join("|"), "g"), "Hi");
-    //console.log(str);
-
-    //console.log(str.replace(new RegExp(mapObj.join("|"), "g"), "hi"));
-  }
   const icons = [
     <GiBookPile className="icon" />,
     <GiStack className="icon" />,
@@ -37,12 +40,16 @@ export default function skills() {
   const Skill = ({ index, delay = 0, title = "", description = "" }) => {
     return (
       <Col lg="4">
-        <ScrollAnimation animateIn="fadeInLeft" delay={delay}>
-          <div className="skills-item mb-5" delay={delay}>
-            <i>{icons[index]}</i>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={delay}
+          animateOnce={true}
+        >
+          <div className="skills-item mb-5">
+            <i className="">{icons[index]}</i>
 
             <h4 className="my-3">{title}</h4>
-            <p>{wrapTag(description)}</p>
+            <p>{wrapTags(description)}</p>
           </div>
         </ScrollAnimation>
       </Col>
@@ -52,7 +59,7 @@ export default function skills() {
     <>
       <Container className="section skills-home" id="skills">
         <Container>
-          <Row className="aos-init aos-animate" data-aos="fade-up">
+          <Row data-aos="fade-up">
             <Col>
               <ScrollAnimation animateIn="fadeInDown">
                 <h2 className="mb-2 float">Skills</h2>
@@ -66,8 +73,8 @@ export default function skills() {
                 <Skill
                   key={num}
                   index={num}
-                  title={data[0]}
-                  description={data[1]}
+                  title={data[1]}
+                  description={data[2]}
                   delay={num * 100}
                 />
               );

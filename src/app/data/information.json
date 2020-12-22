@@ -20,6 +20,7 @@
       "ASP.Net",
       "React",
       "NodeJS",
+      "javascript",
       "Visual Studio",
       "Eclipse",
       "MySQL Workbench",
@@ -27,7 +28,7 @@
       "CodeIgniter",
       "JIRA",
       "Slack",
-      "Git",
+      "Github",
       "Trello",
       "SQL",
       "Ruby",
@@ -49,7 +50,17 @@
       "AWS",
       "Travis CI",
       "Firebase",
-      "SonarQube"
+      "SonarQube",
+      "postgresql",
+      "sqllite",
+      "cmake",
+      "Bootstrap",
+      "Material",
+      "android",
+      "ios",
+      "android studio",
+      "php",
+      "git"
     ],
     "description": [
       "I'm currently a student at Georgebrown College studying Computer Programming.",
@@ -92,10 +103,37 @@
   "projects": [
     {
       "name": "Portfolio Website",
-      "image": "portfolio-website.png",
+      "image": "portfolio.gif",
       "link": "https://esogelola.com/",
       "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website.",
-      "icons": ["react", "javascript", "html", "css", "travisci", "github"]
+      "icons": [
+        { "name": "React", "type": "di", "icon": "react" },
+        { "name": "HTML5", "type": "di", "icon": "html5" },
+        {
+          "name": "Unity",
+          "type": "si",
+          "icon": "bitcoin",
+          "color": "invert(79%) sepia(47%) saturate(5940%) hue-rotate(350deg) brightness(104%) contrast(94%)"
+        }
+      ],
+      "filter": ["fullstack", "java"]
+    },
+    {
+      "name": "Portfolio Website",
+      "image": "test.jpg",
+      "link": "https://esogelola.com/",
+      "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website.",
+      "icons": [
+        { "name": "React", "type": "di", "icon": "react" },
+        { "name": "HTML5", "type": "di", "icon": "html5" },
+        {
+          "name": "Unity",
+          "type": "si",
+          "icon": "bitcoin",
+          "color": "invert(79%) sepia(47%) saturate(5940%) hue-rotate(350deg) brightness(104%) contrast(94%)"
+        }
+      ],
+      "filter": ["fullstack"]
     }
   ]
 }
