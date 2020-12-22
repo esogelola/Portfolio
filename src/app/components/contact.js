@@ -34,10 +34,10 @@ const formValid = ({ formErrors, ...rest }) => {
 
 export default function Contact() {
   const [state, setState] = useState({
-    name: "name",
-    email: "email",
-    subject: "subject",
-    message: "message",
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
     formErrors: {
       name: "",
       email: "",

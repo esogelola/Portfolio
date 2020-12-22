@@ -117,23 +117,6 @@
         }
       ],
       "filter": ["fullstack", "java"]
-    },
-    {
-      "name": "Portfolio Website",
-      "image": "test.jpg",
-      "link": "https://esogelola.com/",
-      "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website.",
-      "icons": [
-        { "name": "React", "type": "di", "icon": "react" },
-        { "name": "HTML5", "type": "di", "icon": "html5" },
-        {
-          "name": "Unity",
-          "type": "si",
-          "icon": "bitcoin",
-          "color": "invert(79%) sepia(47%) saturate(5940%) hue-rotate(350deg) brightness(104%) contrast(94%)"
-        }
-      ],
-      "filter": ["fullstack"]
     }
   ]
 }
