@@ -37,7 +37,7 @@ export default function Projects() {
     const toggleHover = () => setHovered(!hovered);
 
     return (
-      <ScrollAnimation animateIn="bounceInUp" delay={delay} animateOnce={true}>
+      <ScrollAnimation animateIn="pulse" delay={delay} animateOnce={true}>
         <Card
           className="mb-3 portfolio-item"
           onClick={() => openInNewTab(project.link)}
@@ -68,9 +68,9 @@ export default function Projects() {
                             key={num}
                           >
                             <i
-                              className={`icon devicon-${icon.icon}-plain ${
-                                hovered ? "colored" : "gray"
-                              }`}
+                              className={`icon mr-3 devicon-${
+                                icon.icon
+                              }-plain ${hovered ? "colored" : "gray"}`}
                             ></i>
                           </OverlayTrigger>
                         );
@@ -95,7 +95,7 @@ export default function Projects() {
                               key={num}
                               className={`icon  ${
                                 hovered ? "colored" : "gray"
-                              }`}
+                              } mr-3`}
                               alt={`Icon - ${icon.name}`}
                               src={`https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/${icon.icon}.svg`}
                             />
