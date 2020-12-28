@@ -39,7 +39,7 @@ export default function Projects() {
     return (
       <ScrollAnimation animateIn="pulse" delay={delay} animateOnce={true}>
         <Card
-          className="mb-3 portfolio-item"
+          className="mb-3 portfolio-item shadow-lg rounded "
           onClick={() => openInNewTab(project.link)}
           onMouseEnter={toggleHover}
           onMouseLeave={toggleHover}
@@ -49,6 +49,9 @@ export default function Projects() {
               <img
                 src={`/static/project-images/${project.image}`}
                 alt={project.name}
+                width="250px"
+                height="250px"
+                style={{ width: "300px", height: "250px" }}
               />
             </Col>
             <Col md="8">

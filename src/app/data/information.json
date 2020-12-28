@@ -129,7 +129,63 @@
           "color": "invert(70%) sepia(42%) saturate(620%) hue-rotate(133deg) brightness(79%) contrast(81%)"
         }
       ],
-      "filter": ["fullstack", "java"]
+      "filter": ["web"]
+    },
+    {
+      "name": "Spout",
+      "image": "SPOUT.gif",
+      "link": "https://spout.web.app/",
+      "description": "Spout is a cross-platform messaging and digital distribution platform. ",
+      "icons": [
+        { "name": "React", "type": "di", "icon": "react" },
+        { "name": "Ionic", "type": "di", "icon": "ionic-original " },
+        {
+          "name": "Firebase",
+          "type": "si",
+          "icon": "firebase",
+          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
+        },
+        { "name": "Heroku", "type": "di", "icon": "heroku" },
+        { "name": "NodeJS", "type": "di", "icon": "nodejs" },
+        { "name": "Github", "type": "di", "icon": "github" },
+
+        {
+          "name": "Circle CI",
+          "type": "si",
+          "icon": "circleci",
+          "color": "invert(13%) sepia(34%) saturate(9%) hue-rotate(88deg) brightness(96%) contrast(82%)"
+        }
+      ],
+      "filter": ["web"]
+    },
+    {
+      "name": "PKG Hound",
+      "image": "PKGHound.gif",
+      "link": "https://pkghound.web.app/",
+      "description": "React based Ionic project developed to learn how to properly utilize Ionic and it's cross-platform features. Authentication and Deployment handle through Firebase. (I've also developed a look alike using flask @ https://github.com/esogelola/pkg-hound-flask) ",
+      "icons": [
+        { "name": "React", "type": "di", "icon": "react" },
+        { "name": "Ionic", "type": "di", "icon": "ionic-original " },
+        {
+          "name": "Firebase",
+          "type": "si",
+          "icon": "firebase",
+          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
+        },
+        { "name": "Github", "type": "di", "icon": "github" }
+      ],
+      "filter": ["web", "python"]
+    },
+    {
+      "name": "TWAM & TWAM Server",
+      "image": "TWAM.gif",
+      "link": "https://github.com/esogelola/twam",
+      "description": "Java based Multiplayer RPG, developed from scratch using only native java libraries. Created in highschool as an entrance into game development.",
+      "icons": [
+        { "name": "Java", "type": "di", "icon": "java" },
+        { "name": "Github", "type": "di", "icon": "github" }
+      ],
+      "filter": ["java"]
     }
   ]
 }
