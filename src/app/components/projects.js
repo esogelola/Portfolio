@@ -117,7 +117,7 @@ export default function Projects() {
       </ScrollAnimation>
     );
   };
-  console.log(filteredData);
+
   return (
     <Container className="section" id="projects">
       <Container>
