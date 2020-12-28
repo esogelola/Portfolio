@@ -49,6 +49,7 @@
       "Mongoose",
       "AWS",
       "Travis CI",
+      "Circle CI",
       "Firebase",
       "SonarQube",
       "postgresql",
@@ -60,12 +61,19 @@
       "ios",
       "android studio",
       "php",
-      "git"
+      "git",
+      "ionic",
+      "Spring",
+      "Heroku",
+      "Fullstack Development",
+      "Game Engine Architecture",
+      "Pandas",
+      "scikit-learn"
     ],
     "description": [
       "I'm currently a student at Georgebrown College studying Computer Programming.",
       "Proficient in Java, JavaScript/TypeScript, C++, C# and Python.",
-      "Occasionally developing web apps using various frameworks (Django/Flask, React, ASP.NET, PHP)."
+      "Occasionally developing games and web apps using various frameworks."
     ]
   },
   "skills": [
@@ -76,8 +84,8 @@
     ],
     [
       "",
-      "Web Frameworks",
-      "Developed web apps using Django, ASP.Net, React, NodeJS and PHP Frameworks such as Laravel and CodeIgniter."
+      "Web Development",
+      "Developed web applications using Django, ASP.Net, Spring, React, Ionic, NodeJS and PHP Frameworks such as Laravel and CodeIgniter."
     ],
     [
       "",
@@ -87,7 +95,7 @@
     [
       "",
       "Data Science",
-      "Experience using statistical computer languages such as Python, SQL and Ruby to manipulate data and draw insights from large data sets."
+      "Experience using statistical computer languages such as Python (Scikit-learn, Pandas), SQL and Ruby to manipulate data and draw insights from large data sets."
     ],
     [
       "",
@@ -97,7 +105,7 @@
     [
       "",
       "DevOps",
-      "Through school I have learned Database Management, Linux Fundamentals, Programming Design Patterns, Software Development Life Cycle and the importance of Scrum."
+      "Utilized Git, Heroku, Travis CI, Jenkins, Circle CI, AWS and Firebase for most of my development stack while applying my knowledge of Fullstack Development, Linux Fundamentals and the Software Development Life Cycle."
     ]
   ],
   "projects": [
@@ -105,15 +113,20 @@
       "name": "Portfolio Website",
       "image": "portfolio.gif",
       "link": "https://esogelola.com/",
-      "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website.",
+      "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website or my github.",
       "icons": [
         { "name": "React", "type": "di", "icon": "react" },
         { "name": "HTML5", "type": "di", "icon": "html5" },
+        { "name": "CSS3", "type": "di", "icon": "github" },
+        { "name": "JavaScript", "type": "di", "icon": "javascript" },
+        { "name": "Bootstrap", "type": "di", "icon": "bootstrap" },
+        { "name": "Github", "type": "di", "icon": "github" },
+
         {
-          "name": "Unity",
+          "name": "Travis CI",
           "type": "si",
-          "icon": "bitcoin",
-          "color": "invert(79%) sepia(47%) saturate(5940%) hue-rotate(350deg) brightness(104%) contrast(94%)"
+          "icon": "travisci",
+          "color": "invert(70%) sepia(42%) saturate(620%) hue-rotate(133deg) brightness(79%) contrast(81%)"
         }
       ],
       "filter": ["fullstack", "java"]
