@@ -178,7 +178,7 @@
     },
     {
       "name": "TWAM & TWAM Server",
-      "image": "TWAM.gif",
+      "image": "twam.gif",
       "link": "https://github.com/esogelola/twam",
       "description": "Java based Multiplayer RPG, developed from scratch using only native java libraries. Created in highschool as an entrance into game development.",
       "icons": [
