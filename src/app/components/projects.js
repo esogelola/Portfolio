@@ -49,9 +49,9 @@ export default function Projects() {
               <img
                 src={`/static/project-images/${project.image}`}
                 alt={project.name}
-                width="250px"
-                height="250px"
-                style={{ width: "300px", height: "250px" }}
+                width="100%"
+                height="100%"
+                style={{ width: "100%", height: "250px" }}
               />
             </Col>
             <Col md="8">
