@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../../assets/css/header.css";
 
-import Resume from "../../assets/Emmanuel-Sogelola-Resume.pdf";
 export default function Header() {
   const [isSolid, setSolid] = useState(false);
   const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
@@ -36,10 +35,8 @@ export default function Header() {
         <Navbar.Collapse id="header-navigation">
           <Nav className="ml-auto">
             <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href={Resume} target="_blank">
-              Resume
-            </Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -110,6 +110,35 @@
   ],
   "projects": [
     {
+      "name": "Capstone",
+      "image": "lofilan.gif",
+      "link": "https://github.com/esogelola/Lofilan",
+      "doc": "https://github.com/esogelola/lofilan-docs",
+      "figma": "https://www.figma.com/file/y66oN6rizS5nIfRvteiUWs/Lofilan?node-id=8%3A310",
+      "description": "Capstone Project: A Convenient application that will help to communicate with strangers and find people who are with the user on the same area.",
+      "icons": [
+        { "name": "React", "type": "di", "icon": "react" },
+        { "name": "HTML5", "type": "di", "icon": "html5" },
+        { "name": "CSS3", "type": "di", "icon": "github" },
+        { "name": "JavaScript", "type": "di", "icon": "javascript" },
+        { "name": "Bootstrap", "type": "di", "icon": "bootstrap" },
+        { "name": "Github", "type": "di", "icon": "github" },
+        {
+          "name": "Firebase",
+          "type": "si",
+          "icon": "firebase",
+          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
+        },
+        {
+          "name": "Travis CI",
+          "type": "si",
+          "icon": "travisci",
+          "color": "invert(70%) sepia(42%) saturate(620%) hue-rotate(133deg) brightness(79%) contrast(81%)"
+        }
+      ],
+      "filter": ["web"]
+    },
+    {
       "name": "Portfolio Website",
       "image": "portfolio.gif",
       "link": "https://esogelola.com/",

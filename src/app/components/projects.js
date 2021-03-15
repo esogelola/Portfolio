@@ -40,7 +40,6 @@ export default function Projects() {
       <ScrollAnimation animateIn="pulse" delay={delay} animateOnce={true}>
         <Card
           className="mb-3 portfolio-item shadow-lg rounded "
-          onClick={() => openInNewTab(project.link)}
           onMouseEnter={toggleHover}
           onMouseLeave={toggleHover}
         >
@@ -52,12 +51,27 @@ export default function Projects() {
                 width="100%"
                 height="100%"
                 style={{ width: "100%", height: "250px" }}
+                onClick={() => openInNewTab(project.link)}
               />
             </Col>
             <Col md="8">
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
+                <Card.Subtitle className="mb-2 text-muted">
+                  {project.figma ? (
+                    <a href={project.figma}>Checkout Prototype</a>
+                  ) : (
+                    ""
+                  )}
+                </Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">
+                  {project.doc ? (
+                    <a href={project.doc}>Project Documentation</a>
+                  ) : (
+                    ""
+                  )}
+                </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
                   {project.icons.map((icon, num) => {
                     switch (icon.type) {

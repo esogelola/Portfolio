@@ -46,6 +46,7 @@
 .portfolio-item img {
   height: 250px;
   width: 100%;
+  cursor: pointer;
 }
 
 .portfolio-item .icon {
@@ -64,7 +65,7 @@ img.icon.gray {
 }
 .portfolio-item {
   background: #f6f7f8;
-  cursor: pointer;
+  
   transition: all 0.2s ease-in-out;
 }
 .portfolio-item .icon {

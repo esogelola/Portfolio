@@ -7,7 +7,8 @@ import Image from "react-bootstrap/Image";
 import Typer from "./typer";
 import "../../assets/css/fix.css";
 import "../../assets/css/introduction.css";
-
+import Resume from "../../assets/Emmanuel-Sogelola-Resume.pdf";
+import CoverLetter from "../../assets/E Sogelola - Cover Letter.pdf";
 import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
 import { GiBookshelf } from "react-icons/gi";
 import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
@@ -26,7 +27,20 @@ export default function Introduction() {
               </h2>
 
               <Typer dataText={Information.main.titles} />
-
+              <div className="mt-3">
+                <blockquote
+                  style={{
+                    position: "relative",
+                    background: "white",
+                    borderRadius: "0% 0% 0% 0% / 0% 0% 0% 0%",
+                    width: "45%",
+                    boxShadow: "1px 1px rgba(0,0,0,.15)",
+                    transition: " all .4s ease",
+                  }}
+                >
+                  “How did it get so late so soon?” ― Dr. Seuss
+                </blockquote>
+              </div>
               <div className="mt-3 sub">
                 <IoSchoolSharp className="icon" />
                 {Information.main.description[0]}
@@ -36,6 +50,23 @@ export default function Introduction() {
                 <br />
                 <IoCodeSlash className="icon" />
                 {Information.main.description[2]}
+              </div>
+
+              <div>
+                <ul className="list-inline mt-0">
+                  >{" "}
+                  <li className="list-inline-item">
+                    <a href={Resume} target="_blank" rel="noreferrer">
+                      Resume
+                    </a>
+                  </li>
+                  {" | "}
+                  <li className="list-inline-item">
+                    <a href={CoverLetter} target="_blank" rel="noreferrer">
+                      Cover Letter
+                    </a>
+                  </li>
+                </ul>
               </div>
               <div>
                 <ul className="list-inline mb-0">
