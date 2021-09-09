@@ -158,105 +158,15 @@ export default function Contact() {
               <ScrollAnimation animateIn="fadeInDown">
                 <h2 className="mb-2 float">Contact</h2>
                 <p className="mb-5">
-                  Leave a message below, I'd love to hear from you!
+                  {/* Leave a message below, I'd love to hear from you! */}
+                  The contact form has been disabled for the time being! You can
+                  reach out to me @ emmanuelsogelola@gmail.com!
                 </p>
               </ScrollAnimation>
             </Col>
           </Row>
         </Container>
-        <Container id="contactForm">
-          <Form
-            className="email"
-            method="post"
-            onSubmit={handleSubmit}
-            id="contactForm"
-          >
-            <Form.Group className="label-floating">
-              <Form.Label className="control-label" htmlFor="name">
-                Name
-              </Form.Label>
-              {state.formErrors !== undefined &&
-                state.formErrors.name.length > 0 && (
-                  <span className="errorMessage">{state.formErrors.name}</span>
-                )}
-              <Form.Control
-                type="text"
-                name="name"
-                id="name"
-                value={state.name}
-                onChange={handleChange}
-              />
-            </Form.Group>
-            <Form.Group className="label-floating">
-              <Form.Label className="control-label" htmlFor="email">
-                Email
-              </Form.Label>
-              {state.formErrors !== undefined &&
-                state.formErrors.email.length > 0 && (
-                  <span className="errorMessage">{state.formErrors.email}</span>
-                )}
-              <Form.Control
-                type="email"
-                name="email"
-                id="email"
-                value={state.email}
-                onChange={handleChange}
-                placeholder=""
-              />
-            </Form.Group>
-            <Form.Group className="label-floating">
-              <Form.Label className="control-label" htmlFor="subject">
-                Subject
-              </Form.Label>
-              {state.formErrors !== undefined &&
-                state.formErrors.subject.length > 0 && (
-                  <span className="errorMessage">
-                    {state.formErrors.subject}
-                  </span>
-                )}
-              <Form.Control
-                type="text"
-                name="subject"
-                id="subject"
-                value={state.subject}
-                onChange={handleChange}
-                placeholder=""
-              />
-            </Form.Group>
-            <Form.Group className="label-floating">
-              <Form.Label className="control-label" htmlFor="message">
-                Message
-              </Form.Label>
-              {state.formErrors !== undefined &&
-                state.formErrors.message.length > 0 && (
-                  <span className="errorMessage">
-                    {state.formErrors.message}
-                  </span>
-                )}
-              <Form.Control
-                type="text"
-                name="message"
-                as="textarea"
-                rows={3}
-                id="message"
-                value={state.message}
-                onChange={handleChange}
-              />
-            </Form.Group>
-            <div className="form-submit mt-5">
-              <button
-                className="btn"
-                type="submit"
-                name="contactSubmit"
-                id="form-submit"
-                value="submit"
-              >
-                <FaEnvelope /> Send Message
-              </button>
-              <ToastContainer />
-            </div>
-          </Form>
-        </Container>
+        <Container id="contactForm"></Container>
       </Container>
     </>
   );
