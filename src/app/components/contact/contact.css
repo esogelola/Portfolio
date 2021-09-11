@@ -1,11 +1,13 @@
-#contactForm {
-  margin-top: -10px;
-}
-
 #contactForm .form-group label.control-label {
   color: #8c8c8c;
 }
-
+.contactSection {
+  position: relative;
+  padding: 100px 5% 60px;
+}
+.contactHeading {
+  color: #333f63;
+}
 #contactForm .form-control {
   font-weight: 500;
   height: auto;

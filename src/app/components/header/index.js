@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import "../../assets/css/header.css";
+import "./header.css";
 
-export default function Header() {
+export default function Header({ personalData }) {
   const [isSolid, setSolid] = useState(false);
   const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);

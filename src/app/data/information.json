@@ -1,16 +1,43 @@
 {
   "main": {
     "name": "Emmanuel Sogelola",
-    "titles": [
-      "Software Developer.",
-      "Full Stack Developer.",
-      "Game Development Enthusiast."
-    ],
+    "titles": ["Software Engineer", "Full Stack Developer"],
     "socials": {
       "github": "https://github.com/esogelola",
       "twitter": "https://twitter.com/esogelola",
       "linkedin": "https://www.linkedin.com/in/emmanuelsogelola/"
     },
+    "education": [
+      {
+        "title": "Bachelor of Technology (B.Tech.)",
+        "program": "Software Engineering Technology",
+        "years": "2021- Present",
+        "content": "McMaster University | currently studying."
+      },
+      {
+        "title": "Ontario Advanced Diploma",
+        "program": "Computer Programmer Analyst",
+        "years": "2018 - 2021",
+        "content": "George Brown College | Honors, Dean’s Honours List; volunteer, Student Council Representative IEEE 13.0 | Rank 37 (Canada) "
+      }
+    ],
+    "work": [
+      {
+        "title": "Junior Developer",
+        "years": "2021 - Present",
+        "content": "Working with a development team writing and maintaining code for blockchain application and integration"
+      },
+      {
+        "title": "Leon's Furniture",
+        "years": "2017 - 2021",
+        "content": "Responsible for day-to-day warehouse operations including lift truck operations, tracking over 200+ orders, and customer resolutions, as well as ensuring compliance with environmental health, safety, and corporate regulations."
+      },
+      {
+        "title": "Kindly Beast",
+        "years": "2019 - 2019",
+        "content": "Collaborated with a Junior & Senior Developer to enhance and troubleshoot an audio engine, resolve the issue, and add features within a day"
+      }
+    ],
     "tags": [
       "Java",
       "C++",
@@ -85,27 +112,27 @@
     [
       "",
       "Web Development",
-      "Developed web applications using Django, ASP.Net, Spring, React, Ionic, NodeJS and PHP Frameworks such as Laravel and CodeIgniter."
+      "Developed web applications using Django, ASP.Net, Spring, NodeJS and various PHP frameworks."
     ],
     [
       "",
       "Tools",
-      "Visual Studio for C++ and C# development. Eclipse for Java based applications. MySQL Workbench for database management and JIRA, Slack, Git and Trello for Agile Project Management."
+      "Utilized Visual Studio Code and Eclipse as IDE's. Slack, Git and Trello for Agile Project Management."
     ],
     [
       "",
       "Data Science",
-      "Experience using statistical computer languages such as Python (Scikit-learn, Pandas), SQL and Ruby to manipulate data and draw insights from large data sets."
+      "Experience using statistical computer languages such as Python (Scikit-learn, Pandas) and SQL to manipulate data and draw insights from large data sets."
     ],
     [
       "",
       "Game Development",
-      "Developed numerous games in Unity, Unreal, GameMaker, libGDX and lwjgl. Read and utilized Game Engine Architecture by Jason Gregory and developed a light weight game engine from scratch."
+      "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine."
     ],
     [
       "",
       "DevOps",
-      "Utilized Git, Heroku, Travis CI, Jenkins, Circle CI, AWS and Firebase for most of my development stack while applying my knowledge of Fullstack Development, Linux Fundamentals and the Software Development Life Cycle."
+      "Utilized numerous pipeline tools to automate and control the source of my projects,such as Github, Heroku, Travis CI and Circle CI."
     ]
   ],
   "projects": [

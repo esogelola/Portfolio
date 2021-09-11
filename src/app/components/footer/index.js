@@ -4,8 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
-import Information from "../data/information.json";
-export default function footer() {
+
+export default function footer({ personalData }) {
   return (
     <>
       <Container className="mb-2">
@@ -21,7 +21,7 @@ export default function footer() {
                 <ul className="list-inline mb-0">
                   <li className="list-inline-item">
                     <a
-                      href={Information.main.socials.linkedin}
+                      href={personalData.main.socials.linkedin}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -30,7 +30,7 @@ export default function footer() {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href={Information.main.socials.twitter}
+                      href={personalData.main.socials.twitter}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -39,7 +39,7 @@ export default function footer() {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href={Information.main.socials.github}
+                      href={personalData.main.socials.github}
                       target="_blank"
                       rel="noreferrer"
                     >

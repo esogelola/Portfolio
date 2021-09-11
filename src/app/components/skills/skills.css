@@ -1,0 +1,25 @@
+.skillSection {
+  position: relative;
+  padding: 100px 5% 60px;
+}
+.skillsHeading {
+  color: #333f63;
+  font-family: Eudoxussans, sans-serif;
+}
+.skills-item b {
+  color: #715c8c;
+}
+.skills-home {
+  position: relative;
+}
+.skills-item {
+  color: #333f63;
+  font-family: Eudoxussans, sans-serif;
+}
+.skills-item i {
+  font-size: 50px;
+  float: left;
+  width: 65px;
+  height: 120px;
+  color: #333f63;
+}

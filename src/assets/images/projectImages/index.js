@@ -1,0 +1,8 @@
+function importAll(r) {
+  console.log("?");
+  return r.keys().map(r);
+}
+const images = importAll(
+  require.context("./", false, /\.(png|jpe?g|svg|gif)$/)
+);
+export default images;

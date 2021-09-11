@@ -1,79 +1,150 @@
-@import-normalize;
-
-#home-jumbotron {
-  background-color: inherit;
-  height: 100vh !important;
+.headingImg {
+  max-width: 50%;
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -22%;
+  bottom: 0%;
+  max-width: 65%;
+}
+.shapesAccent {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -20%;
+  bottom: 0%;
+  z-index: 0;
+  width: 60%;
+}
+.heroContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1060px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.heroSection {
+  padding-right: 3%;
+  padding-left: 3%;
+  border-radius: 0;
+  background-color: #ffff;
+}
+.heroBackground {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  /* background-color: #f9f9fc; */
+  background-color: #f9f9fc;
 }
 
-.home-headline.clip {
-  padding: 0px;
+.heroContent {
+  position: relative;
+  z-index: 9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  max-width: 610px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
-#home-jumbotron .home-headline {
-  font-size: 56px;
-  line-height: 70px;
+.heroHeading {
+  font-size: 84px;
+  line-height: 90px;
+  font-weight: 700;
+  color: #333f63;
+  font-family: Eudoxussans, sans-serif;
 }
-#home-jumbotron .container-fluid {
-  margin-left: 8.33333333%;
+.heroSubheading {
+  margin-top: 10px;
+  color: #715c8c;
+  height: 10%;
 }
-@media (min-width: 768px) {
-  .vertical-center {
-    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-
-    display: flex;
-    align-items: center;
+.heroSubheadingDiff {
+  color: #838bc2;
+}
+@media screen and (max-width: 479px) {
+  .heroBackground {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+  .heroHeading {
+    font-size: 46px;
+    line-height: 54px;
+  }
+  .heroSubheading {
+    font-size: 12px;
+    height: fit-content;
   }
 }
-.heading-img {
-  animation: float 4.5s ease-in-out infinite;
-  margin-top: -10%;
-}
-.float {
-  animation: float 4.5s ease-in-out infinite;
-}
-@keyframes float {
-  0% {
-    transform: translatey(0px);
+@media screen and (max-width: 991px) {
+  .headingImg {
+    position: relative;
+    max-width: 70%;
   }
-  50% {
-    transform: translatey(-16px);
+  .heroBackground {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
-  100% {
-    transform: translatey(0px);
+  .heroSection {
+    padding-bottom: 0px;
   }
-}
-.section {
-  padding: 120px 0px;
-}
-@media (max-width: 991px) {
-  #home-jumbotron .home-headline {
+  .heroContent {
+    padding-bottom: 0px;
+  }
+  .heroHeading {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  .heroSubheading {
     font-size: 32px;
-    line-height: 42px;
-  }
-  h2 .typewrite {
-    font-size: 32px;
-    line-height: 42px;
+    height: 100%;
   }
 }
-@media (max-width: 576px) {
-  #home-jumbotron .home-headline {
-    font-size: 25px;
-    line-height: 30px;
-  }
-  h2 .typewrite {
-    font-size: 20px;
-    line-height: 20px;
-  }
+/* External */
+.heroParagraph.margin {
+  margin-top: 36px;
+  margin-bottom: 40px;
 }
-
-#home-jumbotron img {
-  max-width: 100%;
-}
-
-#home-jumbotron .icon:hover {
-  color: #f44336;
-  margin-right: 5px;
-}
-#home-jumbotron .icon {
-  margin-right: 2px;
+.heroParagraph {
+  font-family: Eudoxussans, sans-serif;
+  color: black;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
 }

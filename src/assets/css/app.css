@@ -144,7 +144,7 @@ a:hover {
 }
 
 .text-color {
-  color: #f44336;
+  color: #715c8c;
 }
 
 .page-title h1 {
@@ -205,66 +205,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* focused css down below */
 
-.timeline {
-	position: relative
+.float {
+  animation: float 4.5s ease-in-out infinite;
 }
-
-.timeline .timeline-container {
-	padding-left: 50px;
-	margin-bottom: 50px;
-	position: relative;
-	background-color: inherit;
-	width: 100%
-}
-
-.timeline .timeline-container:last-of-type {
-	margin-bottom: 0
-}
-
-.timeline.edu .timeline-container:after {
-	content: "\e019"
-}
-
-.timeline.edu .timeline-container:after,
-.timeline.exp .timeline-container:after {
-	background: #fff;
-	font-family: "simple-line-icons";
-	font-size: 24px;
-	color: #ff4c60;
-	position: absolute;
-	left: -7px;
-	top: 0;
-	z-index: 1
-}
-
-.timeline.exp .timeline-container:after {
-	content: "\e04b"
-}
-
-.timeline .content {
-	position: relative
-}
-
-.timeline .content .time {
-	color: #8b88b1;
-	font-size: 14px
-}
-
-.timeline .content h3 {
-	font-size: 20px;
-	margin: 10px 0
-}
-
-.timeline .content p {
-	margin: 0
-}
-
-.timeline span.line {
-	position: absolute;
-	width: 1px;
-	background-color: #ff4c60;
-	top: 30px;
-	bottom: 30px;
-	left: 34px
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-16px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }

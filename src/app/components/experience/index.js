@@ -6,34 +6,8 @@ import Col from "react-bootstrap/Col";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
-import "../../assets/css/skills.css";
+import "./experience.css";
 
-const educationData = [
-  {
-    id: 1,
-    title: "Ontario Advanced Diploma",
-    program: "Computer Programmer Analyst",
-    years: "2018 - Present",
-    content: "Achieving an Ontario Advanced Diploma at George Brown College ",
-  },
-];
-
-const experienceData = [
-  {
-    id: 1,
-    title: "Leon's Furniture",
-    years: "2017 - 2021",
-    content:
-      "Consult with delivery drivers for efficient loading and unloading ,Operate heavy machinery, such as forklifts, as needed. Organize loading/unloading zone for maximized efficiency.",
-  },
-  {
-    id: 2,
-    title: "Kindly Beast",
-    years: "2019 - 2019",
-    content:
-      "Implemented an audio queue for a playable character using Unity & C#. Utilized SourceTree and Jira for workflow management. Shadows a Junior & Senior Developer Learned automation using the .Net Framework, Ruby on Rails & Fastlane.",
-  },
-];
 function Timeline({ education }) {
   const { years, title, content, program } = education;
   return (
@@ -48,25 +22,26 @@ function Timeline({ education }) {
   );
 }
 
-export default function Experience() {
+export default function Experience({ personalData }) {
+  console.log(personalData);
   return (
     <>
-      <Container className="section experience-home" id="experience">
-        <Container>
+      <Container className="experienceBackground" id="experience" fluid>
+        <Container className="experienceSection">
           <Row data-aos="fade-up">
             <Col>
               <ScrollAnimation animateIn="fadeInDown">
-                <h2 className="mb-2 float">Experience</h2>
+                <h2 className="mb-2 float experienceHeading">Experience</h2>
                 <p className="mb-5"></p>
               </ScrollAnimation>
             </Col>
           </Row>
           <Row>
             <Col md="6">
-              <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-                {educationData.map((education) => (
+              <div className="timeline edu overflow-hidden">
+                {personalData.main.education.map((education, num) => (
                   <Timeline
-                    key={education.id}
+                    key={num}
                     education={education}
                     program={education.program}
                   />
@@ -79,9 +54,9 @@ export default function Experience() {
                 className="spacer d-md-none d-lg-none"
                 data-height="30"
               ></div>
-              <div className="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
-                {experienceData.map((experience) => (
-                  <Timeline key={experience.id} education={experience} />
+              <div className="timeline exp bg-white   overflow-hidden">
+                {personalData.main.work.map((experience, num) => (
+                  <Timeline key={num} education={experience} />
                 ))}
                 <span className="line"></span>
               </div>
