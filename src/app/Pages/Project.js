@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Container, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
-import remarkHtml from "remark-html";
 
 import pic13 from "../../assets/images/pic13.jpg";
 function Project({ projects }) {
@@ -41,7 +40,7 @@ function Project({ projects }) {
         style={{ maxWidth: "1000px", maxHeight: "350px" }}
       />
 
-      <ReactMarkdown remarkPlugins={[remarkHtml]}>{readme}</ReactMarkdown>
+      <ReactMarkdown>{readme}</ReactMarkdown>
     </Container>
   );
 }
