@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
-import pic13 from "../../assets/images/pic13.jpg";
+import { Container } from "react-bootstrap";
+
 function About() {
   return (
     <Container id="#main">
