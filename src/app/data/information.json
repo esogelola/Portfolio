@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Emmanuel Sogelola",
-    "titles": ["Software Engineer", "Full Stack Developer"],
+    "titles": ["Software Engineer", "Game Engine Enthusiast"],
     "socials": {
       "github": "https://github.com/esogelola",
       "twitter": "https://twitter.com/esogelola",
@@ -38,65 +38,7 @@
         "content": "Collaborated with a Junior & Senior Developer to enhance and troubleshoot an audio engine, resolve the issue, and add features within a day"
       }
     ],
-    "tags": [
-      "Java",
-      "C++",
-      "C#",
-      "Python",
-      "Django",
-      "ASP.Net",
-      "React",
-      "NodeJS",
-      "javascript",
-      "Visual Studio",
-      "Eclipse",
-      "MySQL Workbench",
-      "Laravel",
-      "CodeIgniter",
-      "JIRA",
-      "Slack",
-      "Github",
-      "Trello",
-      "SQL",
-      "Ruby",
-      "Unity",
-      "Unreal",
-      "GameMaker",
-      "libGDX",
-      "LWJGL",
-      "SDL2",
-      "Database Management",
-      "Linux Fundamentals",
-      "Programming Design Patterns",
-      "Software Development Life Cycle",
-      "Scrum",
-      "MongoDB",
-      "Express",
-      "Angular",
-      "Mongoose",
-      "AWS",
-      "Travis CI",
-      "Circle CI",
-      "Firebase",
-      "SonarQube",
-      "postgresql",
-      "sqllite",
-      "cmake",
-      "Bootstrap",
-      "Material",
-      "android",
-      "ios",
-      "android studio",
-      "php",
-      "git",
-      "ionic",
-      "Spring",
-      "Heroku",
-      "Fullstack Development",
-      "Game Engine Architecture",
-      "Pandas",
-      "scikit-learn"
-    ],
+
     "description": [
       "I'm currently a student at Georgebrown College studying Computer Programming.",
       "Proficient in Java, JavaScript/TypeScript, C++, C# and Python.",
@@ -105,143 +47,70 @@
   },
   "skills": [
     [
-      "",
       "Language Proficiency",
       "Specialized understanding of Java and a high proficiency in other languages such as C++, C# and Python."
     ],
     [
-      "",
       "Web Development",
       "Developed web applications using Django, ASP.Net, Spring, NodeJS and various PHP frameworks."
     ],
     [
-      "",
       "Tools",
       "Utilized Visual Studio Code and Eclipse as IDE's. Slack, Git and Trello for Agile Project Management."
     ],
     [
-      "",
       "Data Science",
       "Experience using statistical computer languages such as Python (Scikit-learn, Pandas) and SQL to manipulate data and draw insights from large data sets."
     ],
     [
-      "",
       "Game Development",
       "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine."
     ],
     [
-      "",
       "DevOps",
       "Utilized numerous pipeline tools to automate and control the source of my projects,such as Github, Heroku, Travis CI and Circle CI."
     ]
   ],
   "projects": [
     {
-      "name": "Capstone",
+      "title": "Capstone",
+      "subtitle": "Capstone Project: A Convenient application that will help to communicate with strangers and find people who are with the user on the same area.",
+      "description": "",
       "image": "lofilan.gif",
-      "link": "https://github.com/esogelola/Lofilan",
-      "doc": "https://github.com/esogelola/lofilan-docs",
-      "figma": "https://www.figma.com/file/y66oN6rizS5nIfRvteiUWs/Lofilan?node-id=8%3A310",
-      "description": "Capstone Project: A Convenient application that will help to communicate with strangers and find people who are with the user on the same area.",
-      "icons": [
-        { "name": "React", "type": "di", "icon": "react" },
-        { "name": "HTML5", "type": "di", "icon": "html5" },
-        { "name": "CSS3", "type": "di", "icon": "github" },
-        { "name": "JavaScript", "type": "di", "icon": "javascript" },
-        { "name": "Bootstrap", "type": "di", "icon": "bootstrap" },
-        { "name": "Github", "type": "di", "icon": "github" },
-        {
-          "name": "Firebase",
-          "type": "si",
-          "icon": "firebase",
-          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
-        },
-        {
-          "name": "Travis CI",
-          "type": "si",
-          "icon": "travisci",
-          "color": "invert(70%) sepia(42%) saturate(620%) hue-rotate(133deg) brightness(79%) contrast(81%)"
-        }
-      ],
-      "filter": ["web"]
+      "github": "Lofilan",
+      "link": ""
     },
     {
-      "name": "Portfolio Website",
-      "image": "portfolio.gif",
-      "link": "https://esogelola.com/",
+      "title": "Portfolio Website",
+      "subtitle": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website or my github.",
       "description": "Portfolio website developed in JavaScript using React. Developed to display my skills and projects, every project developed can be found on this website or my github.",
-      "icons": [
-        { "name": "React", "type": "di", "icon": "react" },
-        { "name": "HTML5", "type": "di", "icon": "html5" },
-        { "name": "CSS3", "type": "di", "icon": "github" },
-        { "name": "JavaScript", "type": "di", "icon": "javascript" },
-        { "name": "Bootstrap", "type": "di", "icon": "bootstrap" },
-        { "name": "Github", "type": "di", "icon": "github" },
-
-        {
-          "name": "Travis CI",
-          "type": "si",
-          "icon": "travisci",
-          "color": "invert(70%) sepia(42%) saturate(620%) hue-rotate(133deg) brightness(79%) contrast(81%)"
-        }
-      ],
-      "filter": ["web"]
+      "image": "portfolio.gif",
+      "github": "Portfolio-React",
+      "link": "https://esogelola.com/"
     },
     {
-      "name": "Spout",
-      "image": "SPOUT.gif",
-      "link": "https://spout.web.app/",
+      "title": "Spout",
+      "subtitle": "Spout is a cross-platform messaging and digital distribution platform. ",
       "description": "Spout is a cross-platform messaging and digital distribution platform. ",
-      "icons": [
-        { "name": "React", "type": "di", "icon": "react" },
-        { "name": "Ionic", "type": "di", "icon": "ionic-original " },
-        {
-          "name": "Firebase",
-          "type": "si",
-          "icon": "firebase",
-          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
-        },
-        { "name": "Heroku", "type": "di", "icon": "heroku" },
-        { "name": "NodeJS", "type": "di", "icon": "nodejs" },
-        { "name": "Github", "type": "di", "icon": "github" },
-
-        {
-          "name": "Circle CI",
-          "type": "si",
-          "icon": "circleci",
-          "color": "invert(13%) sepia(34%) saturate(9%) hue-rotate(88deg) brightness(96%) contrast(82%)"
-        }
-      ],
-      "filter": ["web"]
+      "image": "SPOUT.gif",
+      "github": "Spout",
+      "link": ""
     },
     {
-      "name": "PKG Hound",
-      "image": "PKGHound.gif",
-      "link": "https://pkghound.web.app/",
+      "title": "PKG Hound",
+      "subtitle": "",
       "description": "React based Ionic project developed to learn how to properly utilize Ionic and it's cross-platform features. Authentication and Deployment handle through Firebase. (I've also developed a look alike using flask @ https://github.com/esogelola/pkg-hound-flask) ",
-      "icons": [
-        { "name": "React", "type": "di", "icon": "react" },
-        { "name": "Ionic", "type": "di", "icon": "ionic-original " },
-        {
-          "name": "Firebase",
-          "type": "si",
-          "icon": "firebase",
-          "color": "invert(93%) sepia(24%) saturate(3667%) hue-rotate(332deg) brightness(100%) contrast(101%)"
-        },
-        { "name": "Github", "type": "di", "icon": "github" }
-      ],
-      "filter": ["web", "python"]
+      "image": "PKGHound.gif",
+      "github": "pkg-hound-ionic",
+      "link": "https://pkghound.web.app/"
     },
     {
-      "name": "TWAM & TWAM Server",
-      "image": "twam.gif",
-      "link": "https://github.com/esogelola/twam",
+      "title": "TWAM & TWAM Server",
+      "subtitle": "A Multiplayer RPG developed soley in Java",
       "description": "Java based Multiplayer RPG, developed from scratch using only native java libraries. Created in highschool as an entrance into game development.",
-      "icons": [
-        { "name": "Java", "type": "di", "icon": "java" },
-        { "name": "Github", "type": "di", "icon": "github" }
-      ],
-      "filter": ["java"]
+      "image": "twam.gif",
+      "github": "twam",
+      "link": "https://github.com/esogelola/twam"
     }
   ]
 }

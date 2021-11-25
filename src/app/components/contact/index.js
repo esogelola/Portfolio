@@ -9,7 +9,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./contact.css";
-
+import Footer from "../footer";
 import emailjs from "emailjs-com";
 
 const emailRegex = RegExp(
@@ -151,7 +151,7 @@ export default function Contact({ personalData }) {
 
   return (
     <>
-      <Container className="contactSection" id="contact">
+      <Container className="contactSection" id="contact" fluid>
         <Container>
           <Row>
             <Col lg="6">
@@ -245,18 +245,19 @@ export default function Contact({ personalData }) {
             </Form.Group>
             <div className="form-submit mt-5">
               <button
-                className="btn"
+                className="btn btn-primary"
                 type="submit"
                 name="contactSubmit"
                 id="form-submit"
                 value="submit"
               >
-                <FaEnvelope /> Send Message
+                Send Message
               </button>
               <ToastContainer />
             </div>
           </Form>
         </Container>
+        <Footer personalData={personalData} />
       </Container>
     </>
   );

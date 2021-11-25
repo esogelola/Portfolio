@@ -8,7 +8,7 @@ import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 export default function footer({ personalData }) {
   return (
     <>
-      <Container className="mb-2">
+      <Container className="mb-2 mt-2 footer">
         <Row>
           <Col lg="6">
             <p className="mb-0">

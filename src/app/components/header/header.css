@@ -20,6 +20,8 @@
   position: sticky;
   top: 0;
 
+  margin: 1em 0 8em 0;
+
   z-index: 999;
 }
 a:hover {
@@ -29,4 +31,13 @@ a:hover {
 }
 .nav-down {
   transition: top 0.1s ease-in !important;
+}
+#main header .logo .symbol img {
+  display: block;
+  width: 15em;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
 }
