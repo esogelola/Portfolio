@@ -3,7 +3,6 @@ import { Container, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 
-import pic13 from "../../assets/images/pic13.jpg";
 function Project({ projects }) {
   let { projectId } = useParams();
   const [readme, setReadME] = useState("");
@@ -27,7 +26,7 @@ function Project({ projects }) {
   useEffect(() => {
     fetchReadME();
     console.log(readme);
-  }, []);
+  });
 
   return (
     <Container id="main">

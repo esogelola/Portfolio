@@ -5,17 +5,12 @@ import { Row, Col } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import logo from "../../../assets/images/logo.png";
 import "./introduction.css";
-import { Link } from "react-router-dom";
 
 // import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
 // import { GiBookshelf } from "react-icons/gi";
 // import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
 export default function Introduction({ personalData, heroImage }) {
-  const openInNewTab = (url) => {
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-    if (newWindow) newWindow.opener = null;
-  };
   return (
     <Container id="main" fluid="lg">
       <header>
@@ -25,6 +20,7 @@ export default function Introduction({ personalData, heroImage }) {
               href="https://www.linkedin.com/in/emmanuelsogelola/"
               className="logo"
               target="_blank"
+              rel="noreferrer"
             >
               <span class="symbol">
                 <ScrollAnimation animateIn="fadeInDown">
