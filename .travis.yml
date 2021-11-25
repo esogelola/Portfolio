@@ -10,13 +10,12 @@ cache:
 
 install:
   - npm install
-  - npm install -g yarn
 
 notifications:
   email: false
 
 script:
-  - yarn build
+  - npm build
 
 deploy:
   provider: pages
