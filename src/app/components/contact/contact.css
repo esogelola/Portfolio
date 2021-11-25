@@ -72,3 +72,66 @@
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
+#contact {
+  padding: 5em 0 6em 0;
+  background-color: #f6f6f6;
+}
+
+#contactForm input[type="submit"].btn-primary,
+#contactForm input[type="reset"].btn-primary,
+#contactForm input[type="button"].btn-primary,
+#contactForm button.btn-primary,
+#contactForm .button.btn-primary {
+  box-shadow: none;
+  background-color: #585858;
+  color: #ffffff !important;
+}
+#contactForm input[type="submit"],
+#contactForm input[type="reset"],
+#contactForm input[type="button"],
+#contactForm button,
+#contactForm .btn {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #585858;
+  color: #585858 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 900;
+  height: 3.5em;
+  letter-spacing: 0.35em;
+  line-height: 3.45em;
+  overflow: hidden;
+  padding: 0 1.25em 0 1.6em;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#contactForm input[type="submit"].btn-primary:hover,
+#contactForm input[type="reset"].btn-primary:hover,
+#contactForm input[type="button"].btn-primary:hover,
+#contactForm button.btn-primary:hover,
+#contactForm .button.btn-primary:hover {
+  background-color: #f2849e;
+}
+
+#contactForm {
+  margin-bottom: 5em;
+}

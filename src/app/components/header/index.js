@@ -3,8 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "./header.css";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
-export default function Header({ personalData }) {
+export default function Header() {
   const [isSolid, setSolid] = useState(false);
   const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
@@ -29,15 +31,22 @@ export default function Header({ personalData }) {
       }`}
       expand="lg"
     >
-      <Container fluid>
-        <Navbar.Brand href="#">E/S</Navbar.Brand>
+      <Container>
+        <Navbar.Brand>
+          <Link to="/">E/S</Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="header-navigation" />
         <Navbar.Collapse id="header-navigation">
           <Nav className="ml-auto">
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Link to="about" className="nav-link">
+              About
+            </Link>
+            <HashLink smooth to="/#projects" className="nav-link">
+              Projects
+            </HashLink>
+            <HashLink smooth to="#contact" className="nav-link">
+              Contact
+            </HashLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
