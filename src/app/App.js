@@ -23,7 +23,7 @@ export default function App() {
         <Header personalData={data} />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<About personalData={data} />} />
           <Route
             path="project/:projectId"
             element={<Project projects={data} projectImages={images} />}

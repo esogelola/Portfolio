@@ -12,27 +12,27 @@ export default function Skill({
   delay = 0,
   title = "",
   description = "",
-  wrapTags,
 }) {
   const icons = [
-    <GiBookPile className="icon" />,
-    <GiStack className="icon" />,
-    <GiToolbox className="icon" />,
+    "📚",
+    "🧩",
+    "🧰",
     <GoGraph className="icon" />,
     <GiGamepad className="icon" />,
     <FaCloud className="icon" />,
   ];
 
   return (
-    <Col lg="4">
-      <ScrollAnimation animateIn="fadeInLeft" delay={delay} animateOnce={true}>
-        <div className="skills-item mb-5">
-          <i className="">{icons[index]}</i>
+    <ScrollAnimation
+      animateIn="fadeInLeft"
+      delay={delay}
+      animateOnce={true}
+      className="skills-item "
+    >
+      <span className="">{icons[index]}</span>
 
-          <h4 className="my-1">{title}</h4>
-          <p>{wrapTags(description)}</p>
-        </div>
-      </ScrollAnimation>
-    </Col>
+      <h5 className="my-3">{title}</h5>
+      <p className="mb-0">{description}</p>
+    </ScrollAnimation>
   );
 }

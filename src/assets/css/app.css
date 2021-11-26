@@ -172,3 +172,9 @@ p {
 #main {
   padding: 0em 0 6em 0;
 }
+
+#main header .logo .hero img {
+  display: block;
+  width: 300px;
+  border-radius: 1%;
+}

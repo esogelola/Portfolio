@@ -54,21 +54,10 @@
       "Web Development",
       "Developed web applications using Django, ASP.Net, Spring, NodeJS and various PHP frameworks."
     ],
-    [
-      "Tools",
-      "Utilized Visual Studio Code and Eclipse as IDE's. Slack, Git and Trello for Agile Project Management."
-    ],
-    [
-      "Data Science",
-      "Experience using statistical computer languages such as Python (Scikit-learn, Pandas) and SQL to manipulate data and draw insights from large data sets."
-    ],
+
     [
       "Game Development",
       "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine."
-    ],
-    [
-      "DevOps",
-      "Utilized numerous pipeline tools to automate and control the source of my projects,such as Github, Heroku, Travis CI and Circle CI."
     ]
   ],
   "projects": [

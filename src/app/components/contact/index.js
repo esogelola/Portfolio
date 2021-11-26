@@ -242,6 +242,11 @@ export default function Contact({ personalData }) {
                 onChange={handleChange}
               />
             </Form.Group>
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LdFy1wdAAAAAH_S_nybhqzvGPO2etVjYItY4zfr"
+            ></div>
+
             <div className="form-submit mt-5">
               <button
                 className="btn btn-primary"
