@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 import "./contact.css";
 import Footer from "../footer";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const emailRegex = RegExp(
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
@@ -43,7 +44,13 @@ export default function Contact({ personalData }) {
       subject: "",
       message: "",
     },
+    "g-recaptcha-response": null,
   });
+
+  const onCaptchaChange = (e) => {
+    console.log(e);
+    setState({ ...state, "g-recaptcha-response": e });
+  };
   const toastifySuccess = () => {
     toast.success("Form sent!", {
       position: "bottom-right",
@@ -70,16 +77,17 @@ export default function Contact({ personalData }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (formValid(state)) {
+    if (formValid(state) && state["g-recaptcha-response"] != null) {
       // Handle form validation success
       const { name, email, subject, message } = state;
-
+      console.log(state);
       // Set template params
       let templateParams = {
         name: name,
         email: email,
         subject: subject,
         message: message,
+        "g-recaptcha-response": state["g-recaptcha-response"],
       };
       emailjs.send(
         "service_0pmbezj",
@@ -242,11 +250,10 @@ export default function Contact({ personalData }) {
                 onChange={handleChange}
               />
             </Form.Group>
-            <div
-              class="g-recaptcha"
-              data-sitekey="6LdFy1wdAAAAAH_S_nybhqzvGPO2etVjYItY4zfr"
-            ></div>
-
+            <ReCAPTCHA
+              sitekey="6LdFy1wdAAAAAH_S_nybhqzvGPO2etVjYItY4zfr"
+              onChange={onCaptchaChange}
+            />
             <div className="form-submit mt-5">
               <button
                 className="btn btn-primary"

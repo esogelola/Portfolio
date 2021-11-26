@@ -5,9 +5,7 @@ import Container from "react-bootstrap/Container";
 import Project from "./Project";
 import "./projects.css";
 
-export default function Projects({ personalData, projectImages }) {
-  console.log(projectImages);
-
+export default function Projects({ personalData }) {
   return (
     <Container className=" mx-auto my-10" id="projects">
       <hr />

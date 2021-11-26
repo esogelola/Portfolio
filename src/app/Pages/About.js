@@ -18,7 +18,7 @@ function About({ personalData }) {
             target="_blank"
             rel="noreferrer"
           >
-            <span class="hero mx-auto">
+            <span className="hero mx-auto">
               <img src={logo} alt="memoji" />
             </span>
           </a>

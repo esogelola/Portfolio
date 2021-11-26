@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export default function Project({ project, delay, projectImg }) {
   return (
-    <article class={`style${Math.floor(Math.random() * 6 + 1)}`}>
-      <span class="image">
+    <article className={`style${Math.floor(Math.random() * 6 + 1)}`}>
+      <span className="image">
         <img
           src={projectImg}
           alt=""
@@ -16,7 +16,7 @@ export default function Project({ project, delay, projectImg }) {
       </span>
       <Link to={`/project/${project.github}`}>
         <h2>{project.title}</h2>
-        <div class="content">
+        <div className="content">
           <p>{project.subtitle.slice(0, 150)}..</p>
         </div>
       </Link>

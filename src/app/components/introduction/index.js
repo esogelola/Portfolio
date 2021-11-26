@@ -22,11 +22,11 @@ export default function Introduction({ personalData, heroImage }) {
               target="_blank"
               rel="noreferrer"
             >
-              <span class="symbol">
+              <span className="symbol">
                 <ScrollAnimation animateIn="fadeInDown">
                   <img src={logo} alt="memoji" className="hover mx-auto" />
                 </ScrollAnimation>
-                <span class="title">Emmanuel Sogelola</span>
+                <span className="title">Emmanuel Sogelola</span>
               </span>
             </a>
           </Col>
