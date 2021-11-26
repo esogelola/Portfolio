@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ScrollAnimation from "react-animate-on-scroll";
+import { Container, Row } from "react-bootstrap";
 import logo from "../../assets/images/hero.png";
 import "../components/introduction/introduction.css";
 import Skills from "../components/skills/index";

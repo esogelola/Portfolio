@@ -1,11 +1,6 @@
 import React from "react";
 
-import Col from "react-bootstrap/Col";
-
 import ScrollAnimation from "react-animate-on-scroll";
-import { GiBookPile, GiStack, GiToolbox, GiGamepad } from "react-icons/gi";
-import { GoGraph } from "react-icons/go";
-import { FaCloud } from "react-icons/fa";
 
 export default function Skill({
   index,
@@ -13,14 +8,7 @@ export default function Skill({
   title = "",
   description = "",
 }) {
-  const icons = [
-    "📚",
-    "🧩",
-    "🧰",
-    <GoGraph className="icon" />,
-    <GiGamepad className="icon" />,
-    <FaCloud className="icon" />,
-  ];
+  const icons = ["📚", "🧩", "🧰"];
 
   return (
     <ScrollAnimation
