@@ -175,6 +175,8 @@ p {
 
 #main header .logo .hero img {
   display: block;
-  width: 300px;
-  border-radius: 1%;
+
+  border-radius: 100%;
+  width: auto;
+  height: 60px;
 }

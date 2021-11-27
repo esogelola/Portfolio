@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Container, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import ReactMarkdown from "react-markdown";
+import parse from "html-react-parser";
 
 function Project({ projects }) {
   let { projectId } = useParams();
-  const [readme, setReadME] = useState("");
+  const [demoHTML, setDemoHTML] = useState("");
   const project = projects.projects.filter(
     (data) => data.github === projectId
   )[0];
 
-  const fetchReadME = async () => {
+  const fetchDemoHTML = async () => {
     fetch(
-      `https://raw.githubusercontent.com/esogelola/${projectId}/main/README.md`
+      `https://raw.githubusercontent.com/esogelola/Portfolio-React/main/src/assets/html/${projectId}_demo.html`
     )
       .then((res) => {
         if (res.status === 200) return res.text();
@@ -20,12 +20,12 @@ function Project({ projects }) {
         return "Could not fetch github repository readme";
       })
       .then((data) => {
-        setReadME(data);
+        setDemoHTML(data);
       });
   };
+
   useEffect(() => {
-    fetchReadME();
-    console.log(readme);
+    fetchDemoHTML();
   });
 
   return (
@@ -39,7 +39,7 @@ function Project({ projects }) {
         style={{ maxWidth: "1000px", maxHeight: "350px" }}
       />
 
-      <ReactMarkdown>{readme}</ReactMarkdown>
+      {parse(demoHTML)}
     </Container>
   );
 }

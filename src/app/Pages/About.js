@@ -14,7 +14,7 @@ function About({ personalData }) {
         <Row>
           <a
             href="https://www.linkedin.com/in/emmanuelsogelola/"
-            className="logo mx-auto rounded-circle bg-black"
+            className="logo  rounded-circle bg-black"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,8 +24,8 @@ function About({ personalData }) {
           </a>
         </Row>
 
-        <Row className="justify-content-md-center  text-center ">
-          <h1 className="mb-0">Emmanuel Sogelola</h1>
+        <Row className="  ">
+          <h1 className="mb-0">Hi, I'm Emmanuel.</h1>
 
           <ul className="list-inline mb-5 w-100">
             <li className="list-inline-item">
