@@ -7,7 +7,7 @@ import "./projects.css";
 
 export default function Projects({ personalData }) {
   return (
-    <Container className=" mx-auto my-10" id="projects">
+    <Container className=" mx-auto my-10 section" id="projects">
       <hr />
       <h2>Projects</h2>
       <div className="tiles">

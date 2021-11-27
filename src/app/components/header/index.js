@@ -38,9 +38,12 @@ export default function Header() {
         <Navbar.Toggle aria-controls="header-navigation" />
         <Navbar.Collapse id="header-navigation">
           <Nav className="ml-auto">
-            <Link to="about" className="nav-link">
-              About
-            </Link>
+            <HashLink smooth to="/#skills" className="nav-link">
+              Skills
+            </HashLink>
+            <HashLink smooth to="/#experience" className="nav-link">
+              Experience
+            </HashLink>
             <HashLink smooth to="/#projects" className="nav-link">
               Projects
             </HashLink>

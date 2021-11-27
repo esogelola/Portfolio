@@ -252,6 +252,6 @@ body.is-touch .tiles article .content {
     margin: 1.25em 0 0 0;
   }
 }
-#projects {
+.section {
   padding: 0em 0 6em 0;
 }

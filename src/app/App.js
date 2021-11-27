@@ -24,10 +24,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About personalData={data} />} />
-          <Route
+          {/* <Route
             path="project/:projectId"
             element={<Project projects={data} projectImages={images} />}
-          />
+          /> */}
           <Route path="*" element={<Home />} />
         </Routes>
         <Contact personalData={data} />

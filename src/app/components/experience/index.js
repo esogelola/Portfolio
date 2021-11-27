@@ -2,6 +2,7 @@ import React from "react";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 import "./experience.css";
 
@@ -20,7 +21,8 @@ function Timeline({ education }) {
 }
 export default function Experience({ personalData }) {
   return (
-    <>
+    <Container id="experience" className=" mx-auto my-10 section">
+      <hr />
       <Row data-aos="fade-up">
         <Col>
           <h2 className="mb-2  experienceHeading">Experience</h2>
@@ -49,6 +51,6 @@ export default function Experience({ personalData }) {
           </div>
         </Col>
       </Row>
-    </>
+    </Container>
   );
 }
