@@ -12,11 +12,13 @@ function Project({ projects }) {
 
   const fetchDemoHTML = async () => {
     fetch(
-      `https://raw.githubusercontent.com/esogelola/Portfolio-React/main/src/assets/html/${projectId}_demo.html`
+      `https://raw.githubusercontent.com/esogelola/Portfolio-React/main/src/assets/html/${String(
+        projectId
+      ).toLowerCase()}_demo.html`
     )
       .then((res) => {
         if (res.status === 200) return res.text();
-
+        console.log(res.text());
         return "Could not fetch github repository readme";
       })
       .then((data) => {
