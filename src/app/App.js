@@ -5,14 +5,11 @@ import Contact from "./components/contact";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Pages
-import Project from "./Pages/Project";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 
 // JSON
 import data from "./data/information.json";
-
-import images from "../assets/images/projectImages";
 
 import ScrollToTop from "./components/ScrollToTop.js";
 export default function App() {

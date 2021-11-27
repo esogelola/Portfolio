@@ -2,8 +2,6 @@ import React from "react";
 
 import "./projects.css";
 
-import { Link } from "react-router-dom";
-
 export default function Project({ project, delay, projectImg }) {
   return (
     <article className={`style${Math.floor(Math.random() * 6 + 1)}`}>
