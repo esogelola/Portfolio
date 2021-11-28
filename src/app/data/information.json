@@ -60,7 +60,16 @@
       "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine."
     ]
   ],
+
   "projects": [
+    {
+      "title": "EMAZON",
+      "subtitle": "An e-commerce website that allows users to purchase products through the Stripe API.",
+      "description": "An e-commerce website that allows user's to create (if authorized) , view and buy (with an actual payment gateway) any product listed on the site, built with React, Redux, Stripe, JavaScript, and TailwindCSS.",
+      "image": "emazon.jpg",
+      "github": "emazon",
+      "link": "https://dev.d18l4ngipcru6x.amplifyapp.com/"
+    },
     {
       "title": "Capstone",
       "subtitle": "Capstone Project: A Convenient application that will help to communicate with strangers and find people who are with the user on the same area.",
