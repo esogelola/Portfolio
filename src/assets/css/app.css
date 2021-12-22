@@ -180,3 +180,7 @@ p {
   width: auto;
   height: 60px;
 }
+
+.section {
+  padding: 0em 3em 6em 3em;
+}

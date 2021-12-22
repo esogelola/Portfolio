@@ -52,12 +52,12 @@
     ],
     [
       "Web Development",
-      "Developed web applications using Django, ASP.Net, Spring, NodeJS and various PHP frameworks."
+      "Developed various application using React as a frontend and numerous backend technologies such as Flask, Django, .Net, NodeJS and AWS/GCP."
     ],
 
     [
       "Game Development",
-      "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine."
+      "Avidly researching and applying Game Engine Architectures in C++ and Java to develop my own custom game engine as a hobby."
     ]
   ],
 
@@ -96,7 +96,7 @@
     },
     {
       "title": "PKG Hound",
-      "subtitle": "",
+      "subtitle": "React Ionic project built to resemble the popular website product hunt.",
       "description": "React based Ionic project developed to learn how to properly utilize Ionic and it's cross-platform features. Authentication and Deployment handle through Firebase. (I've also developed a look alike using flask @ https://github.com/esogelola/pkg-hound-flask) ",
       "image": "PKGHound.gif",
       "github": "pkg-hound-ionic",
@@ -104,7 +104,7 @@
     },
     {
       "title": "TWAM & TWAM Server",
-      "subtitle": "A Multiplayer RPG developed soley in Java",
+      "subtitle": "A Multiplayer RPG developed solely in Java",
       "description": "Java based Multiplayer RPG, developed from scratch using only native java libraries. Created in highschool as an entrance into game development.",
       "image": "twam.gif",
       "github": "twam",
