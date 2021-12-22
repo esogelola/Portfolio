@@ -37,9 +37,9 @@ export default function Introduction({ personalData, heroImage }) {
             </h1>
             <p>
               I like to solve problems and fix errors and have consistently been
-              a detail-oriented person that keeps tasks organized to maintain
-              productivity. All my projects and accomplishments have contributed
-              to my growing urge to progress as a professional developer.
+              detail-oriented. Keeping tasks organized to maintain productivity.
+              All my projects and accomplishments have contributed to my growing
+              urge to progress as a professional developer and soon CTO.
             </p>
           </Col>
         </Row>
