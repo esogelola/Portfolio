@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import "./header.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { ImFileText } from "react-icons/im";
 
 export default function Header() {
   const [isSolid, setSolid] = useState(false);
@@ -50,6 +51,14 @@ export default function Header() {
             <HashLink smooth to="#contact" className="nav-link">
               Contact
             </HashLink>
+            <a
+              href="/EmmanuelSogelola-Resume.pdf"
+              className="nav-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImFileText /> Resume
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

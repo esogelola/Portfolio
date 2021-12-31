@@ -5,6 +5,7 @@ import { Row, Col } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import logo from "../../../assets/images/logo.png";
 import "./introduction.css";
+import { ImLinkedin2, ImTwitter, ImGithub, ImFileText } from "react-icons/im";
 
 // import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
 // import { GiBookshelf } from "react-icons/gi";
@@ -31,15 +32,51 @@ export default function Introduction({ personalData, heroImage }) {
             </a>
           </Col>
           <Col md={6} lg={6}>
-            <h1>
-              A Software Engineer and Game Engine Enthusiast <br /> from
-              Toronto.
-            </h1>
+            <h1>A Software Engineer and Game Engine Enthusiast.</h1>
+
             <p>
-              I like to solve problems and fix errors and have consistently been
-              detail-oriented. Keeping tasks organized to maintain productivity.
-              All my projects and accomplishments have contributed to my growing
-              urge to progress as a professional developer and soon CTO.
+              I am a third year <b>Software Engineering Technology</b> student
+              at McMaster University. Currently a <b>Junior Developer Intern</b>{" "}
+              @ InnovFin Consulting and incoming <b>Software Engineer Intern</b>{" "}
+              @ Momentive.ai (formerly SurveyMonkey).
+              <ul className="list-inline">
+                <li className="list-inline-item">
+                  <a
+                    href={personalData.main.socials.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ImLinkedin2 className="mr-3" />
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a
+                    href={personalData.main.socials.twitter}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ImTwitter className="mr-3" />
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a
+                    href={personalData.main.socials.github}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ImGithub className="mr-3" />
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a
+                    href={personalData.main.resumeLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ImFileText />
+                  </a>
+                </li>
+              </ul>
             </p>
           </Col>
         </Row>
