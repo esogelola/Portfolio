@@ -10,10 +10,13 @@ import Skill from "./Skill";
 export default function Skills({ personalData }) {
   return (
     <Container id="skills" className=" mx-auto my-10 section">
-      <hr />
       <Row data-aos="fade-up">
         <Col>
-          <h2 className="mb-2  skillsHeading">Skills</h2>
+          <h2 className="mb-5  skillsHeading">
+            <span>
+              Skills <span className="underline"></span>
+            </span>
+          </h2>
         </Col>
       </Row>
       <Row>

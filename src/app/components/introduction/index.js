@@ -12,11 +12,22 @@ import { ImLinkedin2, ImTwitter, ImGithub, ImFileText } from "react-icons/im";
 // import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
 export default function Introduction({ personalData, heroImage }) {
+  function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
   return (
     <Container id="main" fluid="lg">
       <header>
         <Row className="justify-content-md-center ">
-          <Col md={4} lg={3} className="justify-content-center text-center">
+          <Col md={6} lg={3} className="justify-content-center text-center">
             <a
               href="https://www.linkedin.com/in/emmanuelsogelola/"
               className="logo"
@@ -27,13 +38,19 @@ export default function Introduction({ personalData, heroImage }) {
                 <ScrollAnimation animateIn="fadeInDown">
                   <img src={logo} alt="memoji" className="hover mx-auto" />
                 </ScrollAnimation>
-                <span className="title">Emmanuel Sogelola</span>
               </span>
             </a>
           </Col>
-          <Col md={6} lg={6}>
-            <h1>A Software Engineer and Game Engine Enthusiast.</h1>
-
+          <Col md={4} lg={4}>
+            <h1>
+              <span>
+                Hello! <span className="underline"></span>
+              </span>
+            </h1>
+            <p>
+              I'm <b>Emmanuel Sogelola</b>, a {getAge("2000/10/22")} years old
+              Software Engineer and Game Engine enthusiast.
+            </p>
             <p>
               I am a third year <b>Software Engineering Technology</b> student
               at McMaster University. Currently a <b>Junior Developer Intern</b>{" "}

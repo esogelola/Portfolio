@@ -19,7 +19,7 @@ export default function Skill({
     >
       <span className="">{icons[index]}</span>
 
-      <h5 className="my-3">{title}</h5>
+      <h5 className="mb-0">{title}</h5>
       <p className="mb-0">{description}</p>
     </ScrollAnimation>
   );

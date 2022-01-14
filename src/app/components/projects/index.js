@@ -8,8 +8,11 @@ import "./projects.css";
 export default function Projects({ personalData }) {
   return (
     <Container className=" mx-auto my-10 section" id="projects">
-      <hr />
-      <h2>Projects</h2>
+      <h2 className="mb-5  skillsHeading">
+        <span>
+          Projects <span className="underline"></span>
+        </span>
+      </h2>
       <div className="tiles">
         {personalData.projects.map((project, num) => {
           return (

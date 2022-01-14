@@ -22,10 +22,13 @@ function Timeline({ education }) {
 export default function Experience({ personalData }) {
   return (
     <Container id="experience" className=" mx-auto my-10 section">
-      <hr />
       <Row data-aos="fade-up">
         <Col>
-          <h2 className="mb-2  experienceHeading">Experience</h2>
+          <h2 className="mb-5  skillsHeading">
+            <span>
+              Experience <span className="underline"></span>
+            </span>
+          </h2>
         </Col>
       </Row>
       <Row>

@@ -15,7 +15,7 @@ export default function Project({ project, delay, projectImg }) {
       <a href={`${project.link}`} target="_blank" rel="noreferrer">
         <h2>{project.title}</h2>
         <div className="content">
-          <p>{project.subtitle.slice(0, 150)}..</p>
+          <p>{project.subtitle.slice(0, 150)}</p>
         </div>
       </a>
     </article>
