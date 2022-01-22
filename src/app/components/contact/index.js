@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-import ScrollAnimation from "react-animate-on-scroll";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./contact.css";
@@ -162,12 +161,10 @@ export default function Contact({ personalData }) {
         <Container>
           <Row>
             <Col lg="6">
-              <ScrollAnimation animateIn="fadeInDown">
-                <h2 className="mb-2 float contactHeading">Contact</h2>
-                <p className="mb-5 contactSubheading">
-                  Leave a message, I would love to hear from you!
-                </p>
-              </ScrollAnimation>
+              <h2 className="mb-2 float contactHeading">Contact</h2>
+              <p className="mb-5 contactSubheading">
+                Leave a message, I would love to hear from you!
+              </p>
             </Col>
           </Row>
         </Container>

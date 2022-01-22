@@ -4,7 +4,7 @@ import "../components/introduction/introduction.css";
 import Skills from "../components/skills/index";
 import Experience from "../components/experience/index";
 
-import data from "../data/information.json";
+import data from "../data/biography.json";
 function About({ personalData }) {
   return (
     <Container id="main" className=" about">

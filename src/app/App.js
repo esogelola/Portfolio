@@ -9,7 +9,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 
 // JSON
-import data from "./data/information.json";
+import data from "./data/biography.json";
 
 import ScrollToTop from "./components/ScrollToTop.js";
 export default function App() {
