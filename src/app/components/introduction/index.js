@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 
-import ScrollAnimation from "react-animate-on-scroll";
 import logo from "../../../assets/images/logo.png";
 import "./introduction.css";
 import { ImLinkedin2, ImTwitter, ImGithub, ImFileText } from "react-icons/im";
@@ -35,9 +34,7 @@ export default function Introduction({ personalData, heroImage }) {
               rel="noreferrer"
             >
               <span className="symbol">
-                <ScrollAnimation animateIn="fadeInDown">
-                  <img src={logo} alt="memoji" className="hover mx-auto" />
-                </ScrollAnimation>
+                <img src={logo} alt="memoji" className="hover mx-auto" />
               </span>
             </a>
           </Col>
