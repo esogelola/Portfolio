@@ -10,9 +10,6 @@ export default function Home() {
   return (
     <>
       <Introduction personalData={data} />
-      <Skills personalData={data} />
-      <Experience personalData={data} />
-      <Projects personalData={data} />
     </>
   );
 }

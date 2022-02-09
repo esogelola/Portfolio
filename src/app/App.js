@@ -27,7 +27,6 @@ export default function App() {
           /> */}
           <Route path="*" element={<Home />} />
         </Routes>
-        <Contact personalData={data} />
       </BrowserRouter>
     </>
   );
