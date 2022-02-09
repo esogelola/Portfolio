@@ -6,7 +6,6 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import "./contact.css";
 import Footer from "../footer";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";

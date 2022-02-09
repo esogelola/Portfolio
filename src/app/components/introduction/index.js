@@ -13,8 +13,7 @@ import {
 } from "react-icons/im";
 
 // import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
-import { GiDiploma, GiGraduateCap } from "react-icons/gi";
-// import { ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
+import { GiGraduateCap } from "react-icons/gi";
 
 export default function Introduction({ personalData, heroImage }) {
   function ProjectItem({ title, tags, description, image, status }) {
@@ -130,44 +129,28 @@ export default function Introduction({ personalData, heroImage }) {
             <ul className="list-inline">
               <div className="list-inline-item social-media-icon    bg-white rounded p-2">
                 <li>
-                  <a
-                    href={personalData.main.socials.linkedin}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     <ImLinkedin2 data-toggle="tooltip" title="LinkedIn" />
                   </a>
                 </li>
               </div>
               <div className="list-inline-item social-media-icon    bg-white rounded p-2">
                 <li>
-                  <a
-                    href={personalData.main.socials.twitter}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     <ImTwitter data-toggle="tooltip" title="Twitter" />
                   </a>
                 </li>
               </div>
               <div className="list-inline-item social-media-icon    bg-white rounded p-2">
                 <li>
-                  <a
-                    href={personalData.main.socials.github}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     <ImGithub data-toggle="tooltip" title="Github" />
                   </a>
                 </li>
               </div>
               <div className="list-inline-item social-media-icon  shadow  bg-white rounded p-2">
                 <li>
-                  <a
-                    href={personalData.main.resumeLink}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     <ImFileText data-toggle="tooltip" title="Resume" />
                   </a>
                 </li>
@@ -270,6 +253,11 @@ export default function Introduction({ personalData, heroImage }) {
             />
           </ol>
         </div>
+      </Row>
+      <Row className="contact" id="contact">
+        <h1>
+          <span> Contact Me</span>
+        </h1>
       </Row>
     </Container>
   );
