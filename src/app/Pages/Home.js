@@ -1,18 +1,18 @@
 import React from "react";
-import Introduction from "../components/introduction";
-import Projects from "../components/projects";
-import data from "../data/biography.json";
-
-import Skills from "../components/skills/index";
-import Experience from "../components/experience/index";
-
-export default function Home() {
+import { Container } from "react-bootstrap";
+import {
+  Projects,
+  Experience,
+  ContactForm,
+  Introduction,
+} from "../components/";
+export default function Home({ socials, projectData, experienceData }) {
   return (
-    <>
-      <Introduction personalData={data} />
-      <Skills personalData={data} />
-      <Experience personalData={data} />
-      <Projects personalData={data} />
-    </>
+    <Container id="main">
+      <Introduction socials={socials} />
+      <Experience experienceData={experienceData} />
+      <Projects projectData={projectData} />
+      <ContactForm />
+    </Container>
   );
 }

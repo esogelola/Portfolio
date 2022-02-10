@@ -1,19 +1,4 @@
-#contactForm .form-group label.control-label {
-  color: #8c8c8c;
-}
-.contactSection {
-  position: relative;
-  padding: 100px 5% 60px;
-}
-.contactHeading {
-  color: #333f63;
-}
-#contactForm .form-control {
-  font-weight: 500;
-  height: auto;
-}
-
-.form-control,
+/* .form-control,
 .form-group .form-control {
   border: 0;
   background-image: -webkit-gradient(
@@ -43,7 +28,7 @@
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
-}
+} */
 
 .form-control::-moz-placeholder,
 .form-group .form-control::-moz-placeholder {
@@ -65,65 +50,67 @@
 .errorMessage {
   display: flex;
   margin-bottom: 1rem;
-  width: 30vh;
+
   border: 1px solid transparent;
   border-radius: 0.25rem;
   color: #721c24;
   background-color: #f8d7da;
   border-color: #f5c6cb;
+  font-size: 1rem;
 }
-#contact {
-  padding: 5em 0 6em 0;
-  background-color: #f6f6f6;
-}
-
-#contactForm input[type="submit"].btn-primary,
-#contactForm input[type="reset"].btn-primary,
-#contactForm input[type="button"].btn-primary,
-#contactForm button.btn-primary,
-#contactForm .button.btn-primary {
-  box-shadow: none;
-  background-color: #585858;
-  color: #ffffff !important;
-}
-#contactForm input[type="submit"],
-#contactForm input[type="reset"],
-#contactForm input[type="button"],
-#contactForm button,
-#contactForm .btn {
-  -moz-appearance: none;
+.btn-submit {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-appearance: none;
+  -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 0;
-  box-shadow: inset 0 0 0 2px #585858;
-  color: #585858 !important;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 0.8em;
-  font-weight: 900;
-  height: 3.5em;
-  letter-spacing: 0.35em;
-  line-height: 3.45em;
-  overflow: hidden;
-  padding: 0 1.25em 0 1.6em;
-  text-align: center;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  text-transform: uppercase;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
   white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  width: auto;
+  line-height: 1.2;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  font-size: 1.1rem;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  -webkit-padding-end: 1rem;
+  padding-inline-end: 1rem;
+  border-color: #edf2f7;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  margin-top: 0.45rem;
 }
 
+.btn-submit:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  transform: translateY(-3px) translateZ(0px);
+}
 #contactForm input[type="submit"].btn-primary:hover,
 #contactForm input[type="reset"].btn-primary:hover,
 #contactForm input[type="button"].btn-primary:hover,
@@ -132,6 +119,54 @@
   background-color: #f2849e;
 }
 
-#contactForm {
-  margin-bottom: 5em;
+.contactForm {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.form-control {
+  width: 100%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  font-size: 1rem;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  -webkit-padding-end: 1rem;
+  padding-inline-end: 1rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid;
+  border-color: inherit;
+  background: inherit;
+}
+
+.form-control:focus {
+  z-index: 1;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 1px #3182ce;
+}
+.form-control:hover {
+  border-color: #cbd5e0;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-color: #e2e8f0;
 }

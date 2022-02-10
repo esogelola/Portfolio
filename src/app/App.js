@@ -1,33 +1,47 @@
 import React from "react";
-// Components
-import Header from "./components/header";
-import Contact from "./components/contact";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// Pages
+
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+import ScrollToTop from "./ScrollToTop.js";
 
-// JSON
-import data from "./data/biography.json";
+import "./app.css";
 
-import ScrollToTop from "./components/ScrollToTop.js";
+import biography from "./data/biography.json";
+import projectData from "./data/projects.json";
+
+import { Header, Footer } from "./components";
+
 export default function App() {
   return (
     <>
       <BrowserRouter>
         <ScrollToTop />
-        <Header personalData={data} />
+        <Header socials={biography.socials} />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About personalData={data} />} />
-          {/* <Route
-            path="project/:projectId"
-            element={<Project projects={data} projectImages={images} />}
-          /> */}
-          <Route path="*" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <Home
+                socials={biography.socials}
+                projectData={projectData}
+                experienceData={biography.experience}
+              />
+            }
+          />
+
+          <Route
+            path="*"
+            element={
+              <Home
+                socials={biography.socials}
+                projectData={projectData}
+                experienceData={biography.experience}
+              />
+            }
+          />
         </Routes>
-        <Contact personalData={data} />
+        <Footer socials={biography.socials} />
       </BrowserRouter>
     </>
   );
