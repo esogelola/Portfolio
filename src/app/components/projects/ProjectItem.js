@@ -1,4 +1,11 @@
-export const ProjectItem = ({ title, tags, description, image, status }) => {
+export const ProjectItem = ({
+  title,
+  tags,
+  description,
+  image,
+  status,
+  winner,
+}) => {
   return (
     <li
       className="project-item-container  my-2"
@@ -13,11 +20,7 @@ export const ProjectItem = ({ title, tags, description, image, status }) => {
         </div>
         <div className="project-item-content">
           <div className="project-item-title">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://play.google.com/store/apps/details?id=fr.bdb.app"
-            >
+            <a target="_blank" rel="noopener noreferrer" href="/">
               {title}
             </a>
             <div className="project-tech-list">
@@ -35,6 +38,9 @@ export const ProjectItem = ({ title, tags, description, image, status }) => {
                 <span class=" project-tech-item  bg-danger text-white">
                   Scrapped
                 </span>
+              )}
+              {winner && (
+                <span class=" project-tech-item  winner-pill">winner</span>
               )}
             </div>
           </div>
