@@ -11,27 +11,75 @@
       "year": "2022",
       "milestones": [
         {
-          "icon": "github",
-          "content": "Created an Account on",
-          "link": "https://github.com/esogelola",
-          "linkTitle": "Github.com"
+          "icon": "hackathon",
+          "content": "Mentored for ",
+          "link": "https://mchacks8.devpost.com/",
+          "linkTitle": "McHacks 8",
+          "contentRight": " Hackathon"
+        },
+        {
+          "icon": "hackathon",
+          "content": "Built ",
+          "link": "https://devpost.com/software/interview-companion",
+          "linkTitle": "Interviewy",
+          "contentRight": " for DeltaHacks 8 Hackathon (Best AssemblyAI)"
         }
       ]
     },
     {
       "year": "2021",
-      "milestones": [{ "icon": "badge", "content": "Named as a Top Author on" }]
+      "milestones": [
+        {
+          "icon": "block",
+          "content": "Junior Developer Intern at ",
+          "link": "https://innovfin.ca/",
+          "linkTitle": "InnovFin"
+        },
+        {
+          "icon": "web",
+          "content": "Created ",
+          "link": "http://emazon.esogelola.com/",
+          "linkTitle": "EMAZON"
+        },
+        {
+          "icon": "diploma",
+          "content": "Software Engineering Technology at McMaster University"
+        },
+        {
+          "icon": "graduate",
+          "content": "Graduated George Brown College (Computer Programming and Analysis)"
+        }
+      ]
     },
     {
       "year": "2020",
       "milestones": [
-        { "icon": "badge", "content": "Named as a Top Author on" },
-        { "icon": "badge", "content": "Named as a Top Author on" }
+        {
+          "icon": "web",
+          "content": "Created ",
+          "link": "https://group-speak.herokuapp.com/",
+          "linkTitle": "Group Speak"
+        },
+        {
+          "icon": "group",
+          "content": "Student representative at George Brown College "
+        }
       ]
     },
     {
       "year": "2019",
-      "milestones": [{ "icon": "badge", "content": "Named as a Top Author on" }]
+      "milestones": [
+        {
+          "icon": "game",
+          "content": "Game Developer Apprentice at Kindly Beast "
+        },
+        {
+          "icon": "web",
+          "content": "Created ",
+          "link": "https://group-speak.herokuapp.com/",
+          "linkTitle": "PKG Hound"
+        }
+      ]
     }
   ]
 }

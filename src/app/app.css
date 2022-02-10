@@ -246,9 +246,9 @@ h2 span:after {
 }
 .project-item-content {
   display: flex;
-  -webkit-box-align: start;
-  align-items: start;
-  -webkit-box-pack: start;
+  -webkit-box-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
   justify-content: flex-start;
   flex-direction: column;
 }

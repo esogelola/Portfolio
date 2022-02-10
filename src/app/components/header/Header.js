@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { ImFileText, ImGithub, ImYoutube, ImYoutube2 } from "react-icons/im";
+import { ImFileText, ImGithub, ImYoutube } from "react-icons/im";
 
 export default function Header() {
   return (

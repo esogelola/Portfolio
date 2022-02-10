@@ -4,6 +4,7 @@ export const ExperienceItem = ({
   link,
   content,
   first = false,
+  contentRight,
 }) => {
   return (
     <li className="experience-item-container">
@@ -32,6 +33,7 @@ export const ExperienceItem = ({
               </svg>
             </a>
           )}
+          {contentRight}
         </div>
       </div>
     </li>

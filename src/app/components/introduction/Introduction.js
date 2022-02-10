@@ -1,18 +1,9 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 
 import "./introduction.css";
 
-import {
-  ImLinkedin2,
-  ImTwitter,
-  ImGithub,
-  ImFileText,
-  ImBook,
-} from "react-icons/im";
-// import { IoSchoolSharp, IoCodeSlash } from "react-icons/io5";
-import { GiGraduateCap } from "react-icons/gi";
+import { ImLinkedin2, ImTwitter, ImGithub, ImFileText } from "react-icons/im";
 
 export default function Introduction({ socials }) {
   return (

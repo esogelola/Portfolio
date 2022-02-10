@@ -1,6 +1,6 @@
-import { Row, Col, useAccordionButton, Accordion } from "react-bootstrap";
+import { Row, useAccordionButton, Accordion } from "react-bootstrap";
 import { ExperienceItem } from "./ExperienceItem";
-import { ImGithub, ImFileText, ImBook, ImYoutube } from "react-icons/im";
+import { ImGithub, ImBook, ImYoutube } from "react-icons/im";
 import { FaWarehouse } from "react-icons/fa";
 import {
   GiGamepad,
@@ -11,7 +11,7 @@ import {
 } from "react-icons/gi";
 import { AiOutlineBlock, AiOutlineMobile } from "react-icons/ai";
 import { MdComputer, MdGroup, MdGroups } from "react-icons/md";
-
+import { SiMajorleaguehacking } from "react-icons/si";
 function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionButton(
     eventKey,
@@ -56,6 +56,8 @@ const parseIcon = (iconName) => {
       return <MdGroups />;
     case "group":
       return <MdGroup />;
+    case "hackathon":
+      return <SiMajorleaguehacking />;
     default:
       break;
   }
@@ -92,6 +94,7 @@ const Experience = ({ experienceData }) => {
                               ? true
                               : false
                           }
+                          contentRight={timelineItem.contentRight}
                         />
                       );
                     }
