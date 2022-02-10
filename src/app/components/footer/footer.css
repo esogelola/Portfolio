@@ -1,7 +1,25 @@
 .footer {
   width: 100%;
-
   margin-top: 5em;
-  font-size: 0.8em;
-  color: rgba(88, 88, 88, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer p,
+.footer a {
+  font-size: 0.875rem;
+  color: #718096;
+  text-align: center;
+  margin-right: 1rem;
+}
+.footer svg {
+  vertical-align: text-top;
+}
+
+.footer a :hover {
+  color: #2b6cb0 !important;
+  text-decoration: none;
+  outline: none;
+  background-color: #e2e8f0;
 }

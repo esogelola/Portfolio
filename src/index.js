@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import ReactGA from "react-ga";
 import App from "./app/App";
 
-import "./assets/css/app.css";
-
 require("bootstrap");
 
 ReactGA.initialize("UA-30881260-2");

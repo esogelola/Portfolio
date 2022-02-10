@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import "./header.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { ImFileText, ImGithub, ImYoutube, ImYoutube2 } from "react-icons/im";
@@ -22,7 +21,7 @@ export default function Header() {
         <Navbar.Toggle aria-controls="header-navigation" />
         <Navbar.Collapse id="header-navigation">
           <Nav className="mx-auto">
-            <Link smooth to="/#skills" className="nav-link rounded ">
+            <Link smooth to="/#about" className="nav-link rounded ">
               About
             </Link>
             <HashLink smooth to="/#experience" className="nav-link rounded">
@@ -38,6 +37,8 @@ export default function Header() {
               className="nav-link rounded "
               target="_blank"
               rel="noreferrer"
+              data-toggle="tooltip"
+              title="Youtube"
             >
               <ImYoutube />
             </a>
@@ -46,6 +47,8 @@ export default function Header() {
               className="nav-link rounded "
               target="_blank"
               rel="noreferrer"
+              data-toggle="tooltip"
+              title="github"
             >
               <ImGithub />
             </a>

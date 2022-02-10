@@ -1,0 +1,37 @@
+{
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/emmanuelsogelola/",
+    "github": "https://github.com/esogelola",
+    "twitter": "https://twitter.com/esogelola",
+    "youtube": "https://www.youtube.com/channel/UCwjkaQRF_G74LHnD7EnZMUg",
+    "resumeName": "EmmanuelSogelola-Resume.pdf"
+  },
+  "experience": [
+    {
+      "year": "2022",
+      "milestones": [
+        {
+          "icon": "github",
+          "content": "Created an Account on",
+          "link": "https://github.com/esogelola",
+          "linkTitle": "Github.com"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "milestones": [{ "icon": "badge", "content": "Named as a Top Author on" }]
+    },
+    {
+      "year": "2020",
+      "milestones": [
+        { "icon": "badge", "content": "Named as a Top Author on" },
+        { "icon": "badge", "content": "Named as a Top Author on" }
+      ]
+    },
+    {
+      "year": "2019",
+      "milestones": [{ "icon": "badge", "content": "Named as a Top Author on" }]
+    }
+  ]
+}
