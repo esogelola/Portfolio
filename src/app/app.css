@@ -445,3 +445,9 @@ h2 span:after {
   margin-top: 80px;
   padding-left: 1rem;
 }
+
+.winner-pill {
+  color: #192325 !important;
+  font-weight: 600;
+  background-color: #f3bf1e;
+}

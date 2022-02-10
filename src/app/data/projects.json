@@ -1,11 +1,30 @@
 [
   {
+    "title": "Interviewy",
+    "image": "Interviewy.png",
+    "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "winner": true,
+    "tags": [
+      "react",
+      "nodejs",
+      "expressjs",
+      "bootstrap",
+      "AssemblyAI",
+      "hackathon"
+    ],
+    "body": []
+  },
+  {
     "title": "EMAZON",
-    "image": "test.png",
+    "image": "emazon.png",
     "subtitle": "An e-commerce website that allows user's to create, view and buy any product listed on the site.",
     "status": "",
     "github": "",
     "youtube": "",
+
     "tags": [
       "react",
       "javascript",
@@ -14,6 +33,26 @@
       "redux",
       "aws-amplify"
     ],
+    "body": []
+  },
+  {
+    "title": "Group Speak",
+    "image": "groupspeak.jpeg",
+    "subtitle": "An anonymous messaging platform, that has various groups and allows multiple speakers.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "tags": ["html", "javascript", "css", "socketio", "expressjs"],
+    "body": []
+  },
+  {
+    "title": "PKGHound",
+    "image": "pkghound.png",
+    "subtitle": "Ionic React project built to resemble the popular website product hunt.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "tags": ["ionic", "react", "firebase", "bootstrap", "javascript"],
     "body": []
   }
 ]

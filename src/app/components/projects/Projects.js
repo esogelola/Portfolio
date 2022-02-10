@@ -19,6 +19,7 @@ const Projects = ({ projectData }) => {
                 tags={projectItem.tags}
                 title={projectItem.title}
                 key={index}
+                winner={projectItem.winner}
               />
             );
           })}
