@@ -282,7 +282,14 @@ h2 span:after {
   -ms-flex-direction: row;
   flex-direction: row;
   margin-top: 0;
+  flex-wrap: wrap;
 }
+@media (max-width: 767.98px) {
+  .project-tech-item {
+    margin-top: 4px;
+  }
+}
+
 .project-item-title {
   display: flex;
   flex-direction: row;
@@ -310,7 +317,7 @@ h2 span:after {
   -webkit-box-align: center;
   align-items: center;
   max-width: 100%;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.2;
   outline: transparent solid 2px;
   outline-offset: 2px;
