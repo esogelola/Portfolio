@@ -11,23 +11,31 @@ export default function Header() {
     <Navbar className="header-navigation shadow-sm  mb-5 bg-white " expand="md">
       <Container>
         <Navbar.Brand>
-          <span class="full-name">
+          <span className="full-name">
             <h2>Emmanuel Sogelola</h2>
           </span>
-          <span class="short-name">
+          <span className="short-name">
             <h2>Emmanuel S</h2>
           </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="header-navigation" />
         <Navbar.Collapse id="header-navigation">
           <Nav className="mx-auto">
-            <Link smooth to="/#about" className="nav-link rounded ">
+            <Link smooth="true" to="/#about" className="nav-link rounded ">
               About
             </Link>
-            <HashLink smooth to="/#experience" className="nav-link rounded">
+            <HashLink
+              smooth="true"
+              to="/#experience"
+              className="nav-link rounded"
+            >
               Experience
             </HashLink>
-            <HashLink smooth to="/#projects" className="nav-link rounded">
+            <HashLink
+              smooth="true"
+              to="/#projects"
+              className="nav-link rounded"
+            >
               Projects
             </HashLink>
           </Nav>

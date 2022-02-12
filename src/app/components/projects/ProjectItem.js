@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const ProjectItem = ({
   title,
   tags,
@@ -5,6 +7,7 @@ export const ProjectItem = ({
   image,
   status,
   winner,
+  slug,
 }) => {
   return (
     <li
@@ -14,33 +17,35 @@ export const ProjectItem = ({
     >
       <div className="project-item">
         <div className="project-image-container  ">
-          <a href="/">
-            <img alt="logo" className="img" src={`assets/${image}`} />
-          </a>
+          <Link to={`/${slug}`}>
+            <img alt="logo" className="img" src={`assets/${slug}/${image}`} />
+          </Link>
         </div>
         <div className="project-item-content">
           <div className="project-item-title">
-            <a target="_blank" rel="noopener noreferrer" href="/">
-              {title}
-            </a>
+            <Link to={`/${slug}`}>{title}</Link>
             <div className="project-tech-list">
               {tags &&
-                tags.map((tagName) => {
-                  return <span className="project-tech-item">{tagName}</span>;
+                tags.map((tagName, index) => {
+                  return (
+                    <span className="project-tech-item" key={index}>
+                      {tagName}
+                    </span>
+                  );
                 })}
 
               {status === 0 && (
-                <span class=" project-tech-item  bg-warning text-white">
+                <span className=" project-tech-item  bg-warning text-white">
                   In-progress
                 </span>
               )}
               {status === 1 && (
-                <span class=" project-tech-item  bg-danger text-white">
+                <span className=" project-tech-item  bg-danger text-white">
                   Scrapped
                 </span>
               )}
               {winner && (
-                <span class=" project-tech-item  winner-pill">winner</span>
+                <span className=" project-tech-item  winner-pill">winner</span>
               )}
             </div>
           </div>

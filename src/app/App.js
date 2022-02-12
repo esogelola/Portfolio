@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
+import Project from "./Pages/Project";
 import ScrollToTop from "./ScrollToTop.js";
 
 import "./app.css";
@@ -19,6 +20,11 @@ export default function App() {
         <ScrollToTop />
         <Header socials={biography.socials} />
         <Routes>
+          <Route
+            path="/:projectSlug"
+            projectData={projectData}
+            element={<Project projectData={projectData} />}
+          />
           <Route
             path="/"
             element={

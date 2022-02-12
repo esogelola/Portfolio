@@ -1,7 +1,7 @@
 import { Row } from "react-bootstrap";
 
 import { ProjectItem } from "./ProjectItem";
-
+import { slugify } from "../../helper/slugify";
 const Projects = ({ projectData }) => {
   return (
     <Row className="projects" id="projects">
@@ -20,6 +20,7 @@ const Projects = ({ projectData }) => {
                 title={projectItem.title}
                 key={index}
                 winner={projectItem.winner}
+                slug={slugify(projectItem.title.toLowerCase())}
               />
             );
           })}
