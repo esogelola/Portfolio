@@ -11,14 +11,11 @@ function Project({ projectData }) {
     return slugify(data.title) === param.projectSlug;
   })[0];
 
-  console.log(projectInfo.body);
-
   const parseBody = (data, index) => {
     if (data.type === "banner" && (data.image || data.youtube)) {
       const tags = projectInfo.tags;
       const status = projectInfo.status;
       const winner = projectInfo.winner;
-      console.log(winner);
       return (
         <Row className="banner" key={index}>
           <Col lg={6}>
@@ -251,7 +248,7 @@ function Project({ projectData }) {
       );
     }
   };
-  console.log();
+
   const Body = ({ bodyData }) => {
     const bodyComponents = [];
 
@@ -260,7 +257,6 @@ function Project({ projectData }) {
     });
 
     return bodyComponents.map((component) => {
-      console.log(component);
       return component;
     });
   };
