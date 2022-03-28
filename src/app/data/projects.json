@@ -1,5 +1,45 @@
 [
   {
+    "title": "Amumu",
+    "image": "amumu.png",
+    "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
+    "status": "1",
+    "github": "https://github.com/esogelola/csuhacks2022",
+    "youtube": "https://youtu.be/aSaSdC6pNvI",
+    "winner": true,
+    "tags": [
+      "react",
+      "nodejs",
+      "expressjs",
+      "bootstrap",
+      "Text2Emotion",
+      "hackathon"
+    ],
+    "body": [
+      {
+        "type": "banner",
+        "youtube": "https://www.youtube.com/embed/aSaSdC6pNvI",
+        "links": [
+          {
+            "name": "devpost",
+            "link": "https://devpost.com/software/amumu"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/csuhacks2022"
+          }
+        ],
+
+        "content": {
+          "topheading": "Amumu",
+          "heading": "Personal AI-Powered journal",
+          "subheading": "CalgaryHacks 2022"
+        }
+      },
+      { "type": "categories" }
+    ]
+  },
+  {
     "title": "Interviewy",
     "image": "Interviewy.png",
     "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
@@ -119,13 +159,13 @@
     ]
   },
   {
-    "title": "Group Speak",
-    "image": "groupspeak.jpeg",
-    "subtitle": "An anonymous messaging platform, that has various groups and allows multiple speakers.",
+    "title": "Doodlecord",
+    "image": "doodlecord.jpg",
+    "subtitle": "Simple instant messaging. Users communicate with voice notes, text messaging, gifs, and files in private chats or in personal servers.",
     "status": "",
     "github": "",
     "youtube": "",
-    "tags": ["html", "javascript", "css", "socketio", "expressjs"],
+    "tags": ["react", "css", "socketio", "expressjs"],
     "body": [
       {
         "type": "banner",

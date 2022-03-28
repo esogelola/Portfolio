@@ -12,6 +12,13 @@
       "milestones": [
         {
           "icon": "hackathon",
+          "content": "Built ",
+          "link": "https://devpost.com/software/amumu",
+          "linkTitle": "Amumu",
+          "contentRight": " for Calgary Hacks 2022"
+        },
+        {
+          "icon": "hackathon",
           "content": "Mentored for ",
           "link": "https://mchacks8.devpost.com/",
           "linkTitle": "McHacks 8",

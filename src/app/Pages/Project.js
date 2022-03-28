@@ -67,6 +67,7 @@ function Project({ projectData }) {
             {data.image && !data.youtube && (
               <Image
                 fluid={true}
+                style={{ maxHeight: "500px" }}
                 src={`assets/${param.projectSlug}/${data.image}`}
               />
             )}
@@ -74,24 +75,20 @@ function Project({ projectData }) {
               <div controls className="embed-responsive embed-responsive-16by9">
                 <iframe
                   src={data.youtube}
-                  type="video/mp4"
                   className="embed-responsive-item"
                   title={data.title}
                   allowfullscreen
                 ></iframe>
-                <source src="movie.ogg" type="video/ogg" />
               </div>
             )}
             {data.youtube && data.image && (
               <div controls className="embed-responsive embed-responsive-16by9">
                 <iframe
                   src={data.youtube}
-                  type="video/mp4"
                   className="embed-responsive-item"
                   title={data.title}
                   allowfullscreen
                 ></iframe>
-                <source src="movie.ogg" type="video/ogg" />
               </div>
             )}
           </Col>
