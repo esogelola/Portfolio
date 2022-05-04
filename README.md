@@ -1,3 +1,4 @@
-[![Build Status](https://travis-ci.com/esogelola/Portfolio-React.svg?branch=main)](https://travis-ci.com/esogelola/Portfolio-React)
+[![Deploy to Firebase Hosting on merge](https://github.com/esogelola/Portfolio/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/esogelola/Portfolio/actions/workflows/firebase-hosting-merge.yml)
 
-Deployed on Github pages
+Deployed to firebase
+
