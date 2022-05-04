@@ -1,10 +1,233 @@
-{
-  "emazon": {
-    "title": "EMAZON",
-    "subtitle": "An e-commerce platform.",
+[
+  {
+    "title": "Amumu",
+    "image": "amumu.png",
+    "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
+    "status": "1",
+    "github": "https://github.com/esogelola/csuhacks2022",
+    "youtube": "https://youtu.be/aSaSdC6pNvI",
+    "winner": true,
+    "tags": [
+      "react",
+      "nodejs",
+      "expressjs",
+      "bootstrap",
+      "Text2Emotion",
+      "hackathon"
+    ],
+    "body": [
+      {
+        "type": "banner",
+        "youtube": "https://www.youtube.com/embed/aSaSdC6pNvI",
+        "links": [
+          {
+            "name": "devpost",
+            "link": "https://devpost.com/software/amumu"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/csuhacks2022"
+          }
+        ],
+
+        "content": {
+          "topheading": "Amumu",
+          "heading": "Personal AI-Powered journal",
+          "subheading": "CalgaryHacks 2022"
+        }
+      },
+      { "type": "categories" }
+    ]
+  },
+  {
+    "title": "Interviewy",
+    "image": "Interviewy.png",
+    "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
+    "status": "",
     "github": "",
     "youtube": "",
-    "tags": [],
-    "body": []
+    "winner": true,
+    "tags": [
+      "react",
+      "nodejs",
+      "expressjs",
+      "bootstrap",
+      "AssemblyAI",
+      "hackathon"
+    ],
+    "body": [
+      {
+        "type": "banner",
+        "image": "banner.png",
+        "links": [
+          {
+            "name": "devpost",
+            "link": "https://devpost.com/software/interview-companion"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/deltahacks2022"
+          }
+        ],
+
+        "content": {
+          "topheading": "Interviewy",
+          "heading": "An AI Interview Practice Platform",
+          "subheading": "DeltaHacks(8) 2022"
+        }
+      },
+      { "type": "categories" },
+      {
+        "type": "title-and-text",
+        "title": "Inspiration",
+        "image": "p1.png",
+        "content": [
+          "An abundance of qualified applicants lose their chance to secure their dream job simply because they are unable to effectively present their knowledge and skills when it comes to the interview. The transformation of interviews into the virtual format due to the Covid-19 pandemic has created many challenges for the applicants, especially students as they have reduced access to in-person resources where they could develop their interview skills."
+        ]
+      },
+      {
+        "type": "text-left-image-right",
+        "section-title": "AI & UI",
+        "image": "ui.png",
+        "content": [
+          "Interviewy is an Artificial Intelligence based interface that allows users to practice their interview skills by providing them an analysis of their video recorded interview based on their selected interview question. Users can reflect on their confidence levels and covered topics by selecting a specific time-stamp in their report.",
+          "The user can enable their camera and practice their facial expression and see themselves live."
+        ]
+      },
+      {
+        "type": "text-right-image-left",
+        "image": "ui2.png",
+        "content": [
+          "This Interface was built using the MERN stack. The backend used the AssemblyAI APIs for monitoring the confidence levels and covered topics as well as getting the sentiment analysis of the user. The frontend utilized react and bootstrap css."
+        ]
+      },
+      {
+        "type": "title-and-text",
+        "title": "TEAM",
+        "image": "team.png",
+        "content": [
+          "I worked on the backend, utilizing Express, Mongoose and the AssemblyAI api to bring this projects backbone together. Very fun!",
+          "Reza worked on the backend with Emanuel and learned to use Express and Node.js under 36 hours which was very exciting ,yet challenging",
+          "Faizah worked on the frontend using React to create appealing and intuitive UI for our users, and to display the results from the AI analysis. I am very proud of what we accomplished!"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "EMAZON",
+    "image": "emazon.png",
+    "subtitle": "An e-commerce website that allows user's to create, view and buy any product listed on the site.",
+    "status": "",
+    "github": "",
+
+    "tags": [
+      "react",
+      "javascript",
+      "stripe",
+      "tailwindcss",
+      "redux",
+      "aws-amplify"
+    ],
+    "body": [
+      {
+        "type": "banner",
+        "image": "banner.png",
+        "links": [
+          {
+            "name": "LIVE 🌐",
+            "link": "https://dev.d18l4ngipcru6x.amplifyapp.com/"
+          },
+          { "name": "github", "link": "https://github.com/esogelola/emazon" }
+        ],
+
+        "content": {
+          "topheading": "EMAZON",
+          "heading": "An ECommerce platform built to rival amazon",
+          "subheading": ""
+        }
+      },
+      { "type": "categories" },
+      {
+        "type": "title-and-text",
+        "title": "CLEAN DESIGN",
+        "image": "p1.gif",
+        "content": [
+          "I wanted to build an e-commerce platform using new technologies such as React Redux (for handling data), Tailwind CSS (class based CSS framework), Stripe (for handling payments) and AWS Amplify (server back end). I started this process by using the create-react-app boilerplate, then adding react-router-5.0, tailwindcss, aws-amplify, stripe and redux.",
+          "Some unexpected obstacles were Tailwind CSS not styling the way I wanted it to style and Amazon Amplify requiring a lot of research to fully understand and integrate with Stripe."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Doodlecord",
+    "image": "doodlecord.jpg",
+    "subtitle": "Simple instant messaging. Users communicate with voice notes, text messaging, gifs, and files in private chats or in personal servers.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "tags": ["react", "css", "socketio", "expressjs"],
+    "body": [
+      {
+        "type": "banner",
+        "image": "banner.png",
+        "links": [
+          {
+            "name": "LIVE 🌐",
+            "link": "https://group-speak.herokuapp.com/"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/Group-Speak"
+          }
+        ],
+
+        "content": {
+          "topheading": "Group Speak",
+          "heading": "Various groups, multiple speakers(typers).",
+          "subheading": ""
+        }
+      },
+      { "type": "categories" },
+      {
+        "type": "text-right-image-left",
+        "section-title": "STORY BEHIND",
+        "image": "example.gif",
+        "content": [
+          "Group Speak is a George Brown College Full Stack Lab Test 1 Program, developed using Node, Express, MongoDB and Socket IO. Through this assignment I got a chance to express my design skills and learn a new technology at the same time. I deployed the application with no cost using Heroku to host both the front-end and the back-end."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PKGHound",
+    "image": "pkghound.png",
+    "subtitle": "Ionic React project built to resemble the popular website product hunt.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "tags": ["ionic", "react", "firebase", "bootstrap", "javascript"],
+    "body": [
+      {
+        "type": "banner",
+        "image": "banner.gif",
+        "links": [
+          {
+            "name": "LIVE 🌐",
+            "link": "https://pkghound.web.app/home"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/pkg-hound-ionic"
+          }
+        ],
+
+        "content": {
+          "topheading": "PKGHound",
+          "heading": "A Product Hunt clone",
+          "subheading": ""
+        }
+      },
+      { "type": "categories" }
+    ]
   }
-}
+]
