@@ -67,7 +67,7 @@ const parseIcon = (iconName) => {
 const Experience = ({ experienceData }) => {
   console.log(experienceData);
   return (
-    <Row className="experience" id="experience">
+    <section className="row experience" id="experience">
       <h1>
         <span> Experience</span>
       </h1>
@@ -105,7 +105,7 @@ const Experience = ({ experienceData }) => {
           );
         })}
       </Accordion>
-    </Row>
+    </section>
   );
 };
 export default Experience;

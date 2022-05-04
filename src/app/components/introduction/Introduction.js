@@ -7,7 +7,7 @@ import { ImLinkedin2, ImTwitter, ImGithub, ImFileText } from "react-icons/im";
 
 export default function Introduction({ socials }) {
   return (
-    <Row className="justify-content-md-center ">
+    <section className=" row justify-content-md-center ">
       <Col md={4} className="memoji ">
         <img src="assets/logo.png" alt="memoji" className="hover " />
       </Col>
@@ -52,11 +52,7 @@ export default function Introduction({ socials }) {
             </div>
             <div className="list-inline-item social-media-icon  shadow  bg-white rounded p-2">
               <li>
-                <a
-                  href={`assets/${socials.resumeName}`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={`/${socials.resume}`} target="_blank" rel="noreferrer">
                   <ImFileText data-toggle="tooltip" title="Resume" />
                 </a>
               </li>
@@ -64,6 +60,6 @@ export default function Introduction({ socials }) {
           </ul>
         </div>
       </Col>
-    </Row>
+    </section>
   );
 }

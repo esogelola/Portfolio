@@ -4,7 +4,7 @@ import { ProjectItem } from "./ProjectItem";
 import { slugify } from "../../helper/slugify";
 const Projects = ({ projectData }) => {
   return (
-    <Row className="projects" id="projects">
+    <section className="row projects" id="projects">
       <h1>
         <span> Projects</span>
       </h1>
@@ -26,7 +26,7 @@ const Projects = ({ projectData }) => {
           })}
         </ol>
       </div>
-    </Row>
+    </section>
   );
 };
 
