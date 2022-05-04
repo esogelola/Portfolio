@@ -152,7 +152,7 @@ function Contact() {
   };
 
   return (
-    <Row className="contactSection" id="contact">
+    <section className=" row contactSection" id="contact">
       <h1>
         <span> Contact Me</span>
       </h1>
@@ -253,7 +253,7 @@ function Contact() {
         </button>
         <ToastContainer />
       </Form>
-    </Row>
+    </section>
   );
 }
 

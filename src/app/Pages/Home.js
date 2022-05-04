@@ -8,11 +8,11 @@ import {
 } from "../components/";
 export default function Home({ socials, projectData, experienceData }) {
   return (
-    <Container id="main">
+    <main className="container" id="main">
       <Introduction socials={socials} />
       <Experience experienceData={experienceData} />
       <Projects projectData={projectData} />
       <ContactForm />
-    </Container>
+    </main>
   );
 }
