@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Row from "react-bootstrap/Row";
 import Form from "react-bootstrap/Form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";

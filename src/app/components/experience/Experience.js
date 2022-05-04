@@ -1,4 +1,4 @@
-import { Row, useAccordionButton, Accordion } from "react-bootstrap";
+import { useAccordionButton, Accordion } from "react-bootstrap";
 import { ExperienceItem } from "./ExperienceItem";
 import { ImGithub, ImBook, ImYoutube } from "react-icons/im";
 import { FaWarehouse } from "react-icons/fa";

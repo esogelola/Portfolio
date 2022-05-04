@@ -1,5 +1,3 @@
-import { Row } from "react-bootstrap";
-
 import { ProjectItem } from "./ProjectItem";
 import { slugify } from "../../helper/slugify";
 const Projects = ({ projectData }) => {
