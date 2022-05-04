@@ -51,3 +51,7 @@
     display: none;
   }
 }
+
+header .navbar-brand h1 {
+  font-size: 2rem;
+}
