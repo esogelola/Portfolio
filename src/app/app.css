@@ -566,3 +566,12 @@ h2 span:after {
   border-color: black;
   background-color: white;
 }
+
+.no-style {
+  color: inherit;
+}
+
+.no-style:hover {
+  text-decoration: none;
+  color: inherit;
+}

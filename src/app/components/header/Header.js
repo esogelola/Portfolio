@@ -16,10 +16,14 @@ export default function Header({ socials }) {
         <Container>
           <Navbar.Brand>
             <span className="full-name">
-              <h2>Emmanuel Sogelola</h2>
+              <Link to="/" className="no-style">
+                <h2>Emmanuel Sogelola</h2>
+              </Link>
             </span>
             <span className="short-name">
-              <h2>Emmanuel S</h2>
+              <Link to="/">
+                <h2>Emmanuel S</h2>
+              </Link>
             </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="header-navigation" />

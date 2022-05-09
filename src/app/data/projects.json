@@ -40,6 +40,46 @@
     ]
   },
   {
+    "title": "Doodlecord",
+    "image": "doodlecord.jpg",
+    "subtitle": "Simple instant messaging. Users communicate with voice notes, text messaging, gifs, and files in private chats or in personal servers.",
+    "status": "",
+    "github": "",
+    "youtube": "",
+    "tags": ["react", "css", "socketio", "expressjs"],
+    "body": [
+      {
+        "type": "banner",
+        "image": "banner.png",
+        "links": [
+          {
+            "name": "LIVE 🌐",
+            "link": "https://group-speak.herokuapp.com/"
+          },
+          {
+            "name": "github",
+            "link": "https://github.com/esogelola/Group-Speak"
+          }
+        ],
+
+        "content": {
+          "topheading": "Group Speak",
+          "heading": "Various groups, multiple speakers(typers).",
+          "subheading": ""
+        }
+      },
+      { "type": "categories" },
+      {
+        "type": "text-right-image-left",
+        "section-title": "STORY BEHIND",
+        "image": "example.gif",
+        "content": [
+          "Group Speak is a George Brown College Full Stack Lab Test 1 Program, developed using Node, Express, MongoDB and Socket IO. Through this assignment I got a chance to express my design skills and learn a new technology at the same time. I deployed the application with no cost using Heroku to host both the front-end and the back-end."
+        ]
+      }
+    ]
+  },
+  {
     "title": "Interviewy",
     "image": "Interviewy.png",
     "subtitle": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
@@ -158,46 +198,7 @@
       }
     ]
   },
-  {
-    "title": "Doodlecord",
-    "image": "doodlecord.jpg",
-    "subtitle": "Simple instant messaging. Users communicate with voice notes, text messaging, gifs, and files in private chats or in personal servers.",
-    "status": "",
-    "github": "",
-    "youtube": "",
-    "tags": ["react", "css", "socketio", "expressjs"],
-    "body": [
-      {
-        "type": "banner",
-        "image": "banner.png",
-        "links": [
-          {
-            "name": "LIVE 🌐",
-            "link": "https://group-speak.herokuapp.com/"
-          },
-          {
-            "name": "github",
-            "link": "https://github.com/esogelola/Group-Speak"
-          }
-        ],
 
-        "content": {
-          "topheading": "Group Speak",
-          "heading": "Various groups, multiple speakers(typers).",
-          "subheading": ""
-        }
-      },
-      { "type": "categories" },
-      {
-        "type": "text-right-image-left",
-        "section-title": "STORY BEHIND",
-        "image": "example.gif",
-        "content": [
-          "Group Speak is a George Brown College Full Stack Lab Test 1 Program, developed using Node, Express, MongoDB and Socket IO. Through this assignment I got a chance to express my design skills and learn a new technology at the same time. I deployed the application with no cost using Heroku to host both the front-end and the back-end."
-        ]
-      }
-    ]
-  },
   {
     "title": "PKGHound",
     "image": "pkghound.png",
