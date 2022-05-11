@@ -1,52 +1,12 @@
 [
   {
-    "title": "Amumu",
-    "image": "amumu.png",
-    "subtitle": "A personal AI-powered journal where users can note their daily moods and productivity",
-    "status": "1",
-    "github": "https://github.com/esogelola/csuhacks2022",
-    "youtube": "https://youtu.be/aSaSdC6pNvI",
-    "winner": true,
-    "tags": [
-      "react",
-      "nodejs",
-      "expressjs",
-      "bootstrap",
-      "Text2Emotion",
-      "hackathon"
-    ],
-    "body": [
-      {
-        "type": "banner",
-        "youtube": "https://www.youtube.com/embed/aSaSdC6pNvI",
-        "links": [
-          {
-            "name": "devpost",
-            "link": "https://devpost.com/software/amumu"
-          },
-          {
-            "name": "github",
-            "link": "https://github.com/esogelola/csuhacks2022"
-          }
-        ],
-
-        "content": {
-          "topheading": "Amumu",
-          "heading": "Personal AI-Powered journal",
-          "subheading": "CalgaryHacks 2022"
-        }
-      },
-      { "type": "categories" }
-    ]
-  },
-  {
     "title": "Doodlecord",
     "image": "doodlecord.jpg",
-    "subtitle": "Simple instant messaging. Users communicate with voice notes, text messaging, gifs, and files in private chats or in personal servers.",
+    "subtitle": "A fun and simple instant messaging web app, used to communicate in real-time with friends through peer-to-peer channels",
     "status": "",
     "github": "",
     "youtube": "",
-    "tags": ["react", "css", "socketio", "expressjs"],
+    "tags": ["react", "css", "socketio", "expressjs", "webRTC"],
     "body": [
       {
         "type": "banner",
@@ -54,18 +14,18 @@
         "links": [
           {
             "name": "LIVE 🌐",
-            "link": "https://group-speak.herokuapp.com/"
+            "link": "https://doodlecord.herokuapp.com/"
           },
           {
             "name": "github",
-            "link": "https://github.com/esogelola/Group-Speak"
+            "link": "https://github.com/esogelola/doodlecord"
           }
         ],
 
         "content": {
-          "topheading": "Group Speak",
-          "heading": "Various groups, multiple speakers(typers).",
-          "subheading": ""
+          "topheading": "Doodlecord",
+          "heading": "Communcation Platform",
+          "subheading": "A fun and simple instant messaging web app, used to communicate in real-time with friends through peer-to-peer channels"
         }
       },
       { "type": "categories" },

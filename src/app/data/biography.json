@@ -18,6 +18,12 @@
           "contentRight": " for Calgary Hacks 2022"
         },
         {
+          "icon": "web",
+          "content": "Created ",
+          "link": "https://doodlecord.herokuapp.com/",
+          "linkTitle": "Doodlecord"
+        },
+        {
           "icon": "hackathon",
           "content": "Mentored for ",
           "link": "https://mchacks8.devpost.com/",
@@ -65,7 +71,7 @@
           "icon": "web",
           "content": "Created ",
           "link": "https://group-speak.herokuapp.com/",
-          "linkTitle": "Group Speak"
+          "linkTitle": "Group Speak (now Doodlecord)"
         },
         {
           "icon": "group",
