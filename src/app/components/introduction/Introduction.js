@@ -21,11 +21,8 @@ export default function Introduction({ socials }) {
           University.
         </p>
         <p>
-          Currently a <b>Junior Developer Intern</b> at{" "}
-          <a href="https://innovfin.ca/" target="_blank" rel="noreferrer">
-            InnovFin Consulting
-          </a>
-          . Incoming <b>Software Engineer Intern</b> at <b>Momentive.ai</b>.
+          Currently a <b>Software Engineer Intern</b> at <b>Momentive.ai</b>.
+          Previously interned at <b>InnovFin Consulting Inc</b>.
         </p>
         <div className="personalLinks shadow">
           <ul className="list-inline">

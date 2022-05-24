@@ -11,6 +11,12 @@
       "year": "2022",
       "milestones": [
         {
+          "icon": "block",
+          "content": "Software Engineer Intern at ",
+          "link": "https://www.momentive.ai/en/",
+          "linkTitle": "Momentive.ai"
+        },
+        {
           "icon": "hackathon",
           "content": "Built ",
           "link": "https://devpost.com/software/amumu",
