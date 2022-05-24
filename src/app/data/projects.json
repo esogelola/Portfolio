@@ -3,7 +3,7 @@
     "title": "Doodlecord",
     "image": "doodlecord.jpg",
     "subtitle": "A fun and simple instant messaging web app, used to communicate in real-time with friends through peer-to-peer channels",
-    "status": "",
+    "status": 0,
     "github": "",
     "youtube": "",
     "tags": ["react", "css", "socketio", "expressjs", "webRTC"],
@@ -30,11 +30,20 @@
       },
       { "type": "categories" },
       {
+        "type": "title-and-text",
+        "title": "The Chat",
+        "image": "chat_display.png",
+        "content": [
+          "The chat is very simple, on the left we have information about the current server the user has joined. Listing the channels and online users."
+        ]
+      },
+      {
         "type": "text-right-image-left",
         "section-title": "STORY BEHIND",
-        "image": "example.gif",
+        "image": "intro.png",
         "content": [
-          "Group Speak is a George Brown College Full Stack Lab Test 1 Program, developed using Node, Express, MongoDB and Socket IO. Through this assignment I got a chance to express my design skills and learn a new technology at the same time. I deployed the application with no cost using Heroku to host both the front-end and the back-end."
+          " Doodlecord was originally a project developed for my fullstack development class, under the name Group Speak. I decided to reinvent the application and create a more robust chat system. Adding more features and pushing my knowledge of Web Sockets.",
+          "I chose to rewrite the application because I wanted to learn more about Web Sockets, and this was a good opportunity to do so."
         ]
       }
     ]
