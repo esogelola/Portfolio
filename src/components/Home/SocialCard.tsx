@@ -19,7 +19,7 @@ function SocialCard() {
   return (
     <div className="flex items-center justify-around p-3 bg-white rounded-lg shadow mt-4">
       <a
-        href="https://github.com/your_username"
+        href="https://github.com/esogelola"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -30,7 +30,7 @@ function SocialCard() {
         />
       </a>
       <a
-        href="https://twitter.com/your_username"
+        href="https://twitter.com/esogelola"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -41,7 +41,7 @@ function SocialCard() {
         />
       </a>
       <a
-        href="https://linkedin.com/in/your_username"
+        href="https://linkedin.com/in/emmanuelsogelola"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -51,11 +51,7 @@ function SocialCard() {
           className="h-5 w-5 text-stone-500 hover:text-black hover:scale-110 transition-transform"
         />
       </a>
-      <a
-        href="path_to_your_resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
         <AiFillFilePdf
           data-toggle="tooltip"
           title="Resume"

@@ -74,7 +74,14 @@ function About() {
 
           {/* MySpace-like Content */}
           <div className="flex flex-col space-y-4">
-            <h2 className="font-bold text-lg">Emmanuel Sogelola</h2>
+            <h2 className="font-bold text-lg">
+              <a
+                href="https://www.linkedin.com/in/emmanuelsogelola/"
+                target="_blank"
+              >
+                Emmanuel Sogelola
+              </a>
+            </h2>
             <p className="text-stone-500 text-sm">
               <span className="text-black text-md ">📍 Location: </span>
               Toronto, Canada
