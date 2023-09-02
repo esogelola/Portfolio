@@ -1,0 +1,21 @@
+/* SocialCard */
+/* styles.css or wherever your global styles are */
+@keyframes smoothJump {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.social-card-icon-resume {
+  animation: smoothJump 1s infinite;
+}

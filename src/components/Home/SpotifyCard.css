@@ -1,0 +1,70 @@
+.equalizer .bar {
+  width: 3px;
+  height: 10px;
+  transform: scaleY(-1); /* Flip the bars */
+}
+
+.equalizer .bar:nth-child(1) {
+  animation: barAnimation1 0.6s infinite alternate;
+}
+
+.equalizer .bar:nth-child(2) {
+  animation: barAnimation2 0.7s infinite alternate;
+}
+
+.equalizer .bar:nth-child(3) {
+  animation: barAnimation3 0.5s infinite alternate;
+}
+
+.equalizer .bar:nth-child(4) {
+  animation: barAnimation4 0.6s infinite alternate;
+}
+
+.equalizer .bar:nth-child(5) {
+  animation: barAnimation5 0.65s infinite alternate;
+}
+
+@keyframes barAnimation1 {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 20px;
+  }
+}
+
+@keyframes barAnimation2 {
+  from {
+    height: 12px;
+  }
+  to {
+    height: 22px;
+  }
+}
+
+@keyframes barAnimation3 {
+  from {
+    height: 8px;
+  }
+  to {
+    height: 18px;
+  }
+}
+
+@keyframes barAnimation4 {
+  from {
+    height: 11px;
+  }
+  to {
+    height: 21px;
+  }
+}
+
+@keyframes barAnimation5 {
+  from {
+    height: 9px;
+  }
+  to {
+    height: 19px;
+  }
+}
