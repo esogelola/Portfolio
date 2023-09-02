@@ -51,7 +51,11 @@ function SocialCard() {
           className="h-5 w-5 text-stone-500 hover:text-black hover:scale-110 transition-transform"
         />
       </a>
-      <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a
+        href="Emmanuel_Sogelola_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillFilePdf
           data-toggle="tooltip"
           title="Resume"
