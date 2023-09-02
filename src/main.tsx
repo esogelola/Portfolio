@@ -13,7 +13,8 @@ const firebaseConfig = {
   storageBucket: "esogelola-portfolio.appspot.com",
   messagingSenderId: "69334616443",
   appId: "1:69334616443:web:8841c4fd61c1782d3c55de",
-  measurementId: "G-17B0J660CG",
+  measurementId: "G-M1HMSR8X9Q",
+  streamId: "3204581696",
 };
 
 const application = initializeApp(firebaseConfig);
