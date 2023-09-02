@@ -18,7 +18,7 @@ const firebaseConfig = {
 
 const application = initializeApp(firebaseConfig);
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const analytics = getAnalytics(application);
+getAnalytics(application);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

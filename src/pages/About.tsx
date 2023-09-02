@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import profileImage from "../assets/headshot.jpeg";
-import doodleImgUrl from "../assets/doodle.png";
 import profileImageBack from "../assets/headshot_back.jpeg";
 import Confetti from "react-confetti";
 import PhotoSlideshow from "../components/About/PhotoSlideshow";

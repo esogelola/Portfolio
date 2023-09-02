@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useHistory, useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Nav() {
   const [selectedItem, setSelectedItem] = useState<string>("Home");
@@ -12,6 +13,7 @@ function Nav() {
   const [pillStyle, setPillStyle] = useState({});
 
   const PADDING = 8;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const validPaths = ["/", "/about", "/experience", "/projects"];
 
   const handleNavClick = (item: string) => {
@@ -31,6 +33,7 @@ function Nav() {
         left: "0px",
         display: "none",
       });
+      setSelectedItem("Error");
       return;
     }
 
@@ -75,6 +78,9 @@ function Nav() {
 
   return (
     <div className="nav relative rounded-full shadow bg-stone-100 flex flex-row w-[340px] h-[50px]">
+      <Helmet>
+        <title>{selectedItem} - Emmanuel Sogelola</title>
+      </Helmet>
       <div
         className="absolute rounded-full bg-gray-200 transition-all duration-300 h-[35px]"
         style={pillStyle}
