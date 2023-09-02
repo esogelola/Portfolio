@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useHistory, useLocation } from "react-router-dom";
+import { getAnalytics, logEvent } from "firebase/analytics";
+
 import { Helmet } from "react-helmet";
 
 function Nav() {
@@ -11,6 +13,7 @@ function Nav() {
   const experienceRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
   const [pillStyle, setPillStyle] = useState({});
+  const analytics = getAnalytics();
 
   const PADDING = 8;
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -26,7 +29,9 @@ function Nav() {
   useEffect(() => {
     const currentPath = location.pathname;
     let currentItem = "Home"; // Default
-
+    logEvent(analytics, "nav_click", {
+      page_title: currentItem,
+    });
     if (!validPaths.includes(currentPath)) {
       setPillStyle({
         width: "0px",
