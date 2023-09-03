@@ -1,6 +1,6 @@
 import { useState } from "react";
-import doodleImgUrl from "../../assets/doodle.png";
-import doodleWinkImgUrl from "../../assets/doodle_wink.png";
+import doodleImgUrl from "../../assets/images/about/doodle.png";
+import doodleWinkImgUrl from "../../assets/images/about/doodle_wink.png";
 import { Link } from "react-router-dom";
 
 function About() {

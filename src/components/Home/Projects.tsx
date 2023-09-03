@@ -1,7 +1,7 @@
-import DoodlecordLogo from "../../assets/doodlecord.jpg";
-import InterviewyLogo from "../../assets/Interviewy.png";
-import EmazonLogo from "../../assets/emazon.png";
-import PKGHoundLogo from "../../assets/pkghound.png";
+import DoodlecordLogo from "../../assets/images/projects/doodlecord.jpg";
+import InterviewyLogo from "../../assets/images/projects/Interviewy.png";
+import EmazonLogo from "../../assets/images/projects/emazon.png";
+import PKGHoundLogo from "../../assets/images/projects/pkghound.png";
 
 function Projects() {
   const displayDescription = false;

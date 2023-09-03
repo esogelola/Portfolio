@@ -1,7 +1,7 @@
-import TwitchLogo from "../../assets/twitch_logo.jpeg";
-import WealthsimpleLogo from "../../assets/wealthsimple_logo.png";
-import ZendeskLogo from "../../assets/zendesk_logo.svg";
-import SurveyMonkeyLogo from "../../assets/SurveyMonkey_Logo.png";
+import TwitchLogo from "../../assets/images/companies/twitch_logo.jpeg";
+import WealthsimpleLogo from "../../assets/images/companies/wealthsimple_logo.png";
+import ZendeskLogo from "../../assets/images/companies/zendesk_logo.svg";
+import SurveyMonkeyLogo from "../../assets/images/companies/SurveyMonkey_Logo.png";
 import { Link } from "react-router-dom";
 
 function Experiences() {

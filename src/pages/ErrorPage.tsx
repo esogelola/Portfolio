@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import doodleImgUrl from "../assets/doodle.png";
-import under_catstruction from "../assets/under_catstruction.png";
-import doodleWinkImgUrl from "../assets/doodle_wink.png"; // Import the wink version
+import doodleImgUrl from "../assets/images/about/doodle.png";
+import under_catstruction from "../assets/images/under_catstruction.png";
+import doodleWinkImgUrl from "../assets/images/about/doodle_wink.png"; // Import the wink version
 
 const ErrorPage: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false); // State to track hover

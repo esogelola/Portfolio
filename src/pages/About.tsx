@@ -1,18 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
-import profileImage from "../assets/headshot.jpeg";
-import profileImageBack from "../assets/headshot_back.jpeg";
 import Confetti from "react-confetti";
 import PhotoSlideshow from "../components/About/PhotoSlideshow";
 
-import photo1 from "../assets/about/photo_1.jpeg";
-import photo2 from "../assets/about/photo_2.jpeg";
-import photo3 from "../assets/about/photo_3.jpeg";
-import photo4 from "../assets/about/photo_4.jpeg";
-import photo5 from "../assets/about/photo_5.jpeg";
-import photo6 from "../assets/about/photo_6.jpeg";
-import photo7 from "../assets/about/photo_7.jpeg";
-import photo8 from "../assets/about/photo_8.jpeg";
-import photo9 from "../assets/about/photo_9.jpeg";
+import profileImage from "../assets/images/about/headshot.jpeg";
+import profileImageBack from "../assets/images/about/headshot_back.jpeg";
+import photo1 from "../assets/images/gallery/photo_1.jpeg";
+import photo2 from "../assets/images/gallery/photo_2.jpeg";
+import photo3 from "../assets/images/gallery/photo_3.jpeg";
+import photo4 from "../assets/images/gallery/photo_4.jpeg";
+import photo5 from "../assets/images/gallery/photo_5.jpeg";
+import photo6 from "../assets/images/gallery/photo_6.jpeg";
+import photo7 from "../assets/images/gallery/photo_7.jpeg";
+import photo8 from "../assets/images/gallery/photo_8.jpeg";
+import photo9 from "../assets/images/gallery/photo_9.jpeg";
 
 function About() {
   const [confettiClicked, setConfettiClicked] = useState(false);
