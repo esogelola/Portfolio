@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-import wealthsimpleLogoImgUrl from "../assets/wealthsimple_logo.png";
-import zendeskLogoImgUrl from "../assets/zendesk_logo.svg";
-import momentiveLogoImgUrl from "../assets/SurveyMonkey_Logo.png";
-import twitchLogoImgUrl from "../assets/twitch_logo.jpeg";
-import georgeBrownLogoImgUrl from "../assets/george_brown_logo.png";
-import mcmasterLogoImgUrl from "../assets/mcmaster_logo.jpeg";
-import innovfinLogoImgUrl from "../assets/innovfin_logo.png";
+import wealthsimpleLogoImgUrl from "../assets/images/companies/wealthsimple_logo.png";
+import zendeskLogoImgUrl from "../assets/images/companies/zendesk_logo.svg";
+import momentiveLogoImgUrl from "../assets/images/companies/SurveyMonkey_Logo.png";
+import twitchLogoImgUrl from "../assets/images/companies/twitch_logo.jpeg";
+import georgeBrownLogoImgUrl from "../assets/images/about/george_brown_logo.png";
+import mcmasterLogoImgUrl from "../assets/images/about/mcmaster_logo.jpeg";
+import innovfinLogoImgUrl from "../assets/images/companies/innovfin_logo.png";
 function Experience() {
   const [filterYear, setFilterYear] = useState<string | null>(null);
 

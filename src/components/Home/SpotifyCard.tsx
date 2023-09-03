@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import sadeImgUrl from "../../assets/sade.png";
+import sadeImgUrl from "../../assets/images/about/spotify/sade.png";
 import SocialCard from "./SocialCard";
 import "./SpotifyCard.css";
 import { FaPlay, FaPause } from "react-icons/fa";
