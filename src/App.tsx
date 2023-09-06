@@ -7,8 +7,11 @@ import ScrollToTop from "./utils/ScrollToTop";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
+import ProjectsTBD from "./pages/ProjectsTBD";
 
 function MainContent() {
+  const isProjectsTBD = true;
+
   return (
     <Router>
       <div className="flex min-h-screen bg-gray-100 justify-center sm:p-4  ">
@@ -30,7 +33,7 @@ function MainContent() {
               <Experience />
             </Route>
             <Route path="/projects" exact>
-              <Projects />
+              {isProjectsTBD ? <ProjectsTBD /> : <Projects />}
             </Route>
 
             <Route path="*">
