@@ -9,15 +9,23 @@ function Projects() {
     {
       name: "Doodlecord",
       imageUrl: DoodlecordLogo,
-      url: "https://doodlecord.com",
+      url: "https://github.com/esogelola/doodlecord",
     },
     {
       name: "Interviewy",
       imageUrl: InterviewyLogo,
-      url: "https://interviewy.ca",
+      url: "https://github.com/faizahsayyid/deltahacks2022",
     },
-    { name: "Emazon", imageUrl: EmazonLogo, url: "https://emazon.ca" },
-    { name: "PKGHound", imageUrl: PKGHoundLogo, url: "https://pkghound.com" },
+    {
+      name: "Emazon",
+      imageUrl: EmazonLogo,
+      url: "https://github.com/esogelola/emazon",
+    },
+    {
+      name: "PKGHound",
+      imageUrl: PKGHoundLogo,
+      url: "https://github.com/esogelola/pkg-hound-ionic",
+    },
   ];
 
   const handleProjectClick = (projectName: string) => {
