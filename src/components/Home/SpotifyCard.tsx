@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
-import sadeImgUrl from "../../assets/images/about/spotify/sade.png";
+import theSmithsImgUrl from "../../assets/images/about/spotify/thesmiths.gif";
 import SocialCard from "./SocialCard";
 import "./SpotifyCard.css";
 import { FaPlay, FaPause } from "react-icons/fa";
-import sadeSongUrl from "../../assets/songs/sade_like_a_tattoo.mov";
+import theSmithsAudioUrl from "../../assets/songs/thesmiths.mp3";
 
 function SpotifyCard() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -48,7 +48,7 @@ function SpotifyCard() {
             className={`w-[65.50px] h-[65px] rounded-lg shadow object-cover object-center ${
               isPlaying ? "animate-pulse" : ""
             }`}
-            src={sadeImgUrl}
+            src={theSmithsImgUrl}
             alt="Song Cover"
           />
           {isPlaying && (
@@ -71,15 +71,17 @@ function SpotifyCard() {
 
           {/* Song Title */}
           <h2 className="text-stone-500 text-[11px] font-bold">
-            Like a Tattoo
+            Please Please Please Let Me Get What I Want
           </h2>
 
           {/* Artist Name */}
-          <span className="text-stone-500 text-[8px] font-normal">Sade</span>
+          <span className="text-stone-500 text-[8px] font-normal">
+            The Smiths
+          </span>
         </div>
       </div>
 
-      <audio ref={audioRef} src={sadeSongUrl} onEnded={handleSongEnd} />
+      <audio ref={audioRef} src={theSmithsAudioUrl} onEnded={handleSongEnd} />
 
       <SocialCard />
     </div>
