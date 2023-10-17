@@ -31,10 +31,10 @@ const currentSong = [
   },
 ];
 
-function SpotifyCard() {
+function SpotifyCard({ songIndex }: { songIndex: number }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const { name, artist, songUrl, imgUrl } = currentSong[0];
+  const { name, artist, songUrl, imgUrl } = currentSong[songIndex];
 
   const handlePlaySnippet = () => {
     if (audioRef.current) {
