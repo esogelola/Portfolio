@@ -1,13 +1,40 @@
 import { useState, useRef } from "react";
+import aphexTwinImgUrl from "../../assets/images/about/spotify/aphextwin.jpeg";
+import sadeImgUrl from "../../assets/images/about/spotify/sade.png";
 import theSmithsImgUrl from "../../assets/images/about/spotify/thesmiths.gif";
+
 import SocialCard from "./SocialCard";
 import "./SpotifyCard.css";
 import { FaPlay, FaPause } from "react-icons/fa";
 import theSmithsAudioUrl from "../../assets/songs/thesmiths.mp3";
+import aphexTwinAudioUrl from "../../assets/songs/Flim.mp3";
+import sadeAudioUrl from "../../assets/songs/sade_like_a_tattoo.mov";
+
+const currentSong = [
+  {
+    name: "Flim",
+    artist: "Aphex Twin",
+    songUrl: aphexTwinAudioUrl,
+    imgUrl: aphexTwinImgUrl,
+  },
+  {
+    name: "Like a Tattoo",
+    artist: "Sade",
+    songUrl: sadeAudioUrl,
+    imgUrl: sadeImgUrl,
+  },
+  {
+    name: "Please Please Please Let Me Get What I Want",
+    artist: "The Smiths",
+    songUrl: theSmithsAudioUrl,
+    imgUrl: theSmithsImgUrl,
+  },
+];
 
 function SpotifyCard() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const { name, artist, songUrl, imgUrl } = currentSong[0];
 
   const handlePlaySnippet = () => {
     if (audioRef.current) {
@@ -48,7 +75,7 @@ function SpotifyCard() {
             className={`w-[65.50px] h-[65px] rounded-lg shadow object-cover object-center ${
               isPlaying ? "animate-pulse" : ""
             }`}
-            src={theSmithsImgUrl}
+            src={imgUrl}
             alt="Song Cover"
           />
           {isPlaying && (
@@ -70,18 +97,16 @@ function SpotifyCard() {
           </span>
 
           {/* Song Title */}
-          <h2 className="text-stone-500 text-[11px] font-bold">
-            Please Please Please Let Me Get What I Want
-          </h2>
+          <h2 className="text-stone-500 text-[11px] font-bold">{name}</h2>
 
           {/* Artist Name */}
           <span className="text-stone-500 text-[8px] font-normal">
-            The Smiths
+            {artist}
           </span>
         </div>
       </div>
 
-      <audio ref={audioRef} src={theSmithsAudioUrl} onEnded={handleSongEnd} />
+      <audio ref={audioRef} src={songUrl} onEnded={handleSongEnd} />
 
       <SocialCard />
     </div>

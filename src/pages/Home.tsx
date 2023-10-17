@@ -10,7 +10,7 @@ function Home() {
         {/* About Section */}
         <About />
         {/* Spotify Card */}
-        <SpotifyCard />
+        <SpotifyCard songIndex={0} />
       </div>
 
       {/* Experiences Section */}
