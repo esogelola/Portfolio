@@ -1,5 +1,4 @@
 import theParkImg from "../../assets/images/image.png";
-import SpotifyCard from "./SpotifyCard";
 import doodleImgUrl from "../../assets/images/about/doodle.png";
 
 export default function Moma() {
