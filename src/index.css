@@ -4,8 +4,26 @@
 @tailwind utilities;
 
 body {
-  font-family: "Inter", sans-serif;
-  background-color: rgb(243 244 246 / 1);
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  --dot-bg: #f9f9f1;
+  --dot-color: black;
+  --dot-size: 1px;
+  --dot-space: 22px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -14,4 +32,13 @@ body {
 }
 ::-webkit-scrollbar {
   width: 5px;
+}
+
+.normal-text {
+  color: #696565;
+}
+
+.text-moma {
+  font-family: "Moma", sans-serif;
+  color: #f9f9f1;
 }
