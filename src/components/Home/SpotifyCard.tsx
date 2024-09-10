@@ -31,13 +31,7 @@ const currentSong = [
   },
 ];
 
-function SpotifyCard({
-  songIndex,
-  displaySocial,
-}: {
-  songIndex: number;
-  displaySocial: boolean;
-}) {
+function SpotifyCard({ songIndex }: { songIndex: number }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const { name, artist, songUrl, imgUrl } = currentSong[songIndex];
@@ -61,11 +55,7 @@ function SpotifyCard({
   };
 
   return (
-    <div
-      className={`flex flex-col justify-center ${
-        displaySocial ? "items-stretch" : "items-center"
-      }`}
-    >
+    <div className="flex flex-col justify-center items-stretch  mt-6 ">
       <div className="relative flex items-center  space-x-4 w-[260px] h-[111.80px] bg-white rounded-lg shadow p-4 ">
         {/* Dancing Icon (Play/Pause Button) */}
         <div
@@ -118,7 +108,7 @@ function SpotifyCard({
 
       <audio ref={audioRef} src={songUrl} onEnded={handleSongEnd} />
 
-      {displaySocial && <SocialCard />}
+      <SocialCard />
     </div>
   );
 }

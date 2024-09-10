@@ -82,12 +82,12 @@ function Nav() {
   }, [selectedItem]);
 
   return (
-    <div className="nav relative  bg-inherit flex flex-row max-w-[340px] max-h-[50px]">
+    <div className="nav relative rounded-full shadow bg-stone-100 flex flex-row w-[340px] h-[50px]">
       <Helmet>
         <title>{selectedItem} - Emmanuel Sogelola</title>
       </Helmet>
       <div
-        className="absolute rounded-[30px] bg-white transition-all duration-300 h-[35px]"
+        className="absolute rounded-full bg-gray-200 transition-all duration-300 h-[35px]"
         style={pillStyle}
       ></div>
 
@@ -99,7 +99,7 @@ function Nav() {
         <a className="cursor-pointer text-black text-xs font-normal">Home</a>
       </div>
 
-      {/* <div
+      <div
         ref={aboutRef}
         className="p-4 rounded-full relative z-10 flex items-center justify-center"
         onClick={() => handleNavClick("About")}
@@ -115,7 +115,7 @@ function Nav() {
         <a className="cursor-pointer text-black text-xs font-normal">
           Experience
         </a>
-      </div> */}
+      </div>
 
       <div
         ref={projectsRef}

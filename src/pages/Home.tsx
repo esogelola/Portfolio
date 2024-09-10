@@ -1,30 +1,26 @@
-import Card from "../components/Experimental/Card";
-import doodleImgUrl from "../assets/images/about/doodle.png";
-import doodleWinkUrl from "../assets/images/about/doodle_wink.png";
-import thePark from "../assets/images/the_park.jpg";
+import About from "../components/Home/About";
+import SpotifyCard from "../components/Home/SpotifyCard";
+import Experiences from "../components/Home/Experiences";
+import Projects from "../components/Home/Projects";
 
 function Home() {
-  const interests = [
-    "Security",
-    "Product Design",
-    "Finance",
-    "Machine Learning",
-  ];
-
   return (
-    <div className="p-4">
-      <Card
-        idNumber="073283160"
-        interests={interests}
-        jobTitle="Security Engineer"
-        name="Emmanuel Sogelola"
-        photoUrl={doodleImgUrl}
-        altUrl={doodleWinkUrl}
-        education="McMaster University"
-        location="Brooklyn, NY"
-        workplace="Twitch"
-        bgUrl={thePark}
-      />
+    <div className="mb-6">
+      <div className="flex flex-col md:flex-row mt-12 md:space-x-8 items-center justify-evenly ">
+        {/* About Section */}
+        <About />
+        {/* Spotify Card */}
+        <SpotifyCard songIndex={0} />
+      </div>
+
+      {/* Experiences Section */}
+      <div className="mt-12 flex justify-evenly">
+        <Experiences />
+      </div>
+      {/* Projects Section */}
+      <div className="mt-6 flex justify-evenly">
+        <Projects />
+      </div>
     </div>
   );
 }
