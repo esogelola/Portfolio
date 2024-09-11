@@ -33,7 +33,7 @@ const IDCard: React.FC<IDCardProps> = ({
   return (
     <div className="w-full max-w-lg mx-auto perspective">
       <div
-        className={`relative w-full h-72 md:h-64 transition-transform duration-500 transform ${
+        className={`relative w-full h-96 md:h-64 transition-transform duration-500 transform ${
           isFlipped ? "rotate-y-180" : ""
         }`}
         style={{ transformStyle: "preserve-3d" }}
@@ -48,7 +48,7 @@ const IDCard: React.FC<IDCardProps> = ({
             SEC1
           </div>
 
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-row max-sm:justify-between">
             {/* Left Section: Photo */}
             <div className="flex-shrink-0 mr-0 md:mr-4 mb-3 md:mb-0 relative">
               <img
@@ -101,8 +101,6 @@ const IDCard: React.FC<IDCardProps> = ({
                 </p>
               </div>
 
-              {/* hr */}
-
               {/* Interests in 2x2 Grid */}
               <div className="mt-2 md:mt-3">
                 <hr className="my-2 border-gray-200" />
@@ -121,7 +119,7 @@ const IDCard: React.FC<IDCardProps> = ({
 
         {/* Back of the Card */}
         <div
-          className="absolute inset-0 w-full h-full backface-hidden bg-gray-100 shadow-lg rounded-2xl p-3 md:p-4"
+          className="absolute inset-0 w-full h-full backface-hidden bg-gray-100 shadow-lg rounded-2xl p-4 md:p-4"
           style={{
             transform: "rotateY(180deg)",
             backfaceVisibility: "hidden",
@@ -158,6 +156,11 @@ const IDCard: React.FC<IDCardProps> = ({
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Mobile Circle Stamp */}
+        <div className="stamp frilly-border absolute bottom-4 right-4 w-20 h-20 md:hidden flex items-center justify-center text-sm font-bold text-gray-700 shadow-lg transform rotate-12">
+          <span className="block transform -rotate-12">Mobile</span>
         </div>
       </div>
     </div>
