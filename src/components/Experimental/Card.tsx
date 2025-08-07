@@ -48,7 +48,7 @@ const IDCard: React.FC<IDCardProps> = ({
             SEC1
           </div>
 
-          <div className="flex flex-row gap-10 max-sm:justify-between">
+          <div className="flex flex-row gap-6 max-sm:justify-between">
             {/* Left Section: Photo */}
             <div className="flex-shrink-0 mr-0 md:mr-4 mb-3 md:mb-0 relative cursor-pointer">
               <img
