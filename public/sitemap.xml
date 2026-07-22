@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://esogelola.com/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://esogelola.com/social-card.jpg</image:loc>
+      <image:caption>Colorful abstract artwork from Emmanuel Sogelola's portfolio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/images/emmanuel-sogelola.jpg</image:loc>
+      <image:caption>Portrait of Emmanuel Sogelola</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/projects/munk-logo.png</image:loc>
+      <image:caption>Munk Financial logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/projects/bob-26.png</image:loc>
+      <image:caption>BoB-26 Spiderbot project artwork</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/projects/solomon.jpg</image:loc>
+      <image:caption>Solomon Platform project artwork</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://esogelola.com/about</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://esogelola.com/images/emmanuel-sogelola-outdoors.jpg</image:loc>
+      <image:caption>Emmanuel Sogelola outdoors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/images/emmanuel-sogelola-headshot.jpg</image:loc>
+      <image:caption>Portrait of Emmanuel Sogelola</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esogelola.com/art/dragon.jpg</image:loc>
+      <image:caption>Illustration accompanying Emmanuel Sogelola's philosophy of human authority</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://esogelola.com/writing/vishing-at-scale</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://esogelola.com/social-card.jpg</image:loc>
+      <image:caption>Vishing at Scale by Emmanuel Sogelola</image:caption>
+    </image:image>
+  </url>
+</urlset>

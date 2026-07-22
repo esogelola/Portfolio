@@ -1,56 +1,39 @@
 [
   {
-    "id": "1",
-    "title": "Munk",
-    "shortDescription": "AI-powered financial intelligence platform",
-    "description": "An AI-powered financial intelligence platform that democratizes access to personalized financial advice through natural voice conversations and real-time insights. Enabling everyday people to receive expert-validated financial guidance at scale.",
-    "tags": ["AI", "Finance", "Voice AI", "Product Design"],
+    "id": "munk",
+    "title": "Munk Financial",
+    "shortDescription": "AI-native financial intelligence for everyday people",
+    "description": "An AI-native financial intelligence platform that turns personal financial data into clear, source-linked guidance, making expert-grade advice accessible to everyday people.",
+    "tags": ["AI", "Finance", "Voice AI", "Product"],
     "liveUrl": "https://www.munkfinancial.com/",
+    "logo": "/projects/munk-logo.png",
     "status": "active"
   },
   {
-    "id": "2",
-    "title": "Doodlecord",
-    "shortDescription": "Simple instant messaging web app",
-    "description": "A fun and simple instant messaging web app, used to communicate in real-time with friends through peer-to-peer channels.",
-    "tags": ["React", "Socket.io", "Node.js", "Express"],
-    "githubUrl": "https://github.com/esogelola/doodlecord",
-    "videoUrl": "https://youtu.be/OC8NDyvXMnc",
-    "imageUrl": "/src/assets/images/projects/doodlecord.jpg",
-    "status": "completed"
+    "id": "bob-26",
+    "title": "BoB-26: Spiderbot",
+    "shortDescription": "An automated voice phishing bot built for the DEF CON Social Engineering Village",
+    "description": "A research demonstrator for the DEF CON Social Engineering Village: Spiderbot, an LLM-driven automated phishing bot built with Twilio, Claude, and ElevenLabs, with a live emotion-event dashboard. Built to show why the voice channel remains hard to defend.",
+    "tags": ["Python", "Flask", "Claude", "Twilio", "Security"],
+    "githubUrl": "https://github.com/esogelola/bob-26",
+    "artHeader": "/projects/bob-26.png",
+    "status": "active"
   },
   {
-    "id": "3",
-    "title": "Interviewy",
-    "shortDescription": "Practice your interview skills",
-    "description": "Interviewy provides jobseekers an accessible environment where they can practice their interview skills at any time.",
-    "tags": ["React", "Node.js", "Express", "MongoDB"],
-    "githubUrl": "https://github.com/faizahsayyid/deltahacks2022",
-    "videoUrl": "https://youtu.be/nF7yuNg_zWE?si=5oXKWGul_9Ad2-QP",
-    "imageUrl": "/src/assets/images/projects/Interviewy.png",
-    "status": "completed"
+    "id": "solomon",
+    "title": "Solomon Platform",
+    "shortDescription": "Local and web agents with visible, provenance-rich execution",
+    "description": "A multi-agent platform with local computer-use workers and a web control plane on one Go core. Every delegated task remains visible through its graph, output, and provenance trail.",
+    "tags": ["Go", "Electron", "Next.js", "MCP"],
+    "artHeader": "/projects/solomon.jpg",
+    "status": "active"
   },
   {
-    "id": "4",
-    "title": "Emazon",
-    "shortDescription": "An e-commerce website",
-    "description": "An e-commerce website that allows user's to create, view and buy any product listed on the site.",
-    "tags": ["React", "Node.js", "Express", "MongoDB"],
-    "githubUrl": "https://github.com/esogelola/emazon",
-    "videoUrl": "https://youtu.be/OC8NDyvXMnc",
-    "imageUrl": "/src/assets/images/projects/emazon.png",
-    "status": "completed"
-  },
-  {
-    "id": "5",
-    "title": "PKGHound",
-    "shortDescription": "A website to find the best packages",
-    "description": "Ionic React project built to resemble the popular website product hunt.",
-    "tags": ["React", "Ionic5", "Node.js", "Express"],
-    "githubUrl": "https://github.com/esogelola/pkg-hound-ionic",
-    "videoUrl": "https://youtu.be/IR5_rTCi-Bo?si=d-ttbsxH_G8Slrdw",
-    "imageUrl": "/src/assets/images/projects/pkghound.png",
-    "status": "completed"
+    "id": "automaton",
+    "title": "Automaton",
+    "shortDescription": "An agent library where intelligence is decoupled from authority",
+    "description": "A provenance-first Python library for agents that reason, verify, and propose, but cannot act until a human decision gate grants scoped authority.",
+    "tags": ["Python", "AI Safety", "Provenance", "Human Gate"],
+    "status": "active"
   }
 ]
-

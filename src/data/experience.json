@@ -1,0 +1,6 @@
+[
+  { "id": "twitch", "role": "Security Engineer", "company": "Twitch / Amazon", "logo": "twitch_logo.jpeg", "period": "Present", "blurb": "SIRT engineering across incident response, Python runbooks, and detections in a shifting threat landscape.", "accent": "security" },
+  { "id": "wealthsimple", "role": "Software Engineer", "company": "Wealthsimple", "logo": "wealthsimple_logo.png", "period": "Prior", "blurb": "Fiduciary-grade financial product engineering and secure backend systems.", "accent": "finance" },
+  { "id": "zendesk", "role": "Software Engineer", "company": "Zendesk", "logo": "zendesk_logo.svg", "period": "Prior", "blurb": "Backend and product engineering at scale.", "accent": "product" },
+  { "id": "momentive", "role": "Software Engineer", "company": "SurveyMonkey / Momentive", "logo": "SurveyMonkey_Logo.png", "period": "Prior", "blurb": "Product and platform engineering.", "accent": "product" }
+]
