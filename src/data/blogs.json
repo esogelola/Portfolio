@@ -1,14 +1,60 @@
 [
   {
-    "id": "1",
+    "id": "automaton-1",
+    "title": "Automaton I: The Philosophy",
+    "description": "A case for machines that can compute, reason, and propose without confusing intelligence for authority.",
+    "category": "Machine Learning",
+    "date": "2025-12-22",
+    "readTime": "15 min",
+    "url": "https://esogelola.substack.com/p/automaton-i-the-philosophy",
+    "type": "essay",
+    "state": "live",
+    "featured": true
+  },
+  {
+    "id": "fas-field",
+    "title": "Financial Advisory at Scale: In the Field",
+    "description": "A continuation of the Cansbridge thesis, exploring what encoding empathy into financial advice looks like in practice through real advisory workflows.",
+    "category": "Finance",
+    "date": "2026-03-22",
+    "readTime": "12 min",
+    "url": "https://esogelola.substack.com/p/financial-advisory-at-scale-in-the-field",
+    "type": "article",
+    "state": "live"
+  },
+  {
+    "id": "fas-empathy",
     "title": "Financial Advisory at Scale: Can Empathy Be Encoded?",
-    "description": "A Cansbridge Scholar Thesis on Improving Consumer Financial Literacy through Personalized Financial Advice and Management. Exploring how AI and technology can democratize financial advisory while preserving human empathy and trust.",
+    "description": "A Cansbridge Scholar thesis on improving consumer financial literacy through personalized, human-centered financial advice and management.",
     "category": "Finance",
     "date": "2025-10-22",
     "readTime": "12 min",
     "url": "https://esogelola.substack.com/p/financial-advisory-at-scale",
     "type": "thesis",
-    "markdownFile": "financial-advisory-at-scale.md"
+    "state": "live"
+  },
+  {
+    "id": "vishing-at-scale",
+    "title": "Vishing at Scale: What a Phone Call Can Still Take From You",
+    "description": "What building BoB-26 taught me about voice, trust, restraint, and why fluent conversation should never be mistaken for authority.",
+    "category": "Security",
+    "date": "2026-07-22",
+    "readTime": "11 min",
+    "url": "",
+    "type": "essay",
+    "state": "live",
+    "local": true,
+    "markdownFile": "vishing-at-scale.md"
+  },
+  {
+    "id": "automaton-2",
+    "title": "Automaton II: The System",
+    "description": "What to build instead of agents: the components of a bounded automaton, where reasoning lives, and where authority explicitly does not. In progress.",
+    "category": "Machine Learning",
+    "date": "2026-07-01",
+    "readTime": "TBD",
+    "url": "",
+    "type": "essay",
+    "state": "soon"
   }
 ]
-
