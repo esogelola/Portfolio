@@ -7,9 +7,9 @@ import experience from "../data/experience.json";
 import { companyImages } from "../lib/companyAssets";
 import { getPosts, getProjects } from "../lib/content";
 import type { BlogPost, Project } from "../types";
-import portrait from "../assets/images/portraits/dossier.jpg";
 
 const dossierBanner = "/social-card.jpg";
+const portrait = "/images/emmanuel-sogelola.jpg";
 
 const interests = ["Security", "AI systems", "Finance", "Product"];
 
@@ -64,7 +64,9 @@ function ProjectIndexCard({ project, index }: { project: Project; index: number 
         <div className="relative h-28 overflow-hidden border-b border-hair bg-neutral-100 dark:border-hair-dark dark:bg-[#1d1c19]">
           <img
             src={artwork}
-            alt=""
+            alt={project.logo ? `${project.title} logo` : `${project.title} project artwork`}
+            loading="lazy"
+            decoding="async"
             className={`h-full w-full transition duration-500 group-hover:scale-[1.03] ${
               project.artHeader ? "object-cover" : "object-contain p-7"
             }`}
@@ -137,6 +139,8 @@ export default function PortfolioPage() {
                 src={dossierBanner}
                 alt=""
                 aria-hidden
+                width="1200"
+                height="630"
                 className="h-full w-full object-cover object-center contrast-[1.04]"
               />
               <div className="absolute inset-0 bg-black/10" />
@@ -146,10 +150,13 @@ export default function PortfolioPage() {
               <img
                 src={portrait}
                 alt="Emmanuel Sogelola"
+                width="480"
+                height="320"
+                decoding="async"
                 className="relative -mt-10 h-20 w-20 rounded-full border-[3px] border-paper-card bg-white object-cover object-center contrast-[1.03] ring-1 ring-hair dark:border-paper-dark-card dark:ring-hair-dark"
               />
 
-              <PaperLabel>Field record · 073283160</PaperLabel>
+              <PaperLabel>Field record</PaperLabel>
               <h1 className="mt-3 text-3xl font-bold tracking-[-0.04em] text-ink dark:text-parchment">
                 Emmanuel
                 <br />

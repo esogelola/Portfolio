@@ -21,8 +21,7 @@ npm test
 | Route | Purpose |
 | --- | --- |
 | `/` | Editorial portfolio home |
-| `/layout-lab` | Legacy preview URL; redirects home |
-| `/about` | Personal profile and photo gallery |
+| `/about` | Personal profile |
 | `/writing/:id` | Individual writing pages |
 
 ## Project structure
@@ -34,8 +33,6 @@ src/
 │   └── images/
 │       ├── artwork/    # Illustrations and visual treatments
 │       ├── brand/      # Company and organization marks
-│       ├── gallery/    # Personal gallery photography
-│       ├── originals/  # Source images retained for future edits
 │       └── portraits/  # Profile photography
 ├── components/         # Reusable, feature-grouped UI
 ├── content/            # Published local writing

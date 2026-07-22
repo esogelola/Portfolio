@@ -1,8 +1,9 @@
-import { useParams, Navigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { getPosts } from "../lib/content";
 import vishing from "../content/blogs/vishing-at-scale.md?raw";
 import type { BlogPost } from "../types";
+import NotFoundPage from "./NotFoundPage";
 
 /**
  * Raw markdown for on-site (`local`) essays, imported via Vite's `?raw`
@@ -52,7 +53,7 @@ export default function ArticlePage() {
   const raw = id ? localMarkdown[id] : undefined;
 
   if (!post || !post.local || !raw) {
-    return <Navigate to="/" replace />;
+    return <NotFoundPage />;
   }
 
   const articleBody = stripMarkdownMasthead(raw);

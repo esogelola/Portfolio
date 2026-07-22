@@ -6,7 +6,6 @@ type Theme = "light" | "dark";
 
 const routes: Route[] = [
   { name: "home", path: "/" },
-  { name: "portfolio", path: "/layout-lab" },
   { name: "about", path: "/about" },
   { name: "essay", path: "/writing/vishing-at-scale" },
 ];

@@ -36,20 +36,6 @@ export default function Nav() {
   const itemRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Document title (replaces old <Helmet> behavior).
-  useEffect(() => {
-    const suffix = "Emmanuel Sogelola";
-    if (location.pathname === "/about") {
-      document.title = `About | ${suffix}`;
-    } else if (location.pathname.startsWith("/writing/")) {
-      document.title = `Writing | ${suffix}`;
-    } else if (location.pathname === "/") {
-      document.title = suffix;
-    } else {
-      document.title = `Not found | ${suffix}`;
-    }
-  }, [location.pathname]);
-
   // Keep the active label in sync with the current route.
   useEffect(() => {
     if (location.pathname === "/") setActive("Profile");

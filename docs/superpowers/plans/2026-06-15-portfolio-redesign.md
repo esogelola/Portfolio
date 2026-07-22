@@ -824,7 +824,7 @@ git commit -m "feat: cohesive now-playing line (live + on-repeat fallback)"
 
 **Files:** Create `src/components/Hero/Hero.tsx`
 
-- [ ] **Step 1:** Compose the hero inside a `Card`. Left: `OrbitalAvatar` (headshot `assets/images/about/headshot.jpeg`) + social icons row (LinkedIn `linkedin.com/in/emmanuelsogelola`, GitHub `github.com/esogelola`, X `x.com/esogelola`, Substack `substack.com/@esogelola`, email `mailto:esogelola@gmail.com`). Right: big bold sans name "Emmanuel Sogelola"; role line **"Security Engineer @ Twitch · Founder, building in stealth"** (Twitch links to twitch.tv, "Founder" not linked); `MetaRow` with `LOCATION Brooklyn, NY` · `EDUCATION McMaster` · `FOCUS Security · AI`; a one-line positioning sentence drawn from his bio ("Building provenance-first, human-in-the-loop intelligence — systems that reason and wait."); then `<NowPlaying />`. Preserve subtle ID-card easter eggs: a mono `ID 073283160`, a `SEC1` badge, the maple-leaf hover by McMaster.
+- [ ] **Step 1:** Compose the hero inside a `Card`. Left: `OrbitalAvatar` (headshot `assets/images/about/headshot.jpeg`) + social icons row (LinkedIn `linkedin.com/in/emmanuelsogelola`, GitHub `github.com/esogelola`, X `x.com/esogelola`, Substack `substack.com/@esogelola`, email `mailto:esogelola@gmail.com`). Right: big bold sans name "Emmanuel Sogelola"; role line **"Security Engineer @ Twitch · Founder, building in stealth"** (Twitch links to twitch.tv, "Founder" not linked); `MetaRow` with `LOCATION Brooklyn, NY` · `EDUCATION McMaster` · `FOCUS Security · AI`; a one-line positioning sentence drawn from his bio ("Building provenance-first, human-in-the-loop intelligence — systems that reason and wait."); then `<NowPlaying />`. Preserve the quiet field-record styling and maple-leaf hover by McMaster without publishing a persistent identifier.
 
   **Acceptance:** matches §5.1; no Synchronized; responsive (stacks on mobile); light+dark clean. Use **frontend-design** for polish.
 
@@ -1029,7 +1029,7 @@ export default function Home() {
 }
 ```
 
-- [ ] **Step 3:** Move `pages/About.tsx` to `components/About/AboutPage.tsx`; fix content: location **Brooklyn, NY** (not Toronto); **remove the Munk sentence** and any DeFi/stealth specifics — rewrite that clause to "designing financial planning and advisory workflows, and exploring fiduciary design at Wealthsimple." Keep the photo flip, birthday confetti, and PhotoSlideshow. Update import paths for the moved file. Move `components/About/PhotoSlideshow.tsx` + `PhotoModal.tsx` stay under `About/`.
+- [ ] **Step 3:** Move `pages/About.tsx` to `components/About/AboutPage.tsx`; fix content: location **Brooklyn, NY** (not Toronto); **remove the Munk sentence** and any DeFi/stealth specifics — rewrite that clause to "designing financial planning and advisory workflows, and exploring fiduciary design at Wealthsimple." Keep the portrait flip without publishing age or birth-date data. Update import paths for the moved file and omit the personal photo gallery.
 
 - [ ] **Step 4:** `npm run build` — expect success.
 

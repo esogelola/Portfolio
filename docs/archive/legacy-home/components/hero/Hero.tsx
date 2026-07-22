@@ -5,7 +5,8 @@ import { FiMail } from "react-icons/fi";
 
 import Card from "../ui/Card";
 import NowPlaying from "./NowPlaying";
-import banner from "../../assets/images/gallery/photo_2.jpeg";
+
+const banner = "/social-card.jpg";
 
 const INTERESTS = ["Security", "AI Systems", "Finance", "Product"];
 
@@ -38,7 +39,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
         <span className="absolute right-4 top-4 rounded-full bg-black/35 px-2 py-0.5 font-mono text-[10px] tracking-[0.18em] text-white/90 backdrop-blur-sm">
-          ID 073283160
+          FIELD RECORD
         </span>
       </div>
 
@@ -47,8 +48,8 @@ export default function Hero() {
             the (positioned) banner instead of being clipped under it */}
         <div className="relative z-10 -mt-14 flex items-end justify-between sm:-mt-16">
           <img
-            src="/avatars/cheshire.jpg"
-            alt="Emmanuel Sogelola — Cheshire cat avatar"
+            src="/images/emmanuel-sogelola.jpg"
+            alt="Emmanuel Sogelola"
             className="h-28 w-28 rounded-full border-4 border-paper-card bg-paper-card object-cover object-center shadow-float ring-1 ring-hair [filter:grayscale(1)_contrast(1.05)] dark:border-paper-dark-card dark:bg-paper-dark-card dark:ring-hair-dark sm:h-32 sm:w-32"
           />
           <div className="mb-1 flex items-center gap-1">

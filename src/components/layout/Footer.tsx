@@ -2,6 +2,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { SiSubstack } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const SOCIALS = [
   { label: "LinkedIn", href: "https://linkedin.com/in/emmanuelsogelola", Icon: AiFillLinkedin },
@@ -24,9 +25,12 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-6 px-4 py-10 sm:flex-row sm:items-center sm:justify-between">
         {/* Identity */}
         <div className="flex flex-col items-center gap-1 sm:items-start">
-          <span className="font-sans text-sm font-semibold text-ink dark:text-parchment">
+          <Link
+            to="/about"
+            className="font-sans text-sm font-semibold text-ink transition hover:text-ink-soft dark:text-parchment dark:hover:text-white"
+          >
             Emmanuel Sogelola
-          </span>
+          </Link>
           <span className="font-mono text-[11px] text-ink-faint">
             © 2026 Emmanuel Sogelola
           </span>

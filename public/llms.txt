@@ -1,0 +1,24 @@
+# Emmanuel Sogelola
+
+> Security engineer and founder building across incident response, financial systems, and human-centered AI.
+
+Canonical site: https://esogelola.com/
+
+## Primary pages
+
+- [Portfolio](https://esogelola.com/): Selected writing, experience, and active projects.
+- [About](https://esogelola.com/about): Background, working philosophy, and professional interests.
+- [Vishing at Scale](https://esogelola.com/writing/vishing-at-scale): An essay about BoB-26, voice phishing, trust, and bounded persuasive systems.
+
+## Selected projects
+
+- [Munk Financial](https://www.munkfinancial.com/): AI-native financial intelligence for everyday people.
+- [BoB-26: Spiderbot](https://github.com/esogelola/bob-26): A defensive voice-phishing research demonstrator for the DEF CON Social Engineering Village.
+- Solomon Platform: Local and web agents with visible, provenance-rich execution.
+- Automaton: A provenance-first agent library where intelligence is decoupled from authority.
+
+## Profiles
+
+- [GitHub](https://github.com/esogelola)
+- [LinkedIn](https://linkedin.com/in/emmanuelsogelola)
+- [Substack](https://substack.com/@esogelola)

@@ -1,0 +1,28 @@
+{
+  "home": {
+    "path": "/",
+    "title": "Emmanuel Sogelola | Security Engineer and Founder",
+    "description": "Security engineer and founder building across incident response, financial systems, and human-centered AI.",
+    "type": "website",
+    "image": "/social-card.jpg",
+    "imageAlt": "Colorful abstract artwork from Emmanuel Sogelola's portfolio"
+  },
+  "about": {
+    "path": "/about",
+    "title": "About Emmanuel Sogelola | Security Engineer and Founder",
+    "description": "About Emmanuel Sogelola, a Brooklyn-based security engineer and founder working across incident response, financial systems, and human-centered AI.",
+    "type": "profile",
+    "image": "/social-card.jpg",
+    "imageAlt": "Colorful abstract artwork from Emmanuel Sogelola's portfolio"
+  },
+  "vishing": {
+    "path": "/writing/vishing-at-scale",
+    "title": "Vishing at Scale | Emmanuel Sogelola",
+    "description": "What building BoB-26 taught me about voice, trust, restraint, and why fluent conversation should never be mistaken for authority.",
+    "type": "article",
+    "image": "/social-card.jpg",
+    "imageAlt": "Colorful abstract artwork from Emmanuel Sogelola's portfolio",
+    "published": "2026-07-22",
+    "modified": "2026-07-22"
+  }
+}
