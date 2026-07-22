@@ -150,8 +150,8 @@ export default function PortfolioPage() {
               <img
                 src={portrait}
                 alt="Emmanuel Sogelola"
-                width="480"
-                height="320"
+                width="600"
+                height="600"
                 decoding="async"
                 className="relative -mt-10 h-20 w-20 rounded-full border-[3px] border-paper-card bg-white object-cover object-center contrast-[1.03] ring-1 ring-hair dark:border-paper-dark-card dark:ring-hair-dark"
               />
