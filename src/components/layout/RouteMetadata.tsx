@@ -55,11 +55,11 @@ function personSchema() {
 function structuredData(entry: SeoEntry) {
   const person = personSchema();
 
-  if (entry.path === "/writing/vishing-at-scale") {
+  if (entry.path === "/writing/machines-that-wait") {
     return {
       "@context": "https://schema.org",
       "@type": "Article",
-      headline: "Vishing at Scale: What a Phone Call Can Still Take From You",
+      headline: "Machines That Wait: Why Intelligence Should Stop Before It Acts",
       description: entry.description,
       image: `${SITE_URL}${entry.image}`,
       datePublished: entry.published,
@@ -67,7 +67,7 @@ function structuredData(entry: SeoEntry) {
       author: { "@id": `${SITE_URL}/#person` },
       publisher: { "@id": `${SITE_URL}/#person` },
       mainEntityOfPage: `${SITE_URL}${entry.path}`,
-      about: ["Voice phishing", "Social engineering", "AI safety", "BoB-26"],
+      about: ["AI safety", "Human authority", "Provenance", "Bounded agents"],
     };
   }
 

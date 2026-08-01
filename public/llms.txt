@@ -8,12 +8,12 @@ Canonical site: https://esogelola.com/
 
 - [Portfolio](https://esogelola.com/): Selected writing, experience, and active projects.
 - [About](https://esogelola.com/about): Background, working philosophy, and professional interests.
-- [Vishing at Scale](https://esogelola.com/writing/vishing-at-scale): An essay about BoB-26, voice phishing, trust, and bounded persuasive systems.
+- [Machines That Wait](https://esogelola.com/writing/machines-that-wait): An essay on provenance, permission, and why fluent systems should stop before they act.
 
 ## Selected projects
 
 - [Munk Financial](https://www.munkfinancial.com/): AI-native financial intelligence for everyday people.
-- [BoB-26: Spiderbot](https://github.com/esogelola/bob-26): A defensive voice-phishing research demonstrator for the DEF CON Social Engineering Village.
+- BoB-26: Spiderbot: A voice-channel research project on trust, restraint, and human oversight.
 - Solomon Platform: Local and web agents with visible, provenance-rich execution.
 - Automaton: A provenance-first agent library where intelligence is decoupled from authority.
 

@@ -20,7 +20,7 @@ const [seo, posts, projects, experience] = await Promise.all([
 
 const baseHtml = await fs.readFile(path.join(DIST, "index.html"), "utf8");
 const articleMarkdown = await fs.readFile(
-  path.join(ROOT, "src/content/blogs/vishing-at-scale.md"),
+  path.join(ROOT, "src/content/blogs/machines-that-wait.md"),
   "utf8",
 );
 
@@ -69,11 +69,11 @@ function personSchema() {
 
 function schemaFor(entry) {
   const person = personSchema();
-  if (entry.path === "/writing/vishing-at-scale") {
+  if (entry.path === "/writing/machines-that-wait") {
     return {
       "@context": "https://schema.org",
       "@type": "Article",
-      headline: "Vishing at Scale: What a Phone Call Can Still Take From You",
+      headline: "Machines That Wait: Why Intelligence Should Stop Before It Acts",
       description: entry.description,
       image: absoluteUrl(entry.image),
       datePublished: entry.published,
@@ -81,7 +81,7 @@ function schemaFor(entry) {
       author: { "@id": `${SITE_URL}/#person` },
       publisher: { "@id": `${SITE_URL}/#person` },
       mainEntityOfPage: `${SITE_URL}${entry.path}`,
-      about: ["Voice phishing", "Social engineering", "AI safety", "BoB-26"],
+      about: ["AI safety", "Human authority", "Provenance", "Bounded agents"],
     };
   }
   if (entry.path === "/about") {
@@ -194,8 +194,8 @@ function stripMarkdownMasthead(markdown) {
   return lines.slice(index).join("\n");
 }
 
-const article = posts.find((post) => post.id === "vishing-at-scale");
-if (!article) throw new Error("Missing vishing-at-scale post metadata");
+const article = posts.find((post) => post.id === "machines-that-wait");
+if (!article) throw new Error("Missing machines-that-wait post metadata");
 const renderedArticle = renderToStaticMarkup(
   React.createElement(ReactMarkdown, null, stripMarkdownMasthead(articleMarkdown)),
 );
@@ -216,12 +216,12 @@ await fs.writeFile(path.join(DIST, "index.html"), pageHtml(seo.home, homeFallbac
 await fs.writeFile(path.join(DIST, "about.html"), pageHtml(seo.about, aboutFallback));
 await fs.mkdir(path.join(DIST, "writing"), { recursive: true });
 await fs.writeFile(
-  path.join(DIST, "writing", "vishing-at-scale.html"),
-  pageHtml(seo.vishing, articleFallback),
+  path.join(DIST, "writing", "machines-that-wait.html"),
+  pageHtml(seo.machinesThatWait, articleFallback),
 );
 await fs.writeFile(
   path.join(DIST, "404.html"),
   pageHtml(notFoundEntry, notFoundFallback, { noindex: true }),
 );
 
-console.log("Prerendered /, /about, /writing/vishing-at-scale, and /404.html");
+console.log("Prerendered /, /about, /writing/machines-that-wait, and /404.html");

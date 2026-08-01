@@ -5,6 +5,13 @@
     "cleanUrls": true,
     "trailingSlash": false,
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "/writing/vishing-at-scale",
+        "destination": "/writing/machines-that-wait",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "**/*.@(jpg|jpeg|png|svg|webp|avif|ico|pdf)",

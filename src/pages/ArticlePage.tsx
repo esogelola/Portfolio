@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { getPosts } from "../lib/content";
-import vishing from "../content/blogs/vishing-at-scale.md?raw";
+import machinesThatWait from "../content/blogs/machines-that-wait.md?raw";
 import type { BlogPost } from "../types";
 import NotFoundPage from "./NotFoundPage";
 
@@ -11,7 +11,7 @@ import NotFoundPage from "./NotFoundPage";
  * this map as more local essays are added.
  */
 const localMarkdown: Record<string, string> = {
-  "vishing-at-scale": vishing,
+  "machines-that-wait": machinesThatWait,
 };
 
 function formatDate(iso: string): string {
