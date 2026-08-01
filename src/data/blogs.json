@@ -34,17 +34,17 @@
     "state": "live"
   },
   {
-    "id": "vishing-at-scale",
-    "title": "Vishing at Scale: What a Phone Call Can Still Take From You",
-    "description": "What building BoB-26 taught me about voice, trust, restraint, and why fluent conversation should never be mistaken for authority.",
-    "category": "Security",
-    "date": "2026-07-22",
-    "readTime": "11 min",
+    "id": "machines-that-wait",
+    "title": "Machines That Wait: Why Intelligence Should Stop Before It Acts",
+    "description": "On provenance, permission, and building systems that can reason without confusing fluency for authority.",
+    "category": "Machine Learning",
+    "date": "2026-08-01",
+    "readTime": "8 min",
     "url": "",
     "type": "essay",
     "state": "live",
     "local": true,
-    "markdownFile": "vishing-at-scale.md"
+    "markdownFile": "machines-that-wait.md"
   },
   {
     "id": "automaton-2",

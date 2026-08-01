@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeProvider";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
@@ -21,6 +21,10 @@ export default function App() {
             <Routes>
               <Route path="/" element={<PortfolioPage />} />
               <Route path="/about" element={<AboutPage />} />
+              <Route
+                path="/writing/vishing-at-scale"
+                element={<Navigate to="/writing/machines-that-wait" replace />}
+              />
               <Route path="/writing/:id" element={<ArticlePage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>

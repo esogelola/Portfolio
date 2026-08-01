@@ -15,14 +15,14 @@
     "image": "/social-card.jpg",
     "imageAlt": "Colorful abstract artwork from Emmanuel Sogelola's portfolio"
   },
-  "vishing": {
-    "path": "/writing/vishing-at-scale",
-    "title": "Vishing at Scale | Emmanuel Sogelola",
-    "description": "What building BoB-26 taught me about voice, trust, restraint, and why fluent conversation should never be mistaken for authority.",
+  "machinesThatWait": {
+    "path": "/writing/machines-that-wait",
+    "title": "Machines That Wait | Emmanuel Sogelola",
+    "description": "On provenance, permission, and building systems that can reason without confusing fluency for authority.",
     "type": "article",
     "image": "/social-card.jpg",
     "imageAlt": "Colorful abstract artwork from Emmanuel Sogelola's portfolio",
-    "published": "2026-07-22",
-    "modified": "2026-07-22"
+    "published": "2026-08-01",
+    "modified": "2026-08-01"
   }
 }

@@ -12,10 +12,9 @@
   {
     "id": "bob-26",
     "title": "BoB-26: Spiderbot",
-    "shortDescription": "An automated voice phishing bot built for the DEF CON Social Engineering Village",
-    "description": "A research demonstrator for the DEF CON Social Engineering Village: Spiderbot, an LLM-driven automated phishing bot built with Twilio, Claude, and ElevenLabs, with a live emotion-event dashboard. Built to show why the voice channel remains hard to defend.",
+    "shortDescription": "A voice-channel research project exploring trust, restraint, and human oversight",
+    "description": "An in-progress research project on conversational systems, supervision boundaries, and why fluent interaction should never be mistaken for authority. Details forthcoming.",
     "tags": ["Python", "Flask", "Claude", "Twilio", "Security"],
-    "githubUrl": "https://github.com/esogelola/bob-26",
     "artHeader": "/projects/bob-26.png",
     "status": "active"
   },
