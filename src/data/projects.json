@@ -10,12 +10,12 @@
     "status": "active"
   },
   {
-    "id": "bob-26",
-    "title": "BoB-26: Spiderbot",
-    "shortDescription": "A voice-channel research project exploring trust, restraint, and human oversight",
-    "description": "An in-progress research project on conversational systems, supervision boundaries, and why fluent interaction should never be mistaken for authority. Details forthcoming.",
-    "tags": ["Python", "Flask", "Claude", "Twilio", "Security"],
-    "artHeader": "/projects/bob-26.png",
+    "id": "e-e",
+    "title": "Echo-Echo (e-e)",
+    "shortDescription": "A Claude-like CLI for financial agents and low-latency market monitoring",
+    "description": "A terminal copilot for markets: dual-feed monitoring across exchanges and prediction markets, health checks, and session logging. Phase 1 is observe-only — data flowing, no trading yet.",
+    "tags": ["Go", "CLI", "Markets", "WebSocket"],
+    "githubUrl": "https://github.com/esogelola/e-e",
     "status": "active"
   },
   {
