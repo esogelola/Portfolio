@@ -13,7 +13,7 @@ Canonical site: https://esogelola.com/
 ## Selected projects
 
 - [Munk Financial](https://www.munkfinancial.com/): AI-native financial intelligence for everyday people.
-- BoB-26: Spiderbot: A voice-channel research project on trust, restraint, and human oversight.
+- [Echo-Echo (e-e)](https://github.com/esogelola/e-e): A Claude-like CLI for financial agents and low-latency market monitoring.
 - Solomon Platform: Local and web agents with visible, provenance-rich execution.
 - Automaton: A provenance-first agent library where intelligence is decoupled from authority.
 

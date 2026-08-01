@@ -75,14 +75,25 @@ function ProjectIndexCard({ project, index }: { project: Project; index: number 
             0{index + 1}
           </span>
         </div>
-      ) : project.id === "automaton" ? (
+      ) : project.id === "automaton" || project.id === "e-e" ? (
         <div className="relative flex h-28 items-center overflow-hidden border-b border-hair bg-[#20201f] px-5 text-white dark:border-hair-dark dark:bg-[#1d1c19]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,.12)_1px,transparent_1px)] bg-[length:14px_14px] opacity-40" />
           <div className="relative flex w-full items-center justify-between gap-2 font-mono text-[9px] uppercase tracking-[0.14em] text-white/60">
-            {['reason', 'propose', 'verify', 'wait'].map((step, stepIndex) => (
+            {(project.id === "e-e"
+              ? ["doctor", "markets", "watch", "observe"]
+              : ["reason", "propose", "verify", "wait"]
+            ).map((step, stepIndex, steps) => (
               <div key={step} className="contents">
-                <span className={step === 'wait' ? 'rounded-full border border-white/40 px-2.5 py-1 text-white' : ''}>{step}</span>
-                {stepIndex < 3 && <span aria-hidden>→</span>}
+                <span
+                  className={
+                    step === "wait" || step === "observe"
+                      ? "rounded-full border border-white/40 px-2.5 py-1 text-white"
+                      : ""
+                  }
+                >
+                  {step}
+                </span>
+                {stepIndex < steps.length - 1 && <span aria-hidden>→</span>}
               </div>
             ))}
           </div>

@@ -5,7 +5,7 @@
 >
   <url>
     <loc>https://esogelola.com/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -19,10 +19,6 @@
     <image:image>
       <image:loc>https://esogelola.com/projects/munk-logo.png</image:loc>
       <image:caption>Munk Financial logo</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://esogelola.com/projects/bob-26.png</image:loc>
-      <image:caption>BoB-26 Spiderbot project artwork</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://esogelola.com/projects/solomon.jpg</image:loc>
